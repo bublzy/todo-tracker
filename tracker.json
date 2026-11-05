@@ -1,7 +1,62 @@
 {
   "version": 1,
-  "nextId": 1,
-  "updated": "2026-11-05T12:03:57.000Z",
-  "tasks": [],
-  "events": []
+  "nextId": 2,
+  "updated": "2026-11-05T12:04:09.681Z",
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Сделать трекер задач на GitHub Pages",
+      "description": "Персональный TODO-трекер + скилл, через который Claude показывает свою работу в реальном времени.",
+      "project": "todo-tracker",
+      "tags": [
+        "setup"
+      ],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Сверстать сайт",
+          "done": false
+        },
+        {
+          "text": "Написать CLI для скилла",
+          "done": false
+        },
+        {
+          "text": "Создать репозиторий и включить Pages",
+          "done": false
+        },
+        {
+          "text": "Создать скилл tracker",
+          "done": false
+        },
+        {
+          "text": "Проверить сайт и скилл вживую",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-05T12:04:09.680Z",
+      "updated": "2026-11-05T12:04:09.681Z",
+      "started": "2026-11-05T12:04:09.680Z",
+      "completed": null
+    }
+  ],
+  "events": [
+    {
+      "ts": "2026-11-05T12:04:09.681Z",
+      "task": 1,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-05T12:04:09.681Z",
+      "task": 1,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
+    }
+  ]
 }
