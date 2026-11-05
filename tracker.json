@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 2,
-  "updated": "2026-11-05T12:05:52.066Z",
+  "updated": "2026-11-05T12:05:55.423Z",
   "tasks": [
     {
       "id": 1,
@@ -12,7 +12,7 @@
         "setup"
       ],
       "priority": "normal",
-      "status": "doing",
+      "status": "done",
       "progress": 100,
       "steps": [
         {
@@ -38,9 +38,9 @@
       ],
       "actor": "claude",
       "created": "2026-11-05T12:04:09.680Z",
-      "updated": "2026-11-05T12:05:52.064Z",
+      "updated": "2026-11-05T12:05:55.423Z",
       "started": "2026-11-05T12:04:09.680Z",
-      "completed": null
+      "completed": "2026-11-05T12:05:55.421Z"
     }
   ],
   "events": [
@@ -103,6 +103,14 @@
       "type": "step",
       "actor": "claude",
       "msg": "Проверить сайт и скилл вживую — сайт открывается, заметка дошла до страницы за ~20 с без перезагрузки",
+      "progress": 100
+    },
+    {
+      "ts": "2026-11-05T12:05:55.423Z",
+      "task": 1,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Готово: https://bublzy.github.io/todo-tracker/ — сайт (ветка gh-pages) + данные (ветка data) + скилл tracker",
       "progress": 100
     }
   ]
