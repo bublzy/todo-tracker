@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 2,
-  "updated": "2026-11-05T12:04:09.681Z",
+  "updated": "2026-11-05T12:04:13.113Z",
   "tasks": [
     {
       "id": 1,
@@ -13,11 +13,11 @@
       ],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 20,
       "steps": [
         {
           "text": "Сверстать сайт",
-          "done": false
+          "done": true
         },
         {
           "text": "Написать CLI для скилла",
@@ -38,7 +38,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-05T12:04:09.680Z",
-      "updated": "2026-11-05T12:04:09.681Z",
+      "updated": "2026-11-05T12:04:13.111Z",
       "started": "2026-11-05T12:04:09.680Z",
       "completed": null
     }
@@ -57,6 +57,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-05T12:04:13.111Z",
+      "task": 1,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Сверстать сайт — одна страница index.html, без зависимостей",
+      "progress": 20
     }
   ]
 }
