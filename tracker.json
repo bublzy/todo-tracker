@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 2,
-  "updated": "2026-11-05T12:04:13.113Z",
+  "updated": "2026-11-05T12:04:16.293Z",
   "tasks": [
     {
       "id": 1,
@@ -13,7 +13,7 @@
       ],
       "priority": "normal",
       "status": "doing",
-      "progress": 20,
+      "progress": 40,
       "steps": [
         {
           "text": "Сверстать сайт",
@@ -21,7 +21,7 @@
         },
         {
           "text": "Написать CLI для скилла",
-          "done": false
+          "done": true
         },
         {
           "text": "Создать репозиторий и включить Pages",
@@ -38,7 +38,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-05T12:04:09.680Z",
-      "updated": "2026-11-05T12:04:13.111Z",
+      "updated": "2026-11-05T12:04:16.292Z",
       "started": "2026-11-05T12:04:09.680Z",
       "completed": null
     }
@@ -65,6 +65,14 @@
       "actor": "claude",
       "msg": "Сверстать сайт — одна страница index.html, без зависимостей",
       "progress": 20
+    },
+    {
+      "ts": "2026-11-05T12:04:16.292Z",
+      "task": 1,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Написать CLI для скилла — tracker.mjs: add/step/progress/note/block/done",
+      "progress": 40
     }
   ]
 }
