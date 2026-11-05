@@ -61,7 +61,7 @@ h2.sec{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--
 .nowcard{background:var(--surface);border:1px solid var(--border);border-left:3px solid var(--accent);border-radius:12px;padding:14px 16px;box-shadow:var(--shadow);cursor:pointer}
 .nowcard .t{font-weight:620;font-size:15px;margin:2px 0 8px}
 .nowcard .last{color:var(--muted);font-size:13px;margin-top:8px;display:flex;gap:6px}
-.nowcard .last span:last-child{color:var(--text)}
+.nowcard .last span:first-child{white-space:nowrap}.nowcard .last span:last-child{color:var(--text);overflow-wrap:anywhere}
 .empty{color:var(--muted);padding:18px;border:1px dashed var(--border);border-radius:12px;text-align:center}
 .board{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;padding-bottom:40px}
 .col{background:var(--surface-2);border-radius:12px;padding:10px;min-height:120px}
