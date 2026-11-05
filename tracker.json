@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 2,
-  "updated": "2026-11-05T12:04:16.293Z",
+  "updated": "2026-11-05T12:04:19.647Z",
   "tasks": [
     {
       "id": 1,
@@ -13,7 +13,7 @@
       ],
       "priority": "normal",
       "status": "doing",
-      "progress": 40,
+      "progress": 60,
       "steps": [
         {
           "text": "Сверстать сайт",
@@ -25,7 +25,7 @@
         },
         {
           "text": "Создать репозиторий и включить Pages",
-          "done": false
+          "done": true
         },
         {
           "text": "Создать скилл tracker",
@@ -38,7 +38,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-05T12:04:09.680Z",
-      "updated": "2026-11-05T12:04:16.292Z",
+      "updated": "2026-11-05T12:04:19.646Z",
       "started": "2026-11-05T12:04:09.680Z",
       "completed": null
     }
@@ -73,6 +73,14 @@
       "actor": "claude",
       "msg": "Написать CLI для скилла — tracker.mjs: add/step/progress/note/block/done",
       "progress": 40
+    },
+    {
+      "ts": "2026-11-05T12:04:19.646Z",
+      "task": 1,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Создать репозиторий и включить Pages — bublzy/todo-tracker: ветка gh-pages — сайт, data — данные",
+      "progress": 60
     }
   ]
 }
