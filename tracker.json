@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 6,
-  "updated": "2026-11-10T22:00:12.894Z",
+  "updated": "2026-11-10T22:02:07.867Z",
   "tasks": [
     {
       "id": 1,
@@ -149,11 +149,11 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 25,
       "steps": [
         {
           "text": "Найти фото со свободной лицензией",
-          "done": false
+          "done": true
         },
         {
           "text": "Согласовать выбор",
@@ -170,7 +170,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-10T22:00:12.892Z",
-      "updated": "2026-11-10T22:00:12.894Z",
+      "updated": "2026-11-10T22:02:07.866Z",
       "started": "2026-11-10T22:00:12.892Z",
       "completed": null
     }
@@ -420,6 +420,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-10T22:02:07.866Z",
+      "task": 5,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Найти фото со свободной лицензией — Кандидаты на Pexels (бесплатная лицензия)",
+      "progress": 25
     }
   ]
 }
