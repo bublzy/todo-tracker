@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 5,
-  "updated": "2026-11-10T21:54:44.749Z",
+  "nextId": 6,
+  "updated": "2026-11-10T22:00:12.894Z",
   "tasks": [
     {
       "id": 1,
@@ -139,6 +139,39 @@
       "created": "2026-11-10T21:50:32.266Z",
       "updated": "2026-11-10T21:54:44.748Z",
       "started": "2026-11-10T21:50:32.266Z",
+      "completed": null
+    },
+    {
+      "id": 5,
+      "title": "Реальные фото на сайт Levita",
+      "description": "Заменить нарисованную сцену на фото потолков со свободной лицензией",
+      "project": "potolki",
+      "tags": [],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Найти фото со свободной лицензией",
+          "done": false
+        },
+        {
+          "text": "Согласовать выбор",
+          "done": false
+        },
+        {
+          "text": "Скачать и сжать",
+          "done": false
+        },
+        {
+          "text": "Вставить на сайт",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-10T22:00:12.892Z",
+      "updated": "2026-11-10T22:00:12.894Z",
+      "started": "2026-11-10T22:00:12.892Z",
       "completed": null
     }
   ],
@@ -373,6 +406,20 @@
       "actor": "claude",
       "msg": "ждёт: владелец настраивает бота и таблицу по README",
       "progress": 75
+    },
+    {
+      "ts": "2026-11-10T22:00:12.894Z",
+      "task": 5,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-10T22:00:12.894Z",
+      "task": 5,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
