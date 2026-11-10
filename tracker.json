@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 3,
-  "updated": "2026-11-10T21:44:44.969Z",
+  "updated": "2026-11-10T21:44:57.074Z",
   "tasks": [
     {
       "id": 1,
@@ -50,11 +50,11 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 33,
       "steps": [
         {
           "text": "Скачать файл сайта",
-          "done": false
+          "done": true
         },
         {
           "text": "Вписать название в шапку, заголовок и футер",
@@ -67,7 +67,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-10T21:44:44.967Z",
-      "updated": "2026-11-10T21:44:44.969Z",
+      "updated": "2026-11-10T21:44:57.072Z",
       "started": "2026-11-10T21:44:44.967Z",
       "completed": null
     }
@@ -155,6 +155,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-10T21:44:57.072Z",
+      "task": 2,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Скачать файл сайта — Текущая версия скачана",
+      "progress": 33
     }
   ]
 }
