@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 5,
-  "updated": "2026-11-10T21:50:32.268Z",
+  "updated": "2026-11-10T21:50:35.727Z",
   "tasks": [
     {
       "id": 1,
@@ -115,7 +115,7 @@
       "project": "potolki",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
+      "status": "blocked",
       "progress": 0,
       "steps": [
         {
@@ -133,7 +133,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-10T21:50:32.266Z",
-      "updated": "2026-11-10T21:50:32.268Z",
+      "updated": "2026-11-10T21:50:35.726Z",
       "started": "2026-11-10T21:50:32.266Z",
       "completed": null
     }
@@ -312,6 +312,14 @@
       "task": 4,
       "type": "started",
       "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-10T21:50:35.726Z",
+      "task": 4,
+      "type": "blocked",
+      "actor": "claude",
+      "msg": "ждёт: выбор способа приёма заявок",
       "progress": 0
     }
   ]
