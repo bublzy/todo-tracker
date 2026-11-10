@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 6,
-  "updated": "2026-11-10T22:02:07.867Z",
+  "updated": "2026-11-10T22:02:11.609Z",
   "tasks": [
     {
       "id": 1,
@@ -148,7 +148,7 @@
       "project": "potolki",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
+      "status": "blocked",
       "progress": 25,
       "steps": [
         {
@@ -170,7 +170,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-10T22:00:12.892Z",
-      "updated": "2026-11-10T22:02:07.866Z",
+      "updated": "2026-11-10T22:02:11.608Z",
       "started": "2026-11-10T22:00:12.892Z",
       "completed": null
     }
@@ -427,6 +427,14 @@
       "type": "step",
       "actor": "claude",
       "msg": "Найти фото со свободной лицензией — Кандидаты на Pexels (бесплатная лицензия)",
+      "progress": 25
+    },
+    {
+      "ts": "2026-11-10T22:02:11.608Z",
+      "task": 5,
+      "type": "blocked",
+      "actor": "claude",
+      "msg": "ждёт: выбор фото и разрешение на скачивание",
       "progress": 25
     }
   ]
