@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 4,
-  "updated": "2026-11-10T21:50:14.572Z",
+  "updated": "2026-11-10T21:50:28.839Z",
   "tasks": [
     {
       "id": 1,
@@ -78,8 +78,8 @@
       "project": "potolki",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
-      "progress": 80,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Поднять цены",
@@ -99,14 +99,14 @@
         },
         {
           "text": "Опубликовать и проверить",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-10T21:48:37.880Z",
-      "updated": "2026-11-10T21:50:14.571Z",
+      "updated": "2026-11-10T21:50:28.839Z",
       "started": "2026-11-10T21:48:37.880Z",
-      "completed": null
+      "completed": "2026-11-10T21:50:28.837Z"
     }
   ],
   "events": [
@@ -262,6 +262,14 @@
       "actor": "claude",
       "msg": "Блок для дизайнеров и архитекторов — Блок «Дизайнерам и архитекторам»",
       "progress": 80
+    },
+    {
+      "ts": "2026-11-10T21:50:28.839Z",
+      "task": 3,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Премиум-версия опубликована (версия 8): цены, световые линии, тексты, блок для дизайнеров",
+      "progress": 100
     }
   ]
 }
