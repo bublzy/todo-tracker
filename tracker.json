@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 6,
-  "updated": "2026-11-10T22:02:11.609Z",
+  "updated": "2026-11-10T22:03:49.418Z",
   "tasks": [
     {
       "id": 1,
@@ -148,7 +148,7 @@
       "project": "potolki",
       "tags": [],
       "priority": "normal",
-      "status": "blocked",
+      "status": "doing",
       "progress": 25,
       "steps": [
         {
@@ -170,7 +170,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-10T22:00:12.892Z",
-      "updated": "2026-11-10T22:02:11.608Z",
+      "updated": "2026-11-10T22:03:49.417Z",
       "started": "2026-11-10T22:00:12.892Z",
       "completed": null
     }
@@ -435,6 +435,14 @@
       "type": "blocked",
       "actor": "claude",
       "msg": "ждёт: выбор фото и разрешение на скачивание",
+      "progress": 25
+    },
+    {
+      "ts": "2026-11-10T22:03:49.417Z",
+      "task": 5,
+      "type": "started",
+      "actor": "claude",
+      "msg": "Без скачивания: делаю 3D-сцену по референсам",
       "progress": 25
     }
   ]
