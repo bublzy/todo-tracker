@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 4,
-  "updated": "2026-11-10T21:48:37.882Z",
+  "updated": "2026-11-10T21:49:12.820Z",
   "tasks": [
     {
       "id": 1,
@@ -79,11 +79,11 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 20,
       "steps": [
         {
           "text": "Поднять цены",
-          "done": false
+          "done": true
         },
         {
           "text": "Добавить световые линии в калькулятор",
@@ -104,7 +104,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-10T21:48:37.880Z",
-      "updated": "2026-11-10T21:48:37.882Z",
+      "updated": "2026-11-10T21:49:12.818Z",
       "started": "2026-11-10T21:48:37.880Z",
       "completed": null
     }
@@ -230,6 +230,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-10T21:49:12.818Z",
+      "task": 3,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Поднять цены — Цены подняты: полотна от 1250 ₽/м², теневой профиль 2200 ₽/м, минимальный заказ 40 000 ₽",
+      "progress": 20
     }
   ]
 }
