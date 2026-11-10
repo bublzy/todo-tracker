@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 5,
-  "updated": "2026-11-10T21:54:41.240Z",
+  "updated": "2026-11-10T21:54:44.749Z",
   "tasks": [
     {
       "id": 1,
@@ -115,7 +115,7 @@
       "project": "potolki",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
+      "status": "blocked",
       "progress": 75,
       "steps": [
         {
@@ -137,7 +137,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-10T21:50:32.266Z",
-      "updated": "2026-11-10T21:54:41.239Z",
+      "updated": "2026-11-10T21:54:44.748Z",
       "started": "2026-11-10T21:50:32.266Z",
       "completed": null
     }
@@ -364,6 +364,14 @@
       "type": "edited",
       "actor": "claude",
       "msg": "добавлен шаг: Настроить бота, таблицу и выложить сайт (делает владелец по README)",
+      "progress": 75
+    },
+    {
+      "ts": "2026-11-10T21:54:44.748Z",
+      "task": 4,
+      "type": "blocked",
+      "actor": "claude",
+      "msg": "ждёт: владелец настраивает бота и таблицу по README",
       "progress": 75
     }
   ]
