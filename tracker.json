@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 3,
-  "updated": "2026-11-10T21:45:21.121Z",
+  "updated": "2026-11-10T21:45:29.624Z",
   "tasks": [
     {
       "id": 1,
@@ -49,8 +49,8 @@
       "project": "potolki",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
-      "progress": 67,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Скачать файл сайта",
@@ -62,14 +62,14 @@
         },
         {
           "text": "Опубликовать обновление",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-10T21:44:44.967Z",
-      "updated": "2026-11-10T21:45:21.120Z",
+      "updated": "2026-11-10T21:45:29.624Z",
       "started": "2026-11-10T21:44:44.967Z",
-      "completed": null
+      "completed": "2026-11-10T21:45:29.622Z"
     }
   ],
   "events": [
@@ -171,6 +171,14 @@
       "actor": "claude",
       "msg": "Вписать название в шапку, заголовок и футер — Шапка с логотипом, title, футер, текст сметы",
       "progress": 67
+    },
+    {
+      "ts": "2026-11-10T21:45:29.624Z",
+      "task": 2,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Levita вписана в сайт: шапка с логотипом и телефоном, title, футер, скопированная смета. Опубликовано (версия 7)",
+      "progress": 100
     }
   ]
 }
