@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 4,
-  "updated": "2026-11-10T21:50:28.839Z",
+  "nextId": 5,
+  "updated": "2026-11-10T21:50:32.268Z",
   "tasks": [
     {
       "id": 1,
@@ -107,6 +107,35 @@
       "updated": "2026-11-10T21:50:28.839Z",
       "started": "2026-11-10T21:48:37.880Z",
       "completed": "2026-11-10T21:50:28.837Z"
+    },
+    {
+      "id": 4,
+      "title": "Приём заявок и страница для владельца",
+      "description": "Куда падают заявки с формы замера",
+      "project": "potolki",
+      "tags": [],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Выбрать способ приёма заявок",
+          "done": false
+        },
+        {
+          "text": "Подключить форму",
+          "done": false
+        },
+        {
+          "text": "Сделать страницу или таблицу заявок",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-10T21:50:32.266Z",
+      "updated": "2026-11-10T21:50:32.268Z",
+      "started": "2026-11-10T21:50:32.266Z",
+      "completed": null
     }
   ],
   "events": [
@@ -270,6 +299,20 @@
       "actor": "claude",
       "msg": "Премиум-версия опубликована (версия 8): цены, световые линии, тексты, блок для дизайнеров",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-10T21:50:32.268Z",
+      "task": 4,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-10T21:50:32.268Z",
+      "task": 4,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
