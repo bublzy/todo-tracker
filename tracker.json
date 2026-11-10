@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 5,
-  "updated": "2026-11-10T21:53:11.833Z",
+  "updated": "2026-11-10T21:53:15.263Z",
   "tasks": [
     {
       "id": 1,
@@ -116,11 +116,11 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 33,
       "steps": [
         {
           "text": "Выбрать способ приёма заявок",
-          "done": false
+          "done": true
         },
         {
           "text": "Подключить форму",
@@ -133,7 +133,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-10T21:50:32.266Z",
-      "updated": "2026-11-10T21:53:11.832Z",
+      "updated": "2026-11-10T21:53:15.262Z",
       "started": "2026-11-10T21:50:32.266Z",
       "completed": null
     }
@@ -329,6 +329,14 @@
       "actor": "claude",
       "msg": "Выбрано: Google Таблица + Telegram",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-10T21:53:15.262Z",
+      "task": 4,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Выбрать способ приёма заявок — Google Таблица + уведомления в Telegram",
+      "progress": 33
     }
   ]
 }
