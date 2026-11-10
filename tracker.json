@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 3,
-  "updated": "2026-11-10T21:45:29.624Z",
+  "nextId": 4,
+  "updated": "2026-11-10T21:48:37.882Z",
   "tasks": [
     {
       "id": 1,
@@ -70,6 +70,43 @@
       "updated": "2026-11-10T21:45:29.624Z",
       "started": "2026-11-10T21:44:44.967Z",
       "completed": "2026-11-10T21:45:29.622Z"
+    },
+    {
+      "id": 3,
+      "title": "Сайт Levita под премиум",
+      "description": "Премиальные цены, световые линии, тексты, блок для дизайнеров",
+      "project": "potolki",
+      "tags": [],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Поднять цены",
+          "done": false
+        },
+        {
+          "text": "Добавить световые линии в калькулятор",
+          "done": false
+        },
+        {
+          "text": "Переписать тексты",
+          "done": false
+        },
+        {
+          "text": "Блок для дизайнеров и архитекторов",
+          "done": false
+        },
+        {
+          "text": "Опубликовать и проверить",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-10T21:48:37.880Z",
+      "updated": "2026-11-10T21:48:37.882Z",
+      "started": "2026-11-10T21:48:37.880Z",
+      "completed": null
     }
   ],
   "events": [
@@ -179,6 +216,20 @@
       "actor": "claude",
       "msg": "Levita вписана в сайт: шапка с логотипом и телефоном, title, футер, скопированная смета. Опубликовано (версия 7)",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-10T21:48:37.882Z",
+      "task": 3,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-10T21:48:37.882Z",
+      "task": 3,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
