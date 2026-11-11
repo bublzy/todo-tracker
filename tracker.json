@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 6,
-  "updated": "2026-11-11T19:30:55.422Z",
+  "updated": "2026-11-11T19:30:59.295Z",
   "tasks": [
     {
       "id": 1,
@@ -149,7 +149,7 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 25,
+      "progress": 20,
       "steps": [
         {
           "text": "Найти фото со свободной лицензией",
@@ -166,11 +166,15 @@
         {
           "text": "Вставить на сайт",
           "done": false
+        },
+        {
+          "text": "Собрать 3D-сцену (three.js)",
+          "done": false
         }
       ],
       "actor": "claude",
       "created": "2026-11-10T22:00:12.892Z",
-      "updated": "2026-11-11T19:30:55.420Z",
+      "updated": "2026-11-11T19:30:59.293Z",
       "started": "2026-11-10T22:00:12.892Z",
       "completed": null
     }
@@ -465,6 +469,14 @@
       "type": "edited",
       "actor": "claude",
       "msg": "изменено: описание"
+    },
+    {
+      "ts": "2026-11-11T19:30:59.293Z",
+      "task": 5,
+      "type": "edited",
+      "actor": "claude",
+      "msg": "добавлен шаг: Собрать 3D-сцену (three.js)",
+      "progress": 20
     }
   ]
 }
