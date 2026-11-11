@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 7,
-  "updated": "2026-11-11T19:55:00.166Z",
+  "updated": "2026-11-11T19:58:44.907Z",
   "tasks": [
     {
       "id": 1,
@@ -186,11 +186,11 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 20,
       "steps": [
         {
           "text": "Скачать Blender",
-          "done": false
+          "done": true
         },
         {
           "text": "Собрать сцену скриптом",
@@ -211,7 +211,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-11T19:55:00.164Z",
-      "updated": "2026-11-11T19:55:00.166Z",
+      "updated": "2026-11-11T19:58:44.905Z",
       "started": "2026-11-11T19:55:00.164Z",
       "completed": null
     }
@@ -552,6 +552,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-11T19:58:44.905Z",
+      "task": 6,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Скачать Blender — Blender 4.5.9 LTS в E:\\tools, контрольная сумма совпала",
+      "progress": 20
     }
   ]
 }
