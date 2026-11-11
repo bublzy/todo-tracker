@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 7,
-  "updated": "2026-11-11T19:58:44.907Z",
+  "updated": "2026-11-11T20:06:01.174Z",
   "tasks": [
     {
       "id": 1,
@@ -186,7 +186,7 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 20,
+      "progress": 40,
       "steps": [
         {
           "text": "Скачать Blender",
@@ -194,7 +194,7 @@
         },
         {
           "text": "Собрать сцену скриптом",
-          "done": false
+          "done": true
         },
         {
           "text": "Пробный рендер и доводка",
@@ -211,7 +211,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-11T19:55:00.164Z",
-      "updated": "2026-11-11T19:58:44.905Z",
+      "updated": "2026-11-11T20:06:01.173Z",
       "started": "2026-11-11T19:55:00.164Z",
       "completed": null
     }
@@ -560,6 +560,14 @@
       "actor": "claude",
       "msg": "Скачать Blender — Blender 4.5.9 LTS в E:\\tools, контрольная сумма совпала",
       "progress": 20
+    },
+    {
+      "ts": "2026-11-11T20:06:01.173Z",
+      "task": 6,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Собрать сцену скриптом — Сцена собрана скриптом room.py",
+      "progress": 40
     }
   ]
 }
