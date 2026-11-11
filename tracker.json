@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 7,
-  "updated": "2026-11-11T20:06:04.952Z",
+  "updated": "2026-11-11T20:22:47.142Z",
   "tasks": [
     {
       "id": 1,
@@ -186,7 +186,7 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 60,
+      "progress": 80,
       "steps": [
         {
           "text": "Скачать Blender",
@@ -202,7 +202,7 @@
         },
         {
           "text": "Финальные кадры",
-          "done": false
+          "done": true
         },
         {
           "text": "Поставить на сайт",
@@ -211,7 +211,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-11T19:55:00.164Z",
-      "updated": "2026-11-11T20:06:04.950Z",
+      "updated": "2026-11-11T20:22:47.140Z",
       "started": "2026-11-11T19:55:00.164Z",
       "completed": null
     }
@@ -576,6 +576,14 @@
       "actor": "claude",
       "msg": "Пробный рендер и доводка — Пробные кадры доведены: облака, свет, материалы",
       "progress": 60
+    },
+    {
+      "ts": "2026-11-11T20:22:47.140Z",
+      "task": 6,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Финальные кадры — Финальные кадры: hero 1280×1600, shadow и lines 1920×1080",
+      "progress": 80
     }
   ]
 }
