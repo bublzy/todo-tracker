@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 8,
-  "updated": "2026-11-11T20:40:20.289Z",
+  "updated": "2026-11-11T20:41:12.544Z",
   "tasks": [
     {
       "id": 1,
@@ -223,11 +223,11 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 33,
       "steps": [
         {
           "text": "Палитра из фото",
-          "done": false
+          "done": true
         },
         {
           "text": "Перекрасить токены и шапку",
@@ -240,7 +240,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-11T20:40:20.288Z",
-      "updated": "2026-11-11T20:40:20.289Z",
+      "updated": "2026-11-11T20:41:12.542Z",
       "started": "2026-11-11T20:40:20.288Z",
       "completed": null
     }
@@ -635,6 +635,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-11T20:41:12.542Z",
+      "task": 7,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Палитра из фото — Песок, орех, свет LED-ленты",
+      "progress": 33
     }
   ]
 }
