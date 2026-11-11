@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 8,
-  "updated": "2026-11-11T20:41:16.049Z",
+  "updated": "2026-11-11T20:41:42.748Z",
   "tasks": [
     {
       "id": 1,
@@ -222,8 +222,8 @@
       "project": "potolki",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
-      "progress": 67,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Палитра из фото",
@@ -235,14 +235,14 @@
         },
         {
           "text": "Проверить и опубликовать",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-11T20:40:20.288Z",
-      "updated": "2026-11-11T20:41:16.048Z",
+      "updated": "2026-11-11T20:41:42.748Z",
       "started": "2026-11-11T20:40:20.288Z",
-      "completed": null
+      "completed": "2026-11-11T20:41:42.747Z"
     }
   ],
   "events": [
@@ -651,6 +651,14 @@
       "actor": "claude",
       "msg": "Перекрасить токены и шапку — Токены светлой и тёмной темы, тёмная шапка",
       "progress": 67
+    },
+    {
+      "ts": "2026-11-11T20:41:42.748Z",
+      "task": 7,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Палитра в тонах рендеров: тёмная ореховая шапка, песочный фон, акцент цвета LED. Версия 13",
+      "progress": 100
     }
   ]
 }
