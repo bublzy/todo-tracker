@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 6,
-  "updated": "2026-11-11T19:31:02.914Z",
+  "updated": "2026-11-11T19:37:53.201Z",
   "tasks": [
     {
       "id": 1,
@@ -149,7 +149,7 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 40,
+      "progress": 60,
       "steps": [
         {
           "text": "Найти фото со свободной лицензией",
@@ -169,12 +169,12 @@
         },
         {
           "text": "Собрать 3D-сцену (three.js)",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-10T22:00:12.892Z",
-      "updated": "2026-11-11T19:31:02.911Z",
+      "updated": "2026-11-11T19:37:53.199Z",
       "started": "2026-11-10T22:00:12.892Z",
       "completed": null
     }
@@ -485,6 +485,14 @@
       "actor": "claude",
       "msg": "Согласовать выбор — Выбран вариант: своя 3D-сцена вместо фото",
       "progress": 40
+    },
+    {
+      "ts": "2026-11-11T19:37:53.199Z",
+      "task": 5,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Собрать 3D-сцену (three.js) — 3D-сцена собрана и проверена: три профиля, день/вечер",
+      "progress": 60
     }
   ]
 }
