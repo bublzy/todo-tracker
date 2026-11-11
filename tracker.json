@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 7,
-  "updated": "2026-11-11T20:22:47.142Z",
+  "updated": "2026-11-11T20:23:12.986Z",
   "tasks": [
     {
       "id": 1,
@@ -185,8 +185,8 @@
       "project": "potolki",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
-      "progress": 80,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Скачать Blender",
@@ -206,14 +206,14 @@
         },
         {
           "text": "Поставить на сайт",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-11T19:55:00.164Z",
-      "updated": "2026-11-11T20:22:47.140Z",
+      "updated": "2026-11-11T20:23:12.986Z",
       "started": "2026-11-11T19:55:00.164Z",
-      "completed": null
+      "completed": "2026-11-11T20:23:12.985Z"
     }
   ],
   "events": [
@@ -584,6 +584,14 @@
       "actor": "claude",
       "msg": "Финальные кадры — Финальные кадры: hero 1280×1600, shadow и lines 1920×1080",
       "progress": 80
+    },
+    {
+      "ts": "2026-11-11T20:23:12.986Z",
+      "task": 6,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Три фотореалистичных рендера (Blender Cycles) на сайте вместо 3D-сцены, версия 11",
+      "progress": 100
     }
   ]
 }
