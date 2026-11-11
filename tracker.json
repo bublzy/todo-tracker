@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 6,
-  "updated": "2026-11-11T19:42:14.454Z",
+  "nextId": 7,
+  "updated": "2026-11-11T19:55:00.166Z",
   "tasks": [
     {
       "id": 1,
@@ -177,6 +177,43 @@
       "updated": "2026-11-11T19:42:14.454Z",
       "started": "2026-11-10T22:00:12.892Z",
       "completed": "2026-11-11T19:42:14.452Z"
+    },
+    {
+      "id": 6,
+      "title": "Фотореалистичные кадры потолков (Blender)",
+      "description": "Рендер в Blender Cycles вместо 3D-сцены на сайте",
+      "project": "potolki",
+      "tags": [],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Скачать Blender",
+          "done": false
+        },
+        {
+          "text": "Собрать сцену скриптом",
+          "done": false
+        },
+        {
+          "text": "Пробный рендер и доводка",
+          "done": false
+        },
+        {
+          "text": "Финальные кадры",
+          "done": false
+        },
+        {
+          "text": "Поставить на сайт",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-11T19:55:00.164Z",
+      "updated": "2026-11-11T19:55:00.166Z",
+      "started": "2026-11-11T19:55:00.164Z",
+      "completed": null
     }
   ],
   "events": [
@@ -501,6 +538,20 @@
       "actor": "claude",
       "msg": "Вместо рисунка 3D-сцена гостиной: теневой/парящий/линии, день/вечер. Артефакт обновлён, levita/index.html пересобран",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-11T19:55:00.166Z",
+      "task": 6,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-11T19:55:00.166Z",
+      "task": 6,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
