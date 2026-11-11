@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 6,
-  "updated": "2026-11-11T19:37:53.201Z",
+  "updated": "2026-11-11T19:42:14.454Z",
   "tasks": [
     {
       "id": 1,
@@ -148,8 +148,8 @@
       "project": "potolki",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
-      "progress": 60,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Найти фото со свободной лицензией",
@@ -161,11 +161,11 @@
         },
         {
           "text": "Скачать и сжать",
-          "done": false
+          "done": true
         },
         {
           "text": "Вставить на сайт",
-          "done": false
+          "done": true
         },
         {
           "text": "Собрать 3D-сцену (three.js)",
@@ -174,9 +174,9 @@
       ],
       "actor": "claude",
       "created": "2026-11-10T22:00:12.892Z",
-      "updated": "2026-11-11T19:37:53.199Z",
+      "updated": "2026-11-11T19:42:14.454Z",
       "started": "2026-11-10T22:00:12.892Z",
-      "completed": null
+      "completed": "2026-11-11T19:42:14.452Z"
     }
   ],
   "events": [
@@ -493,6 +493,14 @@
       "actor": "claude",
       "msg": "Собрать 3D-сцену (three.js) — 3D-сцена собрана и проверена: три профиля, день/вечер",
       "progress": 60
+    },
+    {
+      "ts": "2026-11-11T19:42:14.454Z",
+      "task": 5,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Вместо рисунка 3D-сцена гостиной: теневой/парящий/линии, день/вечер. Артефакт обновлён, levita/index.html пересобран",
+      "progress": 100
     }
   ]
 }
