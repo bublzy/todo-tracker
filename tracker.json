@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 9,
-  "updated": "2026-11-14T18:49:47.290Z",
+  "nextId": 10,
+  "updated": "2026-11-14T20:12:04.330Z",
   "tasks": [
     {
       "id": 1,
@@ -276,6 +276,47 @@
       "updated": "2026-11-14T18:49:47.290Z",
       "started": "2026-11-14T18:47:58.739Z",
       "completed": "2026-11-14T18:49:47.289Z"
+    },
+    {
+      "id": 9,
+      "title": "ИИ-агент аналитик крипты и акций",
+      "description": "Python-агент: рынок в реальном времени, новости дня, соцсети/тренды, скоринг пар, таблица пар на сегодня",
+      "project": "crypto-analyst",
+      "tags": [
+        "python",
+        "ai",
+        "trading"
+      ],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Сбор рыночных данных (крипта и акции)",
+          "done": false
+        },
+        {
+          "text": "Сбор новостей и трендов соцсетей",
+          "done": false
+        },
+        {
+          "text": "Скоринг пар и ИИ-анализ через Claude",
+          "done": false
+        },
+        {
+          "text": "Отчёт: таблица Excel/HTML с нумерацией",
+          "done": false
+        },
+        {
+          "text": "Проверка на живых данных",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-14T20:12:04.328Z",
+      "updated": "2026-11-14T20:12:04.330Z",
+      "started": "2026-11-14T20:12:04.328Z",
+      "completed": null
     }
   ],
   "events": [
@@ -738,6 +779,20 @@
       "actor": "claude",
       "msg": "Секции разнесены (была задвоенная разметка), подсветка карточек по клику. Версия 24",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-14T20:12:04.330Z",
+      "task": 9,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-14T20:12:04.330Z",
+      "task": 9,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
