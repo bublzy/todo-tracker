@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 10,
-  "updated": "2026-11-14T20:12:04.330Z",
+  "updated": "2026-11-14T20:14:25.514Z",
   "tasks": [
     {
       "id": 1,
@@ -314,7 +314,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-14T20:12:04.328Z",
-      "updated": "2026-11-14T20:12:04.330Z",
+      "updated": "2026-11-14T20:14:25.512Z",
       "started": "2026-11-14T20:12:04.328Z",
       "completed": null
     }
@@ -793,6 +793,13 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-14T20:14:25.512Z",
+      "task": 9,
+      "type": "note",
+      "actor": "claude",
+      "msg": "Источники: Binance, CoinGecko, Yahoo, Fear&Greed, RSS. Reddit отдаёт 403"
     }
   ]
 }
