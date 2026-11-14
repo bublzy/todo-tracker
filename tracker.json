@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 10,
-  "updated": "2026-11-14T20:22:17.693Z",
+  "updated": "2026-11-14T20:34:06.296Z",
   "tasks": [
     {
       "id": 1,
@@ -288,7 +288,7 @@
         "trading"
       ],
       "priority": "normal",
-      "status": "blocked",
+      "status": "doing",
       "progress": 80,
       "steps": [
         {
@@ -314,7 +314,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-14T20:12:04.328Z",
-      "updated": "2026-11-14T20:22:17.692Z",
+      "updated": "2026-11-14T20:34:06.295Z",
       "started": "2026-11-14T20:12:04.328Z",
       "completed": null
     }
@@ -846,6 +846,14 @@
       "type": "blocked",
       "actor": "claude",
       "msg": "ждёт: ключ ANTHROPIC_API_KEY в .env для проверки ИИ-режима",
+      "progress": 80
+    },
+    {
+      "ts": "2026-11-14T20:34:06.295Z",
+      "task": 9,
+      "type": "started",
+      "actor": "claude",
+      "msg": "Пробный полный отчёт: ИИ-часть делаю сам в сессии, без API-ключа",
       "progress": 80
     }
   ]
