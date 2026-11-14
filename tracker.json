@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 10,
-  "updated": "2026-11-14T20:15:35.626Z",
+  "updated": "2026-11-14T20:19:19.572Z",
   "tasks": [
     {
       "id": 1,
@@ -289,7 +289,7 @@
       ],
       "priority": "normal",
       "status": "doing",
-      "progress": 40,
+      "progress": 60,
       "steps": [
         {
           "text": "Сбор рыночных данных (крипта и акции)",
@@ -301,7 +301,7 @@
         },
         {
           "text": "Скоринг пар и ИИ-анализ через Claude",
-          "done": false
+          "done": true
         },
         {
           "text": "Отчёт: таблица Excel/HTML с нумерацией",
@@ -314,7 +314,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-14T20:12:04.328Z",
-      "updated": "2026-11-14T20:15:35.625Z",
+      "updated": "2026-11-14T20:19:19.570Z",
       "started": "2026-11-14T20:12:04.328Z",
       "completed": null
     }
@@ -816,6 +816,14 @@
       "actor": "claude",
       "msg": "Сбор новостей и трендов соцсетей — RSS-новости с оценкой влияния, CoinGecko trending, Reddit",
       "progress": 40
+    },
+    {
+      "ts": "2026-11-14T20:19:19.570Z",
+      "task": 9,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Скоринг пар и ИИ-анализ через Claude — Скоринг пар + агент Claude с веб-поиском и инструментами",
+      "progress": 60
     }
   ]
 }
