@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 10,
-  "updated": "2026-11-14T20:15:31.930Z",
+  "updated": "2026-11-14T20:15:35.626Z",
   "tasks": [
     {
       "id": 1,
@@ -289,7 +289,7 @@
       ],
       "priority": "normal",
       "status": "doing",
-      "progress": 20,
+      "progress": 40,
       "steps": [
         {
           "text": "Сбор рыночных данных (крипта и акции)",
@@ -297,7 +297,7 @@
         },
         {
           "text": "Сбор новостей и трендов соцсетей",
-          "done": false
+          "done": true
         },
         {
           "text": "Скоринг пар и ИИ-анализ через Claude",
@@ -314,7 +314,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-14T20:12:04.328Z",
-      "updated": "2026-11-14T20:15:31.928Z",
+      "updated": "2026-11-14T20:15:35.625Z",
       "started": "2026-11-14T20:12:04.328Z",
       "completed": null
     }
@@ -808,6 +808,14 @@
       "actor": "claude",
       "msg": "Сбор рыночных данных (крипта и акции) — Binance + Yahoo + Fear&Greed готовы",
       "progress": 20
+    },
+    {
+      "ts": "2026-11-14T20:15:35.625Z",
+      "task": 9,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Сбор новостей и трендов соцсетей — RSS-новости с оценкой влияния, CoinGecko trending, Reddit",
+      "progress": 40
     }
   ]
 }
