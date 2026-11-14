@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 9,
-  "updated": "2026-11-14T18:47:58.740Z",
+  "updated": "2026-11-14T18:48:11.092Z",
   "tasks": [
     {
       "id": 1,
@@ -252,11 +252,11 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 25,
       "steps": [
         {
           "text": "Найти причину слипания",
-          "done": false
+          "done": true
         },
         {
           "text": "Отступы между секциями",
@@ -273,7 +273,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-14T18:47:58.739Z",
-      "updated": "2026-11-14T18:47:58.740Z",
+      "updated": "2026-11-14T18:48:11.091Z",
       "started": "2026-11-14T18:47:58.739Z",
       "completed": null
     }
@@ -706,6 +706,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-14T18:48:11.091Z",
+      "task": 8,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Найти причину слипания — Задвоенный тег section: блоки оказались вложены в прайс",
+      "progress": 25
     }
   ]
 }
