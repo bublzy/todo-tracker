@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 10,
-  "updated": "2026-11-14T20:42:59.938Z",
+  "updated": "2026-11-14T20:43:03.136Z",
   "tasks": [
     {
       "id": 1,
@@ -288,7 +288,7 @@
         "trading"
       ],
       "priority": "normal",
-      "status": "doing",
+      "status": "blocked",
       "progress": 83,
       "steps": [
         {
@@ -318,7 +318,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-14T20:12:04.328Z",
-      "updated": "2026-11-14T20:42:59.937Z",
+      "updated": "2026-11-14T20:43:03.134Z",
       "started": "2026-11-14T20:12:04.328Z",
       "completed": null
     }
@@ -882,6 +882,14 @@
       "type": "note",
       "actor": "claude",
       "msg": "Без ИИ проверено на 8 биржах. Осталось: ИИ-режим с ключом API"
+    },
+    {
+      "ts": "2026-11-14T20:43:03.134Z",
+      "task": 9,
+      "type": "blocked",
+      "actor": "claude",
+      "msg": "ждёт: ключ ANTHROPIC_API_KEY для проверки ИИ-режима",
+      "progress": 83
     }
   ]
 }
