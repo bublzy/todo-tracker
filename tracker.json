@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 11,
-  "updated": "2026-11-16T19:20:24.415Z",
+  "updated": "2026-11-16T19:21:12.851Z",
   "tasks": [
     {
       "id": 1,
@@ -331,27 +331,27 @@
         "analysis"
       ],
       "priority": "normal",
-      "status": "doing",
-      "progress": 0,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Рыночные данные и индикаторы",
-          "done": false
+          "done": true
         },
         {
           "text": "Новости и события",
-          "done": false
+          "done": true
         },
         {
           "text": "Итоговый разбор",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-16T19:20:24.413Z",
-      "updated": "2026-11-16T19:20:24.415Z",
+      "updated": "2026-11-16T19:21:12.851Z",
       "started": "2026-11-16T19:20:24.413Z",
-      "completed": null
+      "completed": "2026-11-16T19:21:12.849Z"
     }
   ],
   "events": [
@@ -956,6 +956,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-16T19:21:12.851Z",
+      "task": 10,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Разбор ICP: рост +15% 16.11 без новостного повода, уровни, сценарии, деривативы — ответ в чате",
+      "progress": 100
     }
   ]
 }
