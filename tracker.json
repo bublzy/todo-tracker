@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 12,
-  "updated": "2026-11-16T19:34:13.156Z",
+  "updated": "2026-11-16T19:47:20.978Z",
   "tasks": [
     {
       "id": 1,
@@ -362,35 +362,35 @@
         "python"
       ],
       "priority": "normal",
-      "status": "doing",
-      "progress": 0,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Сбор данных монеты",
-          "done": false
+          "done": true
         },
         {
           "text": "Уровни и сценарии",
-          "done": false
+          "done": true
         },
         {
           "text": "ИИ-разбор",
-          "done": false
+          "done": true
         },
         {
           "text": "Отчёт и команда --coin",
-          "done": false
+          "done": true
         },
         {
           "text": "Проверка",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-16T19:34:13.154Z",
-      "updated": "2026-11-16T19:34:13.156Z",
+      "updated": "2026-11-16T19:47:20.978Z",
       "started": "2026-11-16T19:34:13.154Z",
-      "completed": null
+      "completed": "2026-11-16T19:47:20.976Z"
     }
   ],
   "events": [
@@ -1017,6 +1017,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-16T19:47:20.978Z",
+      "task": 11,
+      "type": "done",
+      "actor": "claude",
+      "msg": "python main.py --coin ICP: уровни, 3 сценария, фьючерсы, CoinGecko, ИИ-разбор; проверено на ICP и EVAA",
+      "progress": 100
     }
   ]
 }
