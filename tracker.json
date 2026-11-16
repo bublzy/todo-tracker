@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 11,
-  "updated": "2026-11-16T19:21:12.851Z",
+  "nextId": 12,
+  "updated": "2026-11-16T19:34:13.156Z",
   "tasks": [
     {
       "id": 1,
@@ -352,6 +352,45 @@
       "updated": "2026-11-16T19:21:12.851Z",
       "started": "2026-11-16T19:20:24.413Z",
       "completed": "2026-11-16T19:21:12.849Z"
+    },
+    {
+      "id": 11,
+      "title": "Команда разбора одной монеты",
+      "description": "python main.py --coin ICP: данные, уровни, сценарии, ИИ-разбор, HTML",
+      "project": "crypto-analyst",
+      "tags": [
+        "python"
+      ],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Сбор данных монеты",
+          "done": false
+        },
+        {
+          "text": "Уровни и сценарии",
+          "done": false
+        },
+        {
+          "text": "ИИ-разбор",
+          "done": false
+        },
+        {
+          "text": "Отчёт и команда --coin",
+          "done": false
+        },
+        {
+          "text": "Проверка",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-16T19:34:13.154Z",
+      "updated": "2026-11-16T19:34:13.156Z",
+      "started": "2026-11-16T19:34:13.154Z",
+      "completed": null
     }
   ],
   "events": [
@@ -964,6 +1003,20 @@
       "actor": "claude",
       "msg": "Разбор ICP: рост +15% 16.11 без новостного повода, уровни, сценарии, деривативы — ответ в чате",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-16T19:34:13.156Z",
+      "task": 11,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-16T19:34:13.156Z",
+      "task": 11,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
