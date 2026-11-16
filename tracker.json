@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 10,
-  "updated": "2026-11-16T18:24:38.182Z",
+  "nextId": 11,
+  "updated": "2026-11-16T19:20:24.415Z",
   "tasks": [
     {
       "id": 1,
@@ -320,6 +320,37 @@
       "created": "2026-11-14T20:12:04.328Z",
       "updated": "2026-11-16T18:24:38.180Z",
       "started": "2026-11-14T20:12:04.328Z",
+      "completed": null
+    },
+    {
+      "id": 10,
+      "title": "Анализ монеты ICP",
+      "description": "Отдельный разбор ICP: теханализ, деривативы, новости, сценарии",
+      "project": "crypto-analyst",
+      "tags": [
+        "analysis"
+      ],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Рыночные данные и индикаторы",
+          "done": false
+        },
+        {
+          "text": "Новости и события",
+          "done": false
+        },
+        {
+          "text": "Итоговый разбор",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-16T19:20:24.413Z",
+      "updated": "2026-11-16T19:20:24.415Z",
+      "started": "2026-11-16T19:20:24.413Z",
       "completed": null
     }
   ],
@@ -911,6 +942,20 @@
       "type": "note",
       "actor": "claude",
       "msg": "Прогон 16.11: отсечены токенизированные акции (пара должна быть минимум на 2 биржах), отчёт обновлён по той же ссылке"
+    },
+    {
+      "ts": "2026-11-16T19:20:24.415Z",
+      "task": 10,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-16T19:20:24.415Z",
+      "task": 10,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
