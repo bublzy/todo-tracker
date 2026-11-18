@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 19,
-  "updated": "2026-11-18T20:31:31.420Z",
+  "updated": "2026-11-18T20:34:44.108Z",
   "tasks": [
     {
       "id": 1,
@@ -628,7 +628,7 @@
       ],
       "priority": "normal",
       "status": "doing",
-      "progress": 40,
+      "progress": 60,
       "steps": [
         {
           "text": "Изучить сайт трекера",
@@ -640,7 +640,7 @@
         },
         {
           "text": "Вкладка YouTube с графиками",
-          "done": false
+          "done": true
         },
         {
           "text": "Опубликовать на gh-pages",
@@ -653,7 +653,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-18T20:29:47.536Z",
-      "updated": "2026-11-18T20:31:31.418Z",
+      "updated": "2026-11-18T20:34:44.106Z",
       "started": "2026-11-18T20:29:47.536Z",
       "completed": null
     }
@@ -1644,6 +1644,14 @@
       "actor": "claude",
       "msg": "Сборщик статистики (Action) — Action каждые 3 ч -> youtube.json на ветке data",
       "progress": 40
+    },
+    {
+      "ts": "2026-11-18T20:34:44.106Z",
+      "task": 18,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Вкладка YouTube с графиками — вкладка YouTube: KPI, графики, таблица роликов",
+      "progress": 60
     }
   ]
 }
