@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 18,
-  "updated": "2026-11-18T20:27:13.923Z",
+  "nextId": 19,
+  "updated": "2026-11-18T20:29:47.537Z",
   "tasks": [
     {
       "id": 1,
@@ -616,6 +616,46 @@
       "updated": "2026-11-18T20:27:13.923Z",
       "started": "2026-11-18T20:23:51.821Z",
       "completed": "2026-11-18T20:27:13.921Z"
+    },
+    {
+      "id": 18,
+      "title": "Страница «YouTube» в трекере: отчёт по просмотрам",
+      "description": "Сбор статистики канала @nauka_segodnya по расписанию (GitHub Actions + YouTube Data API) и вкладка с графиками на сайте трекера",
+      "project": "todo-tracker",
+      "tags": [
+        "youtube",
+        "analytics"
+      ],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Изучить сайт трекера",
+          "done": false
+        },
+        {
+          "text": "Сборщик статистики (Action)",
+          "done": false
+        },
+        {
+          "text": "Вкладка YouTube с графиками",
+          "done": false
+        },
+        {
+          "text": "Опубликовать на gh-pages",
+          "done": false
+        },
+        {
+          "text": "Ключ API от пользователя и первый запуск",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-18T20:29:47.536Z",
+      "updated": "2026-11-18T20:29:47.537Z",
+      "started": "2026-11-18T20:29:47.536Z",
+      "completed": null
     }
   ],
   "events": [
@@ -1574,6 +1614,20 @@
       "actor": "claude",
       "msg": "Short опубликован публично: youtube.com/shorts/udKb8RWEOgM",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-18T20:29:47.537Z",
+      "task": 18,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-18T20:29:47.537Z",
+      "task": 18,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
