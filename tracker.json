@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 16,
-  "updated": "2026-11-18T19:34:26.188Z",
+  "updated": "2026-11-18T19:34:32.497Z",
   "tasks": [
     {
       "id": 1,
@@ -515,8 +515,8 @@
         "music"
       ],
       "priority": "normal",
-      "status": "doing",
-      "progress": 75,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Синтез трека",
@@ -532,14 +532,14 @@
         },
         {
           "text": "Проверка и отправка",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-18T19:28:28.186Z",
-      "updated": "2026-11-18T19:34:26.186Z",
+      "updated": "2026-11-18T19:34:32.496Z",
       "started": "2026-11-18T19:28:28.186Z",
-      "completed": null
+      "completed": "2026-11-18T19:34:32.495Z"
     }
   ],
   "events": [
@@ -1358,6 +1358,14 @@
       "actor": "claude",
       "msg": "Рендер — 54.5 с, −14 LUFS",
       "progress": 75
+    },
+    {
+      "ts": "2026-11-18T19:34:32.496Z",
+      "task": 15,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Своя эмбиент-музыка (music.py) сведена с голосом, ducking; reel.mp4 обновлён",
+      "progress": 100
     }
   ]
 }
