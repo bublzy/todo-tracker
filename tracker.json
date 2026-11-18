@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 14,
-  "updated": "2026-11-18T18:47:49.169Z",
+  "nextId": 15,
+  "updated": "2026-11-18T18:54:57.464Z",
   "tasks": [
     {
       "id": 1,
@@ -462,6 +462,47 @@
       "updated": "2026-11-18T18:44:52.100Z",
       "started": "2026-11-18T18:43:04.981Z",
       "completed": "2026-11-18T18:44:52.099Z"
+    },
+    {
+      "id": 14,
+      "title": "Озвучка для рилса про реверс старения",
+      "description": "Нейроголос на русском, тайминг слайдов под голос",
+      "project": "reels",
+      "tags": [
+        "video",
+        "reels",
+        "tts"
+      ],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Поставить синтез речи",
+          "done": false
+        },
+        {
+          "text": "Текст озвучки по слайдам",
+          "done": false
+        },
+        {
+          "text": "Тайминг под голос",
+          "done": false
+        },
+        {
+          "text": "Рендер со звуком",
+          "done": false
+        },
+        {
+          "text": "Проверить и отправить",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-18T18:54:57.463Z",
+      "updated": "2026-11-18T18:54:57.464Z",
+      "started": "2026-11-18T18:54:57.463Z",
+      "completed": null
     }
   ],
   "events": [
@@ -1188,6 +1229,20 @@
       "actor": "claude",
       "msg": "Готов рилс reel.mp4 (48 с) + генератор make_reel.py + описание с хэштегами и источниками",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-18T18:54:57.464Z",
+      "task": 14,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-18T18:54:57.464Z",
+      "task": 14,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
