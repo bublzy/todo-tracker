@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 15,
-  "updated": "2026-11-18T19:15:58.766Z",
+  "nextId": 16,
+  "updated": "2026-11-18T19:28:28.188Z",
   "tasks": [
     {
       "id": 1,
@@ -503,6 +503,43 @@
       "updated": "2026-11-18T19:15:58.765Z",
       "started": "2026-11-18T18:54:57.463Z",
       "completed": "2026-11-18T19:15:58.764Z"
+    },
+    {
+      "id": 15,
+      "title": "Музыка для рилса про реверс старения",
+      "description": "Свой эмбиент-трек (без авторских прав), приглушение под голос",
+      "project": "reels",
+      "tags": [
+        "video",
+        "reels",
+        "music"
+      ],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Синтез трека",
+          "done": false
+        },
+        {
+          "text": "Сведение с голосом",
+          "done": false
+        },
+        {
+          "text": "Рендер",
+          "done": false
+        },
+        {
+          "text": "Проверка и отправка",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-18T19:28:28.186Z",
+      "updated": "2026-11-18T19:28:28.188Z",
+      "started": "2026-11-18T19:28:28.186Z",
+      "completed": null
     }
   ],
   "events": [
@@ -1283,6 +1320,20 @@
       "actor": "claude",
       "msg": "reel.mp4 с озвучкой (голос Dmitry), 54 с; слайды подстроены под фразы",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-18T19:28:28.188Z",
+      "task": 15,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-18T19:28:28.188Z",
+      "task": 15,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
