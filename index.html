@@ -42,8 +42,8 @@ header{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 8
 @keyframes pulse{70%{box-shadow:0 0 0 7px transparent}100%{box-shadow:0 0 0 0 transparent}}
 .spacer{flex:1}
 .tabs{display:flex;gap:2px;background:var(--surface-2);padding:3px;border-radius:9px}
-.tab{border:0;background:transparent;padding:5px 12px;border-radius:7px;cursor:pointer;color:var(--muted);font-weight:550}
-.tab.on{background:var(--surface);color:var(--text);box-shadow:var(--shadow)}
+.tab,.rg{border:0;background:transparent;padding:5px 12px;border-radius:7px;cursor:pointer;color:var(--muted);font-weight:550}
+.tab.on,.rg.on{background:var(--surface);color:var(--text);box-shadow:var(--shadow)}
 .btn{border:1px solid var(--border);background:var(--surface);padding:6px 12px;border-radius:8px;cursor:pointer;font-weight:550;white-space:nowrap}
 .btn:hover{border-color:var(--muted)}
 .btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
@@ -131,6 +131,49 @@ h2.sec{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--
 .toast{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);background:var(--text);color:var(--bg);padding:8px 14px;border-radius:9px;z-index:60;font-size:13px;opacity:0;transition:opacity .2s;pointer-events:none;max-width:calc(100% - 32px)}
 .toast.on{opacity:1}
 .hide{display:none!important}
+/* youtube */
+.yt{padding:16px 0 60px}
+.ythead{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:14px}
+.ythead img{width:52px;height:52px;border-radius:50%;flex:none;background:var(--surface-2);object-fit:cover}
+.ythead .nm{font-weight:650;font-size:18px;line-height:1.25}
+.ythead .hd{color:var(--muted);font-size:13px}
+.ythead .hd a{color:var(--muted)}
+.ythead .tabs{margin-left:auto}
+.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.kpi{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:14px 16px;box-shadow:var(--shadow);min-width:0}
+.kpi .l{font-size:12px;color:var(--muted);font-weight:600}
+.kpi .v{font-size:28px;font-weight:680;font-variant-numeric:tabular-nums;line-height:1.2;margin:4px 0 2px;overflow-wrap:anywhere}
+.kpi .d{font-size:12px;color:var(--muted)}
+.kpi .d b{color:var(--text);font-variant-numeric:tabular-nums}
+.charts{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px;margin-top:12px}
+.chart{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:14px 16px 10px;position:relative;min-width:0}
+.chart.wide{grid-column:1/-1}
+.chart h4{margin:0;font-size:14px;font-weight:620}
+.chart .cs{font-size:12px;color:var(--muted);margin:2px 0 8px}
+.chart > div[id]{position:relative}
+.chart svg{display:block;width:100%;height:auto;overflow:visible}
+.chart svg text{fill:var(--muted);font-size:11px;font-variant-numeric:tabular-nums}
+.chart .nodata{color:var(--muted);font-size:13px;padding:34px 8px;text-align:center}
+.tip{position:absolute;top:0;left:0;pointer-events:none;background:var(--text);color:var(--bg);font-size:12px;line-height:1.4;padding:6px 9px;border-radius:7px;white-space:nowrap;opacity:0;transition:opacity .12s;z-index:5;box-shadow:var(--shadow)}
+.tip.on{opacity:1}
+.tip b{font-variant-numeric:tabular-nums;font-size:13px}
+.vtw{overflow-x:auto;background:var(--surface);border:1px solid var(--border);border-radius:12px;margin-top:12px}
+.vt{width:100%;border-collapse:collapse;font-size:13px}
+.vt th{font-size:12px;color:var(--muted);font-weight:600;text-align:right;padding:10px 12px;border-bottom:1px solid var(--border);white-space:nowrap;cursor:pointer;user-select:none}
+.vt th.on{color:var(--text)}
+.vt th:first-child,.vt td:first-child{text-align:left}
+.vt td{padding:8px 12px;border-bottom:1px solid var(--border);text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.vt tr:last-child td{border-bottom:0}
+.vt .vid{display:flex;align-items:center;gap:10px;min-width:240px;white-space:normal}
+.vt .vid img{width:64px;height:36px;object-fit:cover;border-radius:6px;flex:none;background:var(--surface-2)}
+.vt .vid a{color:var(--text);text-decoration:none;font-weight:560}
+.vt .vid a:hover{text-decoration:underline}
+.vt .up{color:var(--ok)}
+.ytempty{background:var(--surface);border:1px dashed var(--border);border-radius:12px;padding:22px;max-width:720px}
+.ytempty h3{margin:0 0 8px;font-size:16px}
+.ytempty p{margin:6px 0;color:var(--muted)}
+.ytempty code{background:var(--surface-2);padding:1px 6px;border-radius:5px}
+@media (max-width:800px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.charts{grid-template-columns:minmax(0,1fr)}.kpi .v{font-size:22px}.ythead .tabs{margin-left:0}}
 @media (max-width:1000px){.board{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:640px){
   .board{grid-template-columns:1fr}.now{grid-template-columns:1fr}
@@ -151,6 +194,7 @@ h2.sec{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--
     <nav class="tabs" role="tablist">
       <button class="tab on" data-view="board">Доска</button>
       <button class="tab" data-view="history">История</button>
+      <button class="tab" data-view="youtube">YouTube</button>
     </nav>
     <button id="addBtn" class="btn primary hide">+ Задача</button>
     <button id="setBtn" class="btn icon" title="Настройки" aria-label="Настройки"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></button>
@@ -174,6 +218,10 @@ h2.sec{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--
 
   <section id="v-history" class="hide">
     <div id="hist" class="hist"></div>
+  </section>
+
+  <section id="v-youtube" class="hide yt">
+    <div id="ytBody"><div class="empty">Загружаю статистику…</div></div>
   </section>
 </main>
 
@@ -458,8 +506,214 @@ function closeDrawer(){ openId = null; $('#drawer').classList.remove('on'); $('#
 function setView(v){ view = v; store.set('tt.view', v);
   document.querySelectorAll('.tab').forEach(b => b.classList.toggle('on', b.dataset.view === v));
   $('#v-board').classList.toggle('hide', v !== 'board'); $('#v-history').classList.toggle('hide', v !== 'history');
+  $('#v-youtube').classList.toggle('hide', v !== 'youtube'); $('.toolbar').classList.toggle('hide', v === 'youtube');
   if (v === 'history' && data) renderHistory();
+  if (v === 'youtube') { yt ? renderYT() : null; loadYT(); }
 }
+
+// ---------- youtube ----------
+const YT_API = `https://api.github.com/repos/${CFG.owner}/${CFG.repo}/contents/youtube.json?ref=${CFG.branch}`;
+const YT_RAW = `https://raw.githubusercontent.com/${CFG.owner}/${CFG.repo}/${CFG.branch}/youtube.json`;
+let yt = null, ytEtag = '', ytState = 'loading', ytErr = '', ytSort = { k:'views', dir:-1 };
+let ytRange = store.get('tt.ytRange') || '30';
+const nf = new Intl.NumberFormat('ru');
+const fmt = n => n == null ? '—' : nf.format(n);
+const cfmt = n => n == null ? '—' : Math.abs(n) >= 10000 ? new Intl.NumberFormat('ru', { notation:'compact', maximumFractionDigits:1 }).format(n) : nf.format(n);
+const sign = n => n == null ? '—' : (n > 0 ? '+' : '') + nf.format(n);
+const dshort = t => new Date(t).toLocaleDateString('ru', { day:'numeric', month:'short' });
+const dlong = t => new Date(t).toLocaleString('ru', { day:'numeric', month:'long', hour:'2-digit', minute:'2-digit' });
+const localDay = t => { const d = new Date(t); return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`; };
+
+async function loadYT(){
+  if (/^(localhost|127\.0\.0\.1)$/.test(host)) {           // локальная проверка вёрстки: youtube.json рядом с index.html
+    try { const r = await fetch('youtube.json?t=' + Date.now(), { cache:'no-store' }); if (r.ok) { yt = await r.json(); ytState = 'ok'; return renderYT(); } } catch {}
+  }
+  const headers = { Accept:'application/vnd.github.raw+json' };
+  if (token) headers.Authorization = 'Bearer ' + token;
+  if (ytEtag) headers['If-None-Match'] = ytEtag;
+  try {
+    let r = await fetch(YT_API, { headers, cache:'no-store' });
+    if (r.status === 304) return;
+    if (r.status === 404) { yt = null; ytState = 'missing'; return renderYT(); }
+    if (!r.ok) { r = await fetch(YT_RAW + '?t=' + Date.now(), { cache:'no-store' }); ytEtag = '';
+      if (r.status === 404) { yt = null; ytState = 'missing'; return renderYT(); } }
+    else ytEtag = r.headers.get('ETag') || '';
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    yt = await r.json(); ytState = 'ok'; renderYT();
+  } catch (e) { ytErr = String(e.message || e); if (!yt) { ytState = 'error'; renderYT(); } }
+}
+setInterval(() => { if (view === 'youtube' && !document.hidden) loadYT(); }, 5 * 60000);
+
+// снимок на момент t (последний не позже t), либо первый, если t раньше начала сбора
+function snapAt(h, t){ let s = h[0]; for (const x of h) { if (new Date(x.ts) <= t) s = x; else break; } return s; }
+function dailyGains(h){
+  const last = new Map(); for (const s of h) last.set(localDay(s.ts), s);
+  const days = [...last.entries()], out = [], today = localDay(Date.now());
+  for (let i = 1; i < days.length; i++) {
+    const [day, s] = days[i], p = days[i-1][1];
+    out.push({ t: new Date(day + 'T12:00:00').getTime(), y: Math.max(0, s.views - p.views), partial: day === today, day });
+  }
+  return out;
+}
+
+function renderYT(){
+  const box = $('#ytBody');
+  if (ytState === 'loading') return;
+  if (ytState === 'missing' || ytState === 'error' || !yt?.channel) {
+    box.innerHTML = `<div class="ytempty"><h3>Статистика канала ещё не собиралась</h3>
+      <p>Отчёт строится по снимкам, которые GitHub Actions сохраняет каждые 3 часа в <code>youtube.json</code> на ветке <code>data</code>.</p>
+      <p>Чтобы сбор заработал, нужен ключ YouTube Data API v3 в секрете репозитория <code>YT_API_KEY</code>. Первый снимок появится после ближайшего запуска workflow «YouTube stats».</p>
+      ${ytState === 'error' ? `<p>Не удалось загрузить данные: ${esc(ytErr)}</p>` : ''}</div>`;
+    return;
+  }
+  const c = yt.channel, h = (yt.history || []).filter(s => s.views != null).sort((a,b) => a.ts.localeCompare(b.ts));
+  const now = Date.now(), since = ytRange === 'all' ? 0 : now - (+ytRange) * 86400000;
+  const base = h.length ? snapAt(h, new Date(since)) : null, cur = h[h.length - 1];
+  const fromStart = base && new Date(base.ts) > new Date(since + 3600000);
+  const per = ytRange === 'all' || fromStart ? `с ${dshort(base?.ts || now)}` : `за ${ytRange} дн.`;
+  const dv = base && cur ? cur.views - base.views : null;
+  const ds = base && cur && cur.subs != null && base.subs != null ? cur.subs - base.subs : null;
+  const dn = base && cur ? cur.videos - base.videos : null;
+  const likes = yt.videos.reduce((s, v) => s + (v.likes || 0), 0), comments = yt.videos.reduce((s, v) => s + (v.comments || 0), 0);
+  const handle = c.handle ? (c.handle.startsWith('@') ? c.handle : '@' + c.handle) : '';
+  const url = handle ? `https://www.youtube.com/${handle}` : `https://www.youtube.com/channel/${c.id}`;
+  const rg = [['7','7 дней'],['30','30 дней'],['90','90 дней'],['all','Всё время']];
+
+  const hr = h.filter(s => new Date(s.ts) >= since);
+  if (base && hr[0] !== base && new Date(base.ts) < since) hr.unshift(base);
+  const gains = dailyGains(h).filter(g => g.t >= since - 86400000);
+
+  box.innerHTML = `
+    <div class="ythead">
+      ${c.thumb ? `<img src="${esc(c.thumb)}" alt="" referrerpolicy="no-referrer">` : ''}
+      <div><div class="nm">${esc(c.title)}</div>
+        <div class="hd"><a href="${esc(url)}" target="_blank" rel="noopener">${esc(handle || 'канал на YouTube')}</a> · обновлено ${ago(yt.updated)} · сбор каждые 3 часа</div></div>
+      <nav class="tabs" aria-label="Период">${rg.map(([k,l]) => `<button class="rg${k === ytRange ? ' on' : ''}" data-rg="${k}">${l}</button>`).join('')}</nav>
+    </div>
+    <div class="kpis">
+      <div class="kpi"><div class="l">Просмотры</div><div class="v">${fmt(c.views)}</div><div class="d"><b>${sign(dv)}</b> ${per}</div></div>
+      <div class="kpi"><div class="l">Подписчики</div><div class="v">${c.hiddenSubs ? 'скрыто' : fmt(c.subs)}</div><div class="d">${c.hiddenSubs ? 'счётчик скрыт в настройках канала' : `<b>${sign(ds)}</b> ${per}`}</div></div>
+      <div class="kpi"><div class="l">Ролики</div><div class="v">${fmt(c.videos)}</div><div class="d"><b>${sign(dn)}</b> ${per}</div></div>
+      <div class="kpi"><div class="l">Лайки</div><div class="v">${fmt(likes)}</div><div class="d">комментариев: <b>${fmt(comments)}</b></div></div>
+    </div>
+    <div class="charts">
+      <div class="chart wide"><h4>Просмотры по дням</h4><div class="cs">Прирост просмотров всех роликов за сутки</div><div id="chDaily"></div></div>
+      <div class="chart"><h4>Всего просмотров</h4><div class="cs">Сумма просмотров по роликам на момент снимка</div><div id="chViews"></div></div>
+      <div class="chart"><h4>Подписчики</h4><div class="cs">Число подписчиков на момент снимка</div><div id="chSubs"></div></div>
+    </div>
+    <div class="vtw"><table class="vt"><thead><tr>
+      ${[['title','Ролик'],['published','Опубликован'],['views','Просмотры'],['d24','За 24 ч'],['likes','Лайки'],['comments','Комментарии']]
+        .map(([k,l]) => `<th data-sort="${k}" class="${ytSort.k === k ? 'on' : ''}">${l}${ytSort.k === k ? (ytSort.dir < 0 ? ' ↓' : ' ↑') : ''}</th>`).join('')}
+    </tr></thead><tbody>${videoRows(h)}</tbody></table></div>`;
+
+  barChart($('#chDaily'), gains, 'Появится после первых полных суток сбора');
+  lineChart($('#chViews'), hr.map(s => ({ t:new Date(s.ts).getTime(), y:s.views })), 'Нужно хотя бы два снимка');
+  if (c.hiddenSubs) $('#chSubs').innerHTML = '<div class="nodata">Счётчик подписчиков скрыт</div>';
+  else lineChart($('#chSubs'), hr.filter(s => s.subs != null).map(s => ({ t:new Date(s.ts).getTime(), y:s.subs })), 'Нужно хотя бы два снимка');
+}
+
+function videoRows(h){
+  if (!yt.videos.length) return `<tr><td colspan="6" style="color:var(--muted);padding:18px 12px">На канале пока нет опубликованных роликов</td></tr>`;
+  const ref = h.length ? snapAt(h, new Date(Date.now() - 86400000)) : null;
+  const refFull = ref && new Date(ref.ts) <= new Date(Date.now() - 20 * 3600000);
+  const rows = yt.videos.map(v => {
+    let d24 = null;
+    if (ref?.v && ref.v[v.id] != null && refFull) d24 = v.views - ref.v[v.id];
+    else if (new Date(v.published) > new Date(Date.now() - 86400000)) d24 = v.views;
+    return { ...v, d24 };
+  });
+  const { k, dir } = ytSort;
+  rows.sort((a, b) => { const x = a[k], y = b[k]; if (x == null) return 1; if (y == null) return -1;
+    return (typeof x === 'string' ? x.localeCompare(y, 'ru') : x - y) * dir; });
+  return rows.map(v => `<tr>
+    <td><div class="vid">${v.thumb ? `<img src="${esc(v.thumb)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : ''}<div>
+      <a href="https://www.youtube.com/${v.duration && v.duration <= 180 ? 'shorts/' : 'watch?v='}${esc(v.id)}" target="_blank" rel="noopener">${esc(v.title)}</a>
+      ${v.duration && v.duration <= 180 ? ' <span class="chip">Shorts</span>' : ''}</div></div></td>
+    <td>${new Date(v.published).toLocaleDateString('ru', { day:'numeric', month:'short', year:'numeric' })}</td>
+    <td>${fmt(v.views)}</td>
+    <td class="${v.d24 > 0 ? 'up' : ''}">${v.d24 == null ? '—' : sign(v.d24)}</td>
+    <td>${fmt(v.likes)}</td><td>${fmt(v.comments)}</td></tr>`).join('');
+}
+
+// ---------- charts (SVG, один ряд, акцентный цвет трекера) ----------
+function niceScale(min, max, n = 4){
+  if (min === max) { const pad = Math.max(1, Math.abs(max) * 0.1); min -= pad; max += pad; }
+  const raw = (max - min) / n, mag = 10 ** Math.floor(Math.log10(raw)), e = raw / mag;
+  const step = Math.max(1, (e >= 7.5 ? 10 : e >= 3.5 ? 5 : e >= 1.5 ? 2 : 1) * mag);
+  const lo = Math.floor(min / step) * step, hi = Math.ceil(max / step) * step, ticks = [];
+  for (let v = lo; v <= hi + step / 2; v += step) ticks.push(Math.round(v));
+  return { lo, hi, ticks };
+}
+function frame(box, empty, ok){
+  if (!ok) { box.innerHTML = `<div class="nodata">${empty}</div>`; return null; }
+  const W = Math.max(260, box.clientWidth), H = 190, m = { l:44, r:10, t:10, b:22 };
+  box.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img"></svg><div class="tip"></div>`;
+  return { W, H, m, svg: box.querySelector('svg'), tip: box.querySelector('.tip'), iw: W - m.l - m.r, ih: H - m.t - m.b };
+}
+function axes(f, ys, xs){
+  const g = ys.ticks.map(v => { const y = f.m.t + f.ih - (v - ys.lo) / (ys.hi - ys.lo) * f.ih;
+    return `<line x1="${f.m.l}" x2="${f.W - f.m.r}" y1="${y}" y2="${y}" stroke="var(--border)" stroke-width="1"/>
+      <text x="${f.m.l - 6}" y="${y + 3.5}" text-anchor="end">${cfmt(v)}</text>`; }).join('');
+  return g + xs.map(([x, lbl]) => `<text x="${x}" y="${f.H - 5}" text-anchor="middle">${lbl}</text>`).join('');
+}
+function showTip(f, x, y, html){
+  f.tip.innerHTML = html; f.tip.classList.add('on');
+  const k = f.svg.getBoundingClientRect().width / f.W, tw = f.tip.offsetWidth, th = f.tip.offsetHeight;
+  let px = x * k + 14; if (px + tw > f.svg.clientWidth) px = x * k - tw - 14;
+  let py = y * k - th - 10; if (py < 0) py = y * k + 14;
+  f.tip.style.transform = `translate(${Math.max(0, px)}px, ${py}px)`;
+}
+function lineChart(box, pts, empty){
+  const f = frame(box, empty, pts.length >= 2); if (!f) return;
+  const t0 = pts[0].t, t1 = pts[pts.length - 1].t, ys = niceScale(Math.min(...pts.map(p => p.y)), Math.max(...pts.map(p => p.y)));
+  const X = t => f.m.l + (t - t0) / (t1 - t0 || 1) * f.iw, Y = v => f.m.t + f.ih - (v - ys.lo) / (ys.hi - ys.lo) * f.ih;
+  const nx = Math.min(5, Math.max(2, Math.floor(f.iw / 90)));
+  const xs = Array.from({ length:nx }, (_, i) => { const t = t0 + (t1 - t0) * i / (nx - 1); return [X(t), dshort(t)]; });
+  const d = pts.map((p, i) => `${i ? 'L' : 'M'}${X(p.t).toFixed(1)},${Y(p.y).toFixed(1)}`).join('');
+  const area = `${d}L${X(t1).toFixed(1)},${f.m.t + f.ih}L${X(t0).toFixed(1)},${f.m.t + f.ih}Z`;
+  const lp = pts[pts.length - 1];
+  f.svg.innerHTML = axes(f, ys, xs)
+    + `<path d="${area}" fill="color-mix(in srgb,var(--accent) 12%,transparent)"/>`
+    + `<path d="${d}" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>`
+    + `<circle cx="${X(lp.t)}" cy="${Y(lp.y)}" r="4" fill="var(--accent)" stroke="var(--surface)" stroke-width="2"/>`
+    + `<line class="xh" y1="${f.m.t}" y2="${f.m.t + f.ih}" stroke="var(--muted)" stroke-width="1" stroke-dasharray="3 3" opacity="0"/>`
+    + `<circle class="hd" r="5" fill="var(--accent)" stroke="var(--surface)" stroke-width="2" opacity="0"/>`
+    + `<rect x="${f.m.l}" y="${f.m.t}" width="${f.iw}" height="${f.ih}" fill="transparent" style="cursor:crosshair"/>`;
+  const xh = f.svg.querySelector('.xh'), hd = f.svg.querySelector('.hd');
+  const move = ev => { const r = f.svg.getBoundingClientRect(), mx = (ev.clientX - r.left) * f.W / r.width;
+    let best = pts[0]; for (const p of pts) if (Math.abs(X(p.t) - mx) < Math.abs(X(best.t) - mx)) best = p;
+    const x = X(best.t), y = Y(best.y); xh.setAttribute('x1', x); xh.setAttribute('x2', x); xh.setAttribute('opacity', 1);
+    hd.setAttribute('cx', x); hd.setAttribute('cy', y); hd.setAttribute('opacity', 1);
+    showTip(f, x, y, `${dlong(best.t)}<br><b>${fmt(best.y)}</b>`); };
+  const out = () => { xh.setAttribute('opacity', 0); hd.setAttribute('opacity', 0); f.tip.classList.remove('on'); };
+  const hit = f.svg.lastElementChild; hit.addEventListener('pointermove', move); hit.addEventListener('pointerleave', out);
+}
+function barChart(box, bars, empty){
+  const f = frame(box, empty, bars.length >= 1); if (!f) return;
+  const ys = niceScale(0, Math.max(1, ...bars.map(b => b.y))), band = f.iw / bars.length;
+  const bw = Math.max(2, Math.min(28, band - 2)), Y = v => f.m.t + f.ih - v / ys.hi * f.ih, base = f.m.t + f.ih;
+  const every = Math.ceil(bars.length / Math.max(2, Math.floor(f.iw / 70)));
+  const xs = bars.map((b, i) => [f.m.l + band * (i + .5), dshort(b.t)]).filter((_, i) => i % every === 0);
+  const r = Math.min(4, bw / 2);
+  f.svg.innerHTML = axes({ ...f }, { ...ys, lo:0 }, xs) + bars.map((b, i) => {
+    const x = f.m.l + band * i + (band - bw) / 2, y = Y(b.y), hgt = base - y;
+    const shape = hgt < 0.5 ? '' : hgt <= r ? `<rect x="${x}" y="${y}" width="${bw}" height="${hgt}" fill="var(--accent)" opacity="${b.partial ? .45 : 1}"/>`
+      : `<path d="M${x},${base}V${y + r}Q${x},${y} ${x + r},${y}H${x + bw - r}Q${x + bw},${y} ${x + bw},${y + r}V${base}Z" fill="var(--accent)" opacity="${b.partial ? .45 : 1}"/>`;
+    return shape + `<rect class="hb" data-i="${i}" x="${f.m.l + band * i}" y="${f.m.t}" width="${band}" height="${f.ih}" fill="transparent"/>`;
+  }).join('') + `<line x1="${f.m.l}" x2="${f.W - f.m.r}" y1="${base}" y2="${base}" stroke="var(--muted)" stroke-width="1"/>`;
+  f.svg.querySelectorAll('.hb').forEach(el => {
+    el.addEventListener('pointerenter', () => { const b = bars[+el.dataset.i];
+      el.setAttribute('fill', 'color-mix(in srgb,var(--text) 6%,transparent)');
+      showTip(f, f.m.l + band * (+el.dataset.i + .5), Y(b.y), `${new Date(b.t).toLocaleDateString('ru', { weekday:'short', day:'numeric', month:'long' })}${b.partial ? ' (сегодня, неполные сутки)' : ''}<br><b>${sign(b.y)}</b> просмотров`); });
+    el.addEventListener('pointerleave', () => { el.setAttribute('fill', 'transparent'); f.tip.classList.remove('on'); });
+  });
+}
+document.addEventListener('click', e => {
+  const rg = e.target.closest('[data-rg]'); if (rg) { ytRange = rg.dataset.rg; store.set('tt.ytRange', ytRange); return renderYT(); }
+  const th = e.target.closest('th[data-sort]');
+  if (th) { const k = th.dataset.sort; ytSort = { k, dir: ytSort.k === k ? -ytSort.dir : (k === 'title' ? 1 : -1) }; return renderYT(); }
+});
+let ytResize; window.addEventListener('resize', () => { clearTimeout(ytResize); ytResize = setTimeout(() => { if (view === 'youtube' && yt) renderYT(); }, 150); });
 function setMode(){ $('#addBtn').classList.toggle('hide', !token); $('#repoName').textContent = `${CFG.owner}/${CFG.repo}`; if (data) render(); }
 document.addEventListener('click', e => {
   const tab = e.target.closest('.tab'); if (tab) return setView(tab.dataset.view);
