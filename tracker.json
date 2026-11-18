@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 17,
-  "updated": "2026-11-18T20:17:06.534Z",
+  "updated": "2026-11-18T20:17:10.070Z",
   "tasks": [
     {
       "id": 1,
@@ -552,7 +552,7 @@
       ],
       "priority": "normal",
       "status": "doing",
-      "progress": 40,
+      "progress": 60,
       "steps": [
         {
           "text": "Аватар, баннер, описание",
@@ -564,7 +564,7 @@
         },
         {
           "text": "Согласовать аккаунт и хэндл",
-          "done": false
+          "done": true
         },
         {
           "text": "Создать канал",
@@ -577,7 +577,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-18T19:49:42.123Z",
-      "updated": "2026-11-18T20:17:06.533Z",
+      "updated": "2026-11-18T20:17:10.068Z",
       "started": "2026-11-18T19:49:42.123Z",
       "completed": null
     }
@@ -1452,6 +1452,14 @@
       "actor": "claude",
       "msg": "подтверждено: Наука — Сегодня, @nauka_segodnya",
       "progress": 40
+    },
+    {
+      "ts": "2026-11-18T20:17:10.068Z",
+      "task": 16,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Согласовать аккаунт и хэндл",
+      "progress": 60
     }
   ]
 }
