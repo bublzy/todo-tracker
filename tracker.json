@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 17,
-  "updated": "2026-11-18T20:17:45.141Z",
+  "updated": "2026-11-18T20:18:10.766Z",
   "tasks": [
     {
       "id": 1,
@@ -551,7 +551,7 @@
         "channel"
       ],
       "priority": "normal",
-      "status": "blocked",
+      "status": "doing",
       "progress": 60,
       "steps": [
         {
@@ -577,7 +577,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-18T19:49:42.123Z",
-      "updated": "2026-11-18T20:17:45.139Z",
+      "updated": "2026-11-18T20:18:10.764Z",
       "started": "2026-11-18T19:49:42.123Z",
       "completed": null
     }
@@ -1467,6 +1467,14 @@
       "type": "blocked",
       "actor": "claude",
       "msg": "ждёт: согласие с условиями YouTube перед созданием",
+      "progress": 60
+    },
+    {
+      "ts": "2026-11-18T20:18:10.764Z",
+      "task": 16,
+      "type": "started",
+      "actor": "claude",
+      "msg": "согласие получено, создаю канал",
       "progress": 60
     }
   ]
