@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 17,
-  "updated": "2026-11-18T20:18:44.383Z",
+  "updated": "2026-11-18T20:21:40.248Z",
   "tasks": [
     {
       "id": 1,
@@ -551,8 +551,8 @@
         "channel"
       ],
       "priority": "normal",
-      "status": "doing",
-      "progress": 80,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Аватар, баннер, описание",
@@ -572,14 +572,14 @@
         },
         {
           "text": "Загрузить оформление",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-18T19:49:42.123Z",
-      "updated": "2026-11-18T20:18:44.382Z",
+      "updated": "2026-11-18T20:21:40.248Z",
       "started": "2026-11-18T19:49:42.123Z",
-      "completed": null
+      "completed": "2026-11-18T20:21:40.247Z"
     }
   ],
   "events": [
@@ -1484,6 +1484,14 @@
       "actor": "claude",
       "msg": "Создать канал — канал создан: @nauka_segodnya",
       "progress": 80
+    },
+    {
+      "ts": "2026-11-18T20:21:40.248Z",
+      "task": 16,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Канал youtube.com/@nauka_segodnya создан: аватар, баннер, описание опубликованы",
+      "progress": 100
     }
   ]
 }
