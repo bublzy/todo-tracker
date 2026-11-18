@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 16,
-  "updated": "2026-11-18T19:28:28.188Z",
+  "updated": "2026-11-18T19:29:23.725Z",
   "tasks": [
     {
       "id": 1,
@@ -516,11 +516,11 @@
       ],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 25,
       "steps": [
         {
           "text": "Синтез трека",
-          "done": false
+          "done": true
         },
         {
           "text": "Сведение с голосом",
@@ -537,7 +537,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-18T19:28:28.186Z",
-      "updated": "2026-11-18T19:28:28.188Z",
+      "updated": "2026-11-18T19:29:23.723Z",
       "started": "2026-11-18T19:28:28.186Z",
       "completed": null
     }
@@ -1334,6 +1334,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-18T19:29:23.723Z",
+      "task": 15,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Синтез трека — Am9–Fmaj7–Cmaj7–Em7, 96 BPM",
+      "progress": 25
     }
   ]
 }
