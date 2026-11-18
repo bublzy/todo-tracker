@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 17,
-  "updated": "2026-11-18T19:51:30.768Z",
+  "updated": "2026-11-18T19:51:34.148Z",
   "tasks": [
     {
       "id": 1,
@@ -551,7 +551,7 @@
         "channel"
       ],
       "priority": "normal",
-      "status": "doing",
+      "status": "blocked",
       "progress": 40,
       "steps": [
         {
@@ -577,7 +577,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-18T19:49:42.123Z",
-      "updated": "2026-11-18T19:51:30.766Z",
+      "updated": "2026-11-18T19:51:34.146Z",
       "started": "2026-11-18T19:49:42.123Z",
       "completed": null
     }
@@ -1435,6 +1435,14 @@
       "type": "step",
       "actor": "claude",
       "msg": "Открыть YouTube, проверить аккаунт — вход есть, канала на аккаунте ещё нет",
+      "progress": 40
+    },
+    {
+      "ts": "2026-11-18T19:51:34.146Z",
+      "task": 16,
+      "type": "blocked",
+      "actor": "claude",
+      "msg": "ждёт: подтверждение аккаунта, названия и хэндла",
       "progress": 40
     }
   ]
