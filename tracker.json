@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 16,
-  "updated": "2026-11-18T19:29:57.689Z",
+  "updated": "2026-11-18T19:34:26.188Z",
   "tasks": [
     {
       "id": 1,
@@ -516,7 +516,7 @@
       ],
       "priority": "normal",
       "status": "doing",
-      "progress": 50,
+      "progress": 75,
       "steps": [
         {
           "text": "Синтез трека",
@@ -528,7 +528,7 @@
         },
         {
           "text": "Рендер",
-          "done": false
+          "done": true
         },
         {
           "text": "Проверка и отправка",
@@ -537,7 +537,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-18T19:28:28.186Z",
-      "updated": "2026-11-18T19:29:57.687Z",
+      "updated": "2026-11-18T19:34:26.186Z",
       "started": "2026-11-18T19:28:28.186Z",
       "completed": null
     }
@@ -1350,6 +1350,14 @@
       "actor": "claude",
       "msg": "Сведение с голосом — ducking −8 дБ под голос, музыка −12 дБ",
       "progress": 50
+    },
+    {
+      "ts": "2026-11-18T19:34:26.186Z",
+      "task": 15,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Рендер — 54.5 с, −14 LUFS",
+      "progress": 75
     }
   ]
 }
