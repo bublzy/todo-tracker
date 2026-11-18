@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 18,
-  "updated": "2026-11-18T20:26:32.777Z",
+  "updated": "2026-11-18T20:27:13.923Z",
   "tasks": [
     {
       "id": 1,
@@ -591,8 +591,8 @@
         "shorts"
       ],
       "priority": "normal",
-      "status": "doing",
-      "progress": 75,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Сжать видео до 10 МБ",
@@ -608,14 +608,14 @@
         },
         {
           "text": "Опубликовать и проверить",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-18T20:23:51.821Z",
-      "updated": "2026-11-18T20:26:32.776Z",
+      "updated": "2026-11-18T20:27:13.923Z",
       "started": "2026-11-18T20:23:51.821Z",
-      "completed": null
+      "completed": "2026-11-18T20:27:13.921Z"
     }
   ],
   "events": [
@@ -1566,6 +1566,14 @@
       "actor": "claude",
       "msg": "Название, описание, настройки — название, описание с источниками, не для детей",
       "progress": 75
+    },
+    {
+      "ts": "2026-11-18T20:27:13.923Z",
+      "task": 17,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Short опубликован публично: youtube.com/shorts/udKb8RWEOgM",
+      "progress": 100
     }
   ]
 }
