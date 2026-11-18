@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 16,
-  "updated": "2026-11-18T19:34:32.497Z",
+  "nextId": 17,
+  "updated": "2026-11-18T19:49:42.124Z",
   "tasks": [
     {
       "id": 1,
@@ -540,6 +540,46 @@
       "updated": "2026-11-18T19:34:32.496Z",
       "started": "2026-11-18T19:28:28.186Z",
       "completed": "2026-11-18T19:34:32.495Z"
+    },
+    {
+      "id": 16,
+      "title": "YouTube-канал «Наука — Сегодня»",
+      "description": "Создать канал, оформление (аватар, баннер), описание",
+      "project": "reels",
+      "tags": [
+        "youtube",
+        "channel"
+      ],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Аватар, баннер, описание",
+          "done": false
+        },
+        {
+          "text": "Открыть YouTube, проверить аккаунт",
+          "done": false
+        },
+        {
+          "text": "Согласовать аккаунт и хэндл",
+          "done": false
+        },
+        {
+          "text": "Создать канал",
+          "done": false
+        },
+        {
+          "text": "Загрузить оформление",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-18T19:49:42.123Z",
+      "updated": "2026-11-18T19:49:42.124Z",
+      "started": "2026-11-18T19:49:42.123Z",
+      "completed": null
     }
   ],
   "events": [
@@ -1366,6 +1406,20 @@
       "actor": "claude",
       "msg": "Своя эмбиент-музыка (music.py) сведена с голосом, ducking; reel.mp4 обновлён",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-18T19:49:42.124Z",
+      "task": 16,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-18T19:49:42.124Z",
+      "task": 16,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
