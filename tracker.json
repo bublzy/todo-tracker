@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 12,
-  "updated": "2026-11-16T19:47:20.978Z",
+  "nextId": 13,
+  "updated": "2026-11-18T18:36:37.287Z",
   "tasks": [
     {
       "id": 1,
@@ -391,6 +391,46 @@
       "updated": "2026-11-16T19:47:20.978Z",
       "started": "2026-11-16T19:34:13.154Z",
       "completed": "2026-11-16T19:47:20.976Z"
+    },
+    {
+      "id": 12,
+      "title": "Рилс: анимированный текст про реверс старения",
+      "description": "Вертикальное видео 9:16 с анимированным текстом о состоянии исследований",
+      "project": "reels",
+      "tags": [
+        "video",
+        "reels"
+      ],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Подготовить инструменты рендера",
+          "done": false
+        },
+        {
+          "text": "Собрать свежие факты",
+          "done": false
+        },
+        {
+          "text": "Написать сценарий слайдов",
+          "done": false
+        },
+        {
+          "text": "Анимация и рендер MP4",
+          "done": false
+        },
+        {
+          "text": "Проверить и отправить",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-18T18:36:37.285Z",
+      "updated": "2026-11-18T18:36:37.287Z",
+      "started": "2026-11-18T18:36:37.285Z",
+      "completed": null
     }
   ],
   "events": [
@@ -1025,6 +1065,20 @@
       "actor": "claude",
       "msg": "python main.py --coin ICP: уровни, 3 сценария, фьючерсы, CoinGecko, ИИ-разбор; проверено на ICP и EVAA",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-18T18:36:37.287Z",
+      "task": 12,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-18T18:36:37.287Z",
+      "task": 12,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
