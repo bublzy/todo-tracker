@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 14,
-  "updated": "2026-11-18T18:43:04.983Z",
+  "updated": "2026-11-18T18:44:40.627Z",
   "tasks": [
     {
       "id": 1,
@@ -442,11 +442,11 @@
       ],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 33,
       "steps": [
         {
           "text": "Запуск разбора",
-          "done": false
+          "done": true
         },
         {
           "text": "Новости",
@@ -459,7 +459,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-18T18:43:04.981Z",
-      "updated": "2026-11-18T18:43:04.983Z",
+      "updated": "2026-11-18T18:44:40.624Z",
       "started": "2026-11-18T18:43:04.981Z",
       "completed": null
     }
@@ -1140,6 +1140,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-18T18:44:40.624Z",
+      "task": 13,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Запуск разбора",
+      "progress": 33
     }
   ]
 }
