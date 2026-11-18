@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 19,
-  "updated": "2026-11-18T20:35:37.755Z",
+  "updated": "2026-11-18T20:57:00.219Z",
   "tasks": [
     {
       "id": 1,
@@ -627,7 +627,7 @@
         "analytics"
       ],
       "priority": "normal",
-      "status": "blocked",
+      "status": "doing",
       "progress": 80,
       "steps": [
         {
@@ -653,7 +653,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-18T20:29:47.536Z",
-      "updated": "2026-11-18T20:35:37.754Z",
+      "updated": "2026-11-18T20:57:00.218Z",
       "started": "2026-11-18T20:29:47.536Z",
       "completed": null
     }
@@ -1667,6 +1667,14 @@
       "type": "blocked",
       "actor": "claude",
       "msg": "ждёт: ключ YouTube Data API в секрете YT_API_KEY",
+      "progress": 80
+    },
+    {
+      "ts": "2026-11-18T20:57:00.218Z",
+      "task": 18,
+      "type": "started",
+      "actor": "claude",
+      "msg": "секрет добавлен, запускаю сбор",
       "progress": 80
     }
   ]
