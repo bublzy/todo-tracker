@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 14,
-  "updated": "2026-11-18T18:44:44.575Z",
+  "updated": "2026-11-18T18:44:52.100Z",
   "tasks": [
     {
       "id": 1,
@@ -441,8 +441,8 @@
         "analysis"
       ],
       "priority": "normal",
-      "status": "doing",
-      "progress": 67,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Запуск разбора",
@@ -454,14 +454,14 @@
         },
         {
           "text": "Итог",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-18T18:43:04.981Z",
-      "updated": "2026-11-18T18:44:44.573Z",
+      "updated": "2026-11-18T18:44:52.100Z",
       "started": "2026-11-18T18:43:04.981Z",
-      "completed": null
+      "completed": "2026-11-18T18:44:52.099Z"
     }
   ],
   "events": [
@@ -1156,6 +1156,14 @@
       "actor": "claude",
       "msg": "Новости",
       "progress": 67
+    },
+    {
+      "ts": "2026-11-18T18:44:52.100Z",
+      "task": 13,
+      "type": "done",
+      "actor": "claude",
+      "msg": "ICP 2.22: рост 16-17.11 откатился, тренд вниз, ключевая зона 2.10–2.18; разбор в чате и coin.html",
+      "progress": 100
     }
   ]
 }
