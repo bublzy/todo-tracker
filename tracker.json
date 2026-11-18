@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 13,
-  "updated": "2026-11-18T18:36:37.287Z",
+  "updated": "2026-11-18T18:38:54.101Z",
   "tasks": [
     {
       "id": 1,
@@ -403,11 +403,11 @@
       ],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 20,
       "steps": [
         {
           "text": "Подготовить инструменты рендера",
-          "done": false
+          "done": true
         },
         {
           "text": "Собрать свежие факты",
@@ -428,7 +428,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-18T18:36:37.285Z",
-      "updated": "2026-11-18T18:36:37.287Z",
+      "updated": "2026-11-18T18:38:54.099Z",
       "started": "2026-11-18T18:36:37.285Z",
       "completed": null
     }
@@ -1079,6 +1079,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-18T18:38:54.099Z",
+      "task": 12,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Подготовить инструменты рендера — Python + Pillow + ffmpeg готовы",
+      "progress": 20
     }
   ]
 }
