@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 14,
-  "updated": "2026-11-18T18:47:45.708Z",
+  "updated": "2026-11-18T18:47:49.169Z",
   "tasks": [
     {
       "id": 1,
@@ -402,8 +402,8 @@
         "reels"
       ],
       "priority": "normal",
-      "status": "doing",
-      "progress": 80,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Подготовить инструменты рендера",
@@ -423,14 +423,14 @@
         },
         {
           "text": "Проверить и отправить",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-18T18:36:37.285Z",
-      "updated": "2026-11-18T18:47:45.707Z",
+      "updated": "2026-11-18T18:47:49.169Z",
       "started": "2026-11-18T18:36:37.285Z",
-      "completed": null
+      "completed": "2026-11-18T18:47:49.168Z"
     },
     {
       "id": 13,
@@ -1180,6 +1180,14 @@
       "actor": "claude",
       "msg": "Анимация и рендер MP4 — reel.mp4 48 с, 1080x1920, 30 fps",
       "progress": 80
+    },
+    {
+      "ts": "2026-11-18T18:47:49.169Z",
+      "task": 12,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Готов рилс reel.mp4 (48 с) + генератор make_reel.py + описание с хэштегами и источниками",
+      "progress": 100
     }
   ]
 }
