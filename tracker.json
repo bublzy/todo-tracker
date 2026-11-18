@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 15,
-  "updated": "2026-11-18T18:55:49.666Z",
+  "updated": "2026-11-18T19:02:15.179Z",
   "tasks": [
     {
       "id": 1,
@@ -475,7 +475,7 @@
       ],
       "priority": "normal",
       "status": "doing",
-      "progress": 20,
+      "progress": 40,
       "steps": [
         {
           "text": "Поставить синтез речи",
@@ -483,7 +483,7 @@
         },
         {
           "text": "Текст озвучки по слайдам",
-          "done": false
+          "done": true
         },
         {
           "text": "Тайминг под голос",
@@ -500,7 +500,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-18T18:54:57.463Z",
-      "updated": "2026-11-18T18:55:49.664Z",
+      "updated": "2026-11-18T19:02:15.178Z",
       "started": "2026-11-18T18:54:57.463Z",
       "completed": null
     }
@@ -1251,6 +1251,14 @@
       "actor": "claude",
       "msg": "Поставить синтез речи — edge-tts, голос ru-RU-DmitryNeural",
       "progress": 20
+    },
+    {
+      "ts": "2026-11-18T19:02:15.178Z",
+      "task": 14,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Текст озвучки по слайдам — 10 фраз, числа словами",
+      "progress": 40
     }
   ]
 }
