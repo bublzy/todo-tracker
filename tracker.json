@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 17,
-  "updated": "2026-11-18T19:49:42.124Z",
+  "updated": "2026-11-18T19:51:27.192Z",
   "tasks": [
     {
       "id": 1,
@@ -552,11 +552,11 @@
       ],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 20,
       "steps": [
         {
           "text": "Аватар, баннер, описание",
-          "done": false
+          "done": true
         },
         {
           "text": "Открыть YouTube, проверить аккаунт",
@@ -577,7 +577,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-18T19:49:42.123Z",
-      "updated": "2026-11-18T19:49:42.124Z",
+      "updated": "2026-11-18T19:51:27.190Z",
       "started": "2026-11-18T19:49:42.123Z",
       "completed": null
     }
@@ -1420,6 +1420,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-18T19:51:27.190Z",
+      "task": 16,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Аватар, баннер, описание — аватар-монограмма НС, баннер 2560x1440",
+      "progress": 20
     }
   ]
 }
