@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 15,
-  "updated": "2026-11-18T19:15:54.570Z",
+  "updated": "2026-11-18T19:15:58.766Z",
   "tasks": [
     {
       "id": 1,
@@ -474,8 +474,8 @@
         "tts"
       ],
       "priority": "normal",
-      "status": "doing",
-      "progress": 80,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Поставить синтез речи",
@@ -495,14 +495,14 @@
         },
         {
           "text": "Проверить и отправить",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-18T18:54:57.463Z",
-      "updated": "2026-11-18T19:15:54.569Z",
+      "updated": "2026-11-18T19:15:58.765Z",
       "started": "2026-11-18T18:54:57.463Z",
-      "completed": null
+      "completed": "2026-11-18T19:15:58.764Z"
     }
   ],
   "events": [
@@ -1275,6 +1275,14 @@
       "actor": "claude",
       "msg": "Рендер со звуком — 54.5 с, −14.7 LUFS, паузы сжаты",
       "progress": 80
+    },
+    {
+      "ts": "2026-11-18T19:15:58.765Z",
+      "task": 14,
+      "type": "done",
+      "actor": "claude",
+      "msg": "reel.mp4 с озвучкой (голос Dmitry), 54 с; слайды подстроены под фразы",
+      "progress": 100
     }
   ]
 }
