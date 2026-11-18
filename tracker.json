@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 17,
-  "updated": "2026-11-18T20:21:40.248Z",
+  "nextId": 18,
+  "updated": "2026-11-18T20:23:51.822Z",
   "tasks": [
     {
       "id": 1,
@@ -580,6 +580,42 @@
       "updated": "2026-11-18T20:21:40.248Z",
       "started": "2026-11-18T19:49:42.123Z",
       "completed": "2026-11-18T20:21:40.247Z"
+    },
+    {
+      "id": 17,
+      "title": "Первый Shorts на канал: реверс старения",
+      "description": "Загрузить reel.mp4 на @nauka_segodnya с описанием и источниками",
+      "project": "reels",
+      "tags": [
+        "youtube",
+        "shorts"
+      ],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Сжать видео до 10 МБ",
+          "done": false
+        },
+        {
+          "text": "Загрузить в Studio",
+          "done": false
+        },
+        {
+          "text": "Название, описание, настройки",
+          "done": false
+        },
+        {
+          "text": "Опубликовать и проверить",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-18T20:23:51.821Z",
+      "updated": "2026-11-18T20:23:51.822Z",
+      "started": "2026-11-18T20:23:51.821Z",
+      "completed": null
     }
   ],
   "events": [
@@ -1492,6 +1528,20 @@
       "actor": "claude",
       "msg": "Канал youtube.com/@nauka_segodnya создан: аватар, баннер, описание опубликованы",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-18T20:23:51.822Z",
+      "task": 17,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-18T20:23:51.822Z",
+      "task": 17,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
