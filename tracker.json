@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 19,
-  "updated": "2026-11-18T20:34:44.108Z",
+  "updated": "2026-11-18T20:34:47.637Z",
   "tasks": [
     {
       "id": 1,
@@ -628,7 +628,7 @@
       ],
       "priority": "normal",
       "status": "doing",
-      "progress": 60,
+      "progress": 80,
       "steps": [
         {
           "text": "Изучить сайт трекера",
@@ -644,7 +644,7 @@
         },
         {
           "text": "Опубликовать на gh-pages",
-          "done": false
+          "done": true
         },
         {
           "text": "Ключ API от пользователя и первый запуск",
@@ -653,7 +653,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-18T20:29:47.536Z",
-      "updated": "2026-11-18T20:34:44.106Z",
+      "updated": "2026-11-18T20:34:47.635Z",
       "started": "2026-11-18T20:29:47.536Z",
       "completed": null
     }
@@ -1652,6 +1652,14 @@
       "actor": "claude",
       "msg": "Вкладка YouTube с графиками — вкладка YouTube: KPI, графики, таблица роликов",
       "progress": 60
+    },
+    {
+      "ts": "2026-11-18T20:34:47.635Z",
+      "task": 18,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Опубликовать на gh-pages — коммит 5eb0375 на gh-pages",
+      "progress": 80
     }
   ]
 }
