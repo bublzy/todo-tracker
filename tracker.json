@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 19,
-  "updated": "2026-11-18T20:29:47.537Z",
+  "updated": "2026-11-18T20:29:51.266Z",
   "tasks": [
     {
       "id": 1,
@@ -628,11 +628,11 @@
       ],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 20,
       "steps": [
         {
           "text": "Изучить сайт трекера",
-          "done": false
+          "done": true
         },
         {
           "text": "Сборщик статистики (Action)",
@@ -653,7 +653,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-18T20:29:47.536Z",
-      "updated": "2026-11-18T20:29:47.537Z",
+      "updated": "2026-11-18T20:29:51.265Z",
       "started": "2026-11-18T20:29:47.536Z",
       "completed": null
     }
@@ -1628,6 +1628,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-18T20:29:51.265Z",
+      "task": 18,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Изучить сайт трекера — gh-pages: index.html, data: tracker.json",
+      "progress": 20
     }
   ]
 }
