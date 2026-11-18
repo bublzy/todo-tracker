@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 13,
-  "updated": "2026-11-18T18:38:57.713Z",
+  "nextId": 14,
+  "updated": "2026-11-18T18:43:04.983Z",
   "tasks": [
     {
       "id": 1,
@@ -430,6 +430,37 @@
       "created": "2026-11-18T18:36:37.285Z",
       "updated": "2026-11-18T18:38:57.712Z",
       "started": "2026-11-18T18:36:37.285Z",
+      "completed": null
+    },
+    {
+      "id": 13,
+      "title": "Анализ ICP 18.11",
+      "description": "Разбор ICP командой --coin + свежие новости",
+      "project": "crypto-analyst",
+      "tags": [
+        "analysis"
+      ],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Запуск разбора",
+          "done": false
+        },
+        {
+          "text": "Новости",
+          "done": false
+        },
+        {
+          "text": "Итог",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-18T18:43:04.981Z",
+      "updated": "2026-11-18T18:43:04.983Z",
+      "started": "2026-11-18T18:43:04.981Z",
       "completed": null
     }
   ],
@@ -1095,6 +1126,20 @@
       "actor": "claude",
       "msg": "Собрать свежие факты — Факты: ER-100 — первый пациент в июне 2026",
       "progress": 40
+    },
+    {
+      "ts": "2026-11-18T18:43:04.983Z",
+      "task": 13,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-18T18:43:04.983Z",
+      "task": 13,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
