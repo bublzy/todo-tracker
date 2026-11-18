@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 19,
-  "updated": "2026-11-18T20:57:00.219Z",
+  "updated": "2026-11-18T20:57:51.170Z",
   "tasks": [
     {
       "id": 1,
@@ -627,8 +627,8 @@
         "analytics"
       ],
       "priority": "normal",
-      "status": "doing",
-      "progress": 80,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Изучить сайт трекера",
@@ -648,14 +648,14 @@
         },
         {
           "text": "Ключ API от пользователя и первый запуск",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-18T20:29:47.536Z",
-      "updated": "2026-11-18T20:57:00.218Z",
+      "updated": "2026-11-18T20:57:51.170Z",
       "started": "2026-11-18T20:29:47.536Z",
-      "completed": null
+      "completed": "2026-11-18T20:57:51.169Z"
     }
   ],
   "events": [
@@ -1676,6 +1676,14 @@
       "actor": "claude",
       "msg": "секрет добавлен, запускаю сбор",
       "progress": 80
+    },
+    {
+      "ts": "2026-11-18T20:57:51.170Z",
+      "task": 18,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Вкладка YouTube работает на реальных данных: 50 просмотров, 4 лайка; сбор каждые 3 часа",
+      "progress": 100
     }
   ]
 }
