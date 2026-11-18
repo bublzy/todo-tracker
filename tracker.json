@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 19,
-  "updated": "2026-11-18T20:34:47.637Z",
+  "updated": "2026-11-18T20:35:37.755Z",
   "tasks": [
     {
       "id": 1,
@@ -627,7 +627,7 @@
         "analytics"
       ],
       "priority": "normal",
-      "status": "doing",
+      "status": "blocked",
       "progress": 80,
       "steps": [
         {
@@ -653,7 +653,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-18T20:29:47.536Z",
-      "updated": "2026-11-18T20:34:47.635Z",
+      "updated": "2026-11-18T20:35:37.754Z",
       "started": "2026-11-18T20:29:47.536Z",
       "completed": null
     }
@@ -1659,6 +1659,14 @@
       "type": "step",
       "actor": "claude",
       "msg": "Опубликовать на gh-pages — коммит 5eb0375 на gh-pages",
+      "progress": 80
+    },
+    {
+      "ts": "2026-11-18T20:35:37.754Z",
+      "task": 18,
+      "type": "blocked",
+      "actor": "claude",
+      "msg": "ждёт: ключ YouTube Data API в секрете YT_API_KEY",
       "progress": 80
     }
   ]
