@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 22,
-  "updated": "2026-11-19T17:28:30.872Z",
+  "nextId": 23,
+  "updated": "2026-11-19T17:33:16.736Z",
   "tasks": [
     {
       "id": 1,
@@ -770,6 +770,42 @@
       "updated": "2026-11-19T17:28:30.872Z",
       "started": "2026-11-19T17:25:41.686Z",
       "completed": "2026-11-19T17:28:30.871Z"
+    },
+    {
+      "id": 22,
+      "title": "Второй YouTube-канал с юмористическим уклоном",
+      "description": "Канал-бренд на той же почте: название, оформление, описание",
+      "project": "reels",
+      "tags": [
+        "youtube",
+        "channel"
+      ],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Согласовать тему и название",
+          "done": false
+        },
+        {
+          "text": "Оформление",
+          "done": false
+        },
+        {
+          "text": "Создать канал",
+          "done": false
+        },
+        {
+          "text": "Загрузить оформление",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-19T17:33:16.735Z",
+      "updated": "2026-11-19T17:33:16.736Z",
+      "started": "2026-11-19T17:33:16.735Z",
+      "completed": null
     }
   ],
   "events": [
@@ -1944,6 +1980,20 @@
       "actor": "claude",
       "msg": "Опубликован публично: youtube.com/shorts/O0FypmBZ7E4",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-19T17:33:16.736Z",
+      "task": 22,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-19T17:33:16.736Z",
+      "task": 22,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
