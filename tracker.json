@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 19,
-  "updated": "2026-11-18T20:57:51.170Z",
+  "nextId": 20,
+  "updated": "2026-11-19T17:12:33.933Z",
   "tasks": [
     {
       "id": 1,
@@ -656,6 +656,46 @@
       "updated": "2026-11-18T20:57:51.170Z",
       "started": "2026-11-18T20:29:47.536Z",
       "completed": "2026-11-18T20:57:51.169Z"
+    },
+    {
+      "id": 19,
+      "title": "Рилс: зачем людям большой палец на ноге",
+      "description": "Короткий (~30 с) рилс в стиле прошлого: анимированный текст, озвучка, своя музыка",
+      "project": "reels",
+      "tags": [
+        "video",
+        "reels"
+      ],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Проверить факты",
+          "done": false
+        },
+        {
+          "text": "Сценарий и озвучка",
+          "done": false
+        },
+        {
+          "text": "Собрать ролик",
+          "done": false
+        },
+        {
+          "text": "Проверить кадры и звук",
+          "done": false
+        },
+        {
+          "text": "Описание и отправка",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-19T17:12:33.932Z",
+      "updated": "2026-11-19T17:12:33.933Z",
+      "started": "2026-11-19T17:12:33.932Z",
+      "completed": null
     }
   ],
   "events": [
@@ -1684,6 +1724,20 @@
       "actor": "claude",
       "msg": "Вкладка YouTube работает на реальных данных: 50 просмотров, 4 лайка; сбор каждые 3 часа",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-19T17:12:33.933Z",
+      "task": 19,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-19T17:12:33.933Z",
+      "task": 19,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
