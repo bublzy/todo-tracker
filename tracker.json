@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 30,
-  "updated": "2026-11-19T19:02:12.667Z",
+  "updated": "2026-11-19T19:02:16.537Z",
   "tasks": [
     {
       "id": 1,
@@ -1032,7 +1032,7 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 20,
+      "progress": 40,
       "steps": [
         {
           "text": "Проверить GitHub и Chrome",
@@ -1040,7 +1040,7 @@
         },
         {
           "text": "Собрать страницу для сайта",
-          "done": false
+          "done": true
         },
         {
           "text": "Репозиторий и загрузка",
@@ -1057,7 +1057,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-19T19:01:20.145Z",
-      "updated": "2026-11-19T19:02:12.666Z",
+      "updated": "2026-11-19T19:02:16.535Z",
       "started": "2026-11-19T19:01:20.145Z",
       "completed": null
     }
@@ -2584,6 +2584,14 @@
       "actor": "claude",
       "msg": "Проверить GitHub и Chrome — Chrome без входа в GitHub, работаю через gh CLI",
       "progress": 20
+    },
+    {
+      "ts": "2026-11-19T19:02:16.535Z",
+      "task": 29,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Собрать страницу для сайта — Страница + манифест + офлайн-кэш",
+      "progress": 40
     }
   ]
 }
