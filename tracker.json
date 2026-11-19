@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 32,
-  "updated": "2026-11-19T20:24:44.567Z",
+  "nextId": 33,
+  "updated": "2026-11-19T20:27:05.464Z",
   "tasks": [
     {
       "id": 1,
@@ -1128,6 +1128,39 @@
       "created": "2026-11-19T20:24:00.459Z",
       "updated": "2026-11-19T20:24:44.565Z",
       "started": "2026-11-19T20:24:00.459Z",
+      "completed": null
+    },
+    {
+      "id": 32,
+      "title": "Планировщик плитки: меню проектов по иконке",
+      "description": "Нажатие на логотип открывает меню с плашкой «Проекты» и списком",
+      "project": "tile-planner",
+      "tags": [],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Разметка и стили меню",
+          "done": false
+        },
+        {
+          "text": "Перенести список проектов в меню",
+          "done": false
+        },
+        {
+          "text": "Проверка в браузере",
+          "done": false
+        },
+        {
+          "text": "Обновить Artifact и сайт",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-19T20:27:05.462Z",
+      "updated": "2026-11-19T20:27:05.464Z",
+      "started": "2026-11-19T20:27:05.462Z",
       "completed": null
     }
   ],
@@ -2777,6 +2810,20 @@
       "actor": "claude",
       "msg": "Сценарий — 7 слайдов: хук, #1–#5 (3:07…7:00 AM), призыв в комменты",
       "progress": 25
+    },
+    {
+      "ts": "2026-11-19T20:27:05.464Z",
+      "task": 32,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-19T20:27:05.464Z",
+      "task": 32,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
