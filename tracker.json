@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 35,
-  "updated": "2026-11-19T20:38:30.975Z",
+  "nextId": 36,
+  "updated": "2026-11-19T20:59:07.424Z",
   "tasks": [
     {
       "id": 1,
@@ -1227,6 +1227,47 @@
       "updated": "2026-11-19T20:38:30.975Z",
       "started": "2026-11-19T20:35:52.861Z",
       "completed": "2026-11-19T20:38:30.973Z"
+    },
+    {
+      "id": 35,
+      "title": "Мем-анимация «Expectation vs Reality» для Funny Stuff Zone",
+      "description": "Классический мем-формат своей графикой: персонаж-колобок, 4 сцены (спортзал, торт, будильник, сериал), голос, музыка, звук скретча",
+      "project": "reels",
+      "tags": [
+        "youtube",
+        "humor",
+        "meme"
+      ],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Сценарий и персонаж",
+          "done": false
+        },
+        {
+          "text": "Генератор анимации",
+          "done": false
+        },
+        {
+          "text": "Рендер с голосом и звуком",
+          "done": false
+        },
+        {
+          "text": "Проверка кадров и громкости",
+          "done": false
+        },
+        {
+          "text": "Описания для платформ",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-19T20:59:07.422Z",
+      "updated": "2026-11-19T20:59:07.424Z",
+      "started": "2026-11-19T20:59:07.422Z",
+      "completed": null
     }
   ],
   "events": [
@@ -2997,6 +3038,20 @@
       "actor": "claude",
       "msg": "Опубликован публично: youtube.com/shorts/iV30FQkMz6Y, проверка авторских прав — без замечаний",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-19T20:59:07.424Z",
+      "task": 35,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-19T20:59:07.424Z",
+      "task": 35,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
