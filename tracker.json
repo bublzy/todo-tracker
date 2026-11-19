@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 31,
-  "updated": "2026-11-19T19:10:25.346Z",
+  "nextId": 32,
+  "updated": "2026-11-19T20:24:00.461Z",
   "tasks": [
     {
       "id": 1,
@@ -1093,6 +1093,42 @@
       "updated": "2026-11-19T19:10:25.346Z",
       "started": "2026-11-19T19:07:20.446Z",
       "completed": "2026-11-19T19:10:25.344Z"
+    },
+    {
+      "id": 31,
+      "title": "Рилс #2 для Funny Stuff Zone: «Your brain at 3 AM»",
+      "description": "Второй юмористический шортс на английском: анимированный текст, женский голос, своя музыка",
+      "project": "reels",
+      "tags": [
+        "youtube",
+        "humor"
+      ],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Сценарий",
+          "done": false
+        },
+        {
+          "text": "Рендер с голосом и музыкой",
+          "done": false
+        },
+        {
+          "text": "Проверка кадров и громкости",
+          "done": false
+        },
+        {
+          "text": "Описания для платформ",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-19T20:24:00.459Z",
+      "updated": "2026-11-19T20:24:00.461Z",
+      "started": "2026-11-19T20:24:00.459Z",
+      "completed": null
     }
   ],
   "events": [
@@ -2719,6 +2755,20 @@
       "actor": "claude",
       "msg": "Проекты сохраняются с названием, список «Мои проекты»; обновлены Artifact и сайт",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-19T20:24:00.461Z",
+      "task": 31,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-19T20:24:00.461Z",
+      "task": 31,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
