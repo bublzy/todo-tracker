@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 34,
-  "updated": "2026-11-19T20:28:46.363Z",
+  "updated": "2026-11-19T20:28:50.077Z",
   "tasks": [
     {
       "id": 1,
@@ -1171,7 +1171,7 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 25,
+      "progress": 50,
       "steps": [
         {
           "text": "Проверить GitHub и файлы",
@@ -1179,7 +1179,7 @@
         },
         {
           "text": "Создать репозиторий и залить",
-          "done": false
+          "done": true
         },
         {
           "text": "Включить Pages",
@@ -1192,7 +1192,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-19T20:28:21.565Z",
-      "updated": "2026-11-19T20:28:46.361Z",
+      "updated": "2026-11-19T20:28:50.076Z",
       "started": "2026-11-19T20:28:21.565Z",
       "completed": null
     }
@@ -2879,6 +2879,14 @@
       "actor": "claude",
       "msg": "Проверить GitHub и файлы",
       "progress": 25
+    },
+    {
+      "ts": "2026-11-19T20:28:50.076Z",
+      "task": 33,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Создать репозиторий и залить — Репозиторий bublzy/levita создан, сайт залит",
+      "progress": 50
     }
   ]
 }
