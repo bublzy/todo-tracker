@@ -1,14 +1,14 @@
 {
  "version": 1,
- "updated": "2026-11-19T01:22:49.459Z",
+ "updated": "2026-11-19T04:05:51.777Z",
  "channel": {
   "id": "UCovx5_eaInF8mZf9GaObQwA",
   "title": "Наука — Сегодня",
   "handle": "@nauka_segodnya",
   "thumb": "https://yt3.ggpht.com/MmES2ASsEcXsLTQuDSViNJcd49it6v0j2kMBZAyvlfRE8BfeD0TLo6Ot8AlqkP_fJadxqEPu=s240-c-k-c0x00ffffff-no-rj",
-  "views": 97,
+  "views": 117,
   "channelViews": 0,
-  "subs": 0,
+  "subs": 1,
   "hiddenSubs": false,
   "videos": 1
  },
@@ -19,7 +19,7 @@
    "published": "2026-11-18T20:26:51Z",
    "duration": 55,
    "thumb": "https://i.ytimg.com/vi/udKb8RWEOgM/mqdefault.jpg",
-   "views": 97,
+   "views": 117,
    "likes": 7,
    "comments": 0
   }
@@ -53,6 +53,16 @@
    "videos": 1,
    "v": {
     "udKb8RWEOgM": 97
+   }
+  },
+  {
+   "ts": "2026-11-19T04:05:51.777Z",
+   "views": 117,
+   "channelViews": 0,
+   "subs": 1,
+   "videos": 1,
+   "v": {
+    "udKb8RWEOgM": 117
    }
   }
  ]
