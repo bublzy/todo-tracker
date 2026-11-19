@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 31,
-  "updated": "2026-11-19T19:07:31.691Z",
+  "updated": "2026-11-19T19:08:12.427Z",
   "tasks": [
     {
       "id": 1,
@@ -1069,11 +1069,11 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 25,
       "steps": [
         {
           "text": "Хранилище проектов",
-          "done": false
+          "done": true
         },
         {
           "text": "Кнопки и список проектов",
@@ -1090,7 +1090,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-19T19:07:20.446Z",
-      "updated": "2026-11-19T19:07:20.448Z",
+      "updated": "2026-11-19T19:08:12.426Z",
       "started": "2026-11-19T19:07:20.446Z",
       "completed": null
     }
@@ -2695,6 +2695,14 @@
       "actor": "claude",
       "msg": "reels/clipper: clipper.py analyze/render/auto + субтитры Whisper; ждёт записей GTA 6",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-19T19:08:12.426Z",
+      "task": 30,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Хранилище проектов",
+      "progress": 25
     }
   ]
 }
