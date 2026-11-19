@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 34,
-  "updated": "2026-11-19T20:28:21.568Z",
+  "updated": "2026-11-19T20:28:46.363Z",
   "tasks": [
     {
       "id": 1,
@@ -1171,11 +1171,11 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 25,
       "steps": [
         {
           "text": "Проверить GitHub и файлы",
-          "done": false
+          "done": true
         },
         {
           "text": "Создать репозиторий и залить",
@@ -1192,7 +1192,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-19T20:28:21.565Z",
-      "updated": "2026-11-19T20:28:21.568Z",
+      "updated": "2026-11-19T20:28:46.361Z",
       "started": "2026-11-19T20:28:21.565Z",
       "completed": null
     }
@@ -2871,6 +2871,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-19T20:28:46.361Z",
+      "task": 33,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Проверить GitHub и файлы",
+      "progress": 25
     }
   ]
 }
