@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 34,
-  "updated": "2026-11-19T20:30:40.381Z",
+  "updated": "2026-11-19T20:31:55.042Z",
   "tasks": [
     {
       "id": 1,
@@ -1137,8 +1137,8 @@
       "project": "tile-planner",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
-      "progress": 50,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Разметка и стили меню",
@@ -1150,18 +1150,18 @@
         },
         {
           "text": "Проверка в браузере",
-          "done": false
+          "done": true
         },
         {
           "text": "Обновить Artifact и сайт",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-19T20:27:05.462Z",
-      "updated": "2026-11-19T20:30:40.380Z",
+      "updated": "2026-11-19T20:31:55.042Z",
       "started": "2026-11-19T20:27:05.462Z",
-      "completed": null
+      "completed": "2026-11-19T20:31:55.040Z"
     },
     {
       "id": 33,
@@ -2935,6 +2935,14 @@
       "actor": "claude",
       "msg": "Перенести список проектов в меню — Плашка «Проекты» со списком внутри меню",
       "progress": 50
+    },
+    {
+      "ts": "2026-11-19T20:31:55.042Z",
+      "task": 32,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Логотип открывает меню с плашкой «Проекты»: список, новая комната, пример, перенос. Artifact v5 и сайт обновлены",
+      "progress": 100
     }
   ]
 }
