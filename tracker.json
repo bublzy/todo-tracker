@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 25,
-  "updated": "2026-11-19T17:59:13.498Z",
+  "updated": "2026-11-19T17:59:17.077Z",
   "tasks": [
     {
       "id": 1,
@@ -773,7 +773,7 @@
     },
     {
       "id": 22,
-      "title": "YouTube-канал Funny Stuff (EN, юмор)",
+      "title": "YouTube-канал Funny Stuff Zone (EN, юмор)",
       "description": "Канал-бренд на той же почте: название, оформление, описание",
       "project": "reels",
       "tags": [
@@ -803,7 +803,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-19T17:33:16.735Z",
-      "updated": "2026-11-19T17:59:13.496Z",
+      "updated": "2026-11-19T17:59:17.076Z",
       "started": "2026-11-19T17:33:16.735Z",
       "completed": null
     },
@@ -2169,6 +2169,13 @@
       "actor": "claude",
       "msg": "название Funny Stuff Zone",
       "progress": 50
+    },
+    {
+      "ts": "2026-11-19T17:59:17.076Z",
+      "task": 22,
+      "type": "edited",
+      "actor": "claude",
+      "msg": "изменено: название"
     }
   ]
 }
