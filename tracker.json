@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 25,
-  "updated": "2026-11-19T18:01:40.054Z",
+  "updated": "2026-11-19T18:05:13.987Z",
   "tasks": [
     {
       "id": 1,
@@ -846,7 +846,7 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 20,
+      "progress": 40,
       "steps": [
         {
           "text": "Дизайн и формат страницы",
@@ -854,7 +854,7 @@
         },
         {
           "text": "Редактор комнаты и сантехники",
-          "done": false
+          "done": true
         },
         {
           "text": "Раскладка пола и стен, подрезки",
@@ -871,7 +871,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-19T17:54:26.904Z",
-      "updated": "2026-11-19T18:01:07.806Z",
+      "updated": "2026-11-19T18:05:13.985Z",
       "started": "2026-11-19T17:54:26.904Z",
       "completed": null
     }
@@ -2208,6 +2208,14 @@
       "actor": "claude",
       "msg": "Канал Funny Stuff Zone — youtube.com/@funnystuffzone, оформлен",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-19T18:05:13.985Z",
+      "task": 24,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Редактор комнаты и сантехники — Редактор комнаты, проёмов и 13 видов сантехники",
+      "progress": 40
     }
   ]
 }
