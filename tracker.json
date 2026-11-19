@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 30,
-  "updated": "2026-11-19T19:02:16.537Z",
+  "updated": "2026-11-19T19:03:18.327Z",
   "tasks": [
     {
       "id": 1,
@@ -1031,8 +1031,8 @@
       "project": "tile-planner",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
-      "progress": 40,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Проверить GitHub и Chrome",
@@ -1044,22 +1044,22 @@
         },
         {
           "text": "Репозиторий и загрузка",
-          "done": false
+          "done": true
         },
         {
           "text": "Включить Pages",
-          "done": false
+          "done": true
         },
         {
           "text": "Проверить сайт",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-19T19:01:20.145Z",
-      "updated": "2026-11-19T19:02:16.535Z",
+      "updated": "2026-11-19T19:03:18.327Z",
       "started": "2026-11-19T19:01:20.145Z",
-      "completed": null
+      "completed": "2026-11-19T19:03:18.325Z"
     }
   ],
   "events": [
@@ -2592,6 +2592,14 @@
       "actor": "claude",
       "msg": "Собрать страницу для сайта — Страница + манифест + офлайн-кэш",
       "progress": 40
+    },
+    {
+      "ts": "2026-11-19T19:03:18.327Z",
+      "task": 29,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Сайт работает: bublzy.github.io/tile-planner (репо bublzy/tile-planner)",
+      "progress": 100
     }
   ]
 }
