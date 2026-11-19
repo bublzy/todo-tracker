@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 21,
-  "updated": "2026-11-19T17:23:00.489Z",
+  "nextId": 22,
+  "updated": "2026-11-19T17:25:41.687Z",
   "tasks": [
     {
       "id": 1,
@@ -733,6 +733,43 @@
       "updated": "2026-11-19T17:23:00.489Z",
       "started": "2026-11-19T17:19:23.182Z",
       "completed": "2026-11-19T17:23:00.488Z"
+    },
+    {
+      "id": 21,
+      "title": "Выложить Short: Why do we have a big toe? (EN)",
+      "description": "Загрузить английскую версию на @nauka_segodnya",
+      "project": "reels",
+      "tags": [
+        "youtube",
+        "shorts",
+        "en"
+      ],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Сжать до 10 МБ",
+          "done": false
+        },
+        {
+          "text": "Загрузить в Studio",
+          "done": false
+        },
+        {
+          "text": "Название, описание, настройки",
+          "done": false
+        },
+        {
+          "text": "Опубликовать и проверить",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-19T17:25:41.686Z",
+      "updated": "2026-11-19T17:25:41.687Z",
+      "started": "2026-11-19T17:25:41.686Z",
+      "completed": null
     }
   ],
   "events": [
@@ -1861,6 +1898,20 @@
       "actor": "claude",
       "msg": "reels/big-toe-en/reel.mp4 (35 с, голос Ava) + description.txt",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-19T17:25:41.687Z",
+      "task": 21,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-19T17:25:41.687Z",
+      "task": 21,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
