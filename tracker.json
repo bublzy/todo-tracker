@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 20,
-  "updated": "2026-11-19T17:16:50.620Z",
+  "updated": "2026-11-19T17:16:54.347Z",
   "tasks": [
     {
       "id": 1,
@@ -668,7 +668,7 @@
       ],
       "priority": "normal",
       "status": "doing",
-      "progress": 60,
+      "progress": 80,
       "steps": [
         {
           "text": "Проверить факты",
@@ -684,7 +684,7 @@
         },
         {
           "text": "Проверить кадры и звук",
-          "done": false
+          "done": true
         },
         {
           "text": "Описание и отправка",
@@ -693,7 +693,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-19T17:12:33.932Z",
-      "updated": "2026-11-19T17:16:50.619Z",
+      "updated": "2026-11-19T17:16:54.346Z",
       "started": "2026-11-19T17:12:33.932Z",
       "completed": null
     }
@@ -1762,6 +1762,14 @@
       "actor": "claude",
       "msg": "Собрать ролик — reel.mp4 29.9 с",
       "progress": 60
+    },
+    {
+      "ts": "2026-11-19T17:16:54.346Z",
+      "task": 19,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Проверить кадры и звук — кадры ок, −14.3 LUFS",
+      "progress": 80
     }
   ]
 }
