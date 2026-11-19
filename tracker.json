@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 23,
-  "updated": "2026-11-19T17:33:20.285Z",
+  "updated": "2026-11-19T17:35:10.046Z",
   "tasks": [
     {
       "id": 1,
@@ -781,7 +781,7 @@
         "channel"
       ],
       "priority": "normal",
-      "status": "blocked",
+      "status": "doing",
       "progress": 0,
       "steps": [
         {
@@ -803,7 +803,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-19T17:33:16.735Z",
-      "updated": "2026-11-19T17:33:20.284Z",
+      "updated": "2026-11-19T17:35:10.045Z",
       "started": "2026-11-19T17:33:16.735Z",
       "completed": null
     }
@@ -2001,6 +2001,14 @@
       "type": "blocked",
       "actor": "claude",
       "msg": "ждёт: тема, язык и название канала",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-19T17:35:10.045Z",
+      "task": 22,
+      "type": "started",
+      "actor": "claude",
+      "msg": "тема: общий юмор, русский; название предложено «Смешно и точка»",
       "progress": 0
     }
   ]
