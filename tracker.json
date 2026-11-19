@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 30,
-  "updated": "2026-11-19T19:01:51.052Z",
+  "updated": "2026-11-19T19:02:12.667Z",
   "tasks": [
     {
       "id": 1,
@@ -1032,11 +1032,11 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 20,
       "steps": [
         {
           "text": "Проверить GitHub и Chrome",
-          "done": false
+          "done": true
         },
         {
           "text": "Собрать страницу для сайта",
@@ -1057,7 +1057,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-19T19:01:20.145Z",
-      "updated": "2026-11-19T19:01:20.147Z",
+      "updated": "2026-11-19T19:02:12.666Z",
       "started": "2026-11-19T19:01:20.145Z",
       "completed": null
     }
@@ -2576,6 +2576,14 @@
       "actor": "claude",
       "msg": "добавлен шаг: Субтитры по речи (Whisper)",
       "progress": 33
+    },
+    {
+      "ts": "2026-11-19T19:02:12.666Z",
+      "task": 29,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Проверить GitHub и Chrome — Chrome без входа в GitHub, работаю через gh CLI",
+      "progress": 20
     }
   ]
 }
