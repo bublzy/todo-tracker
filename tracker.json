@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 25,
-  "updated": "2026-11-19T18:05:21.712Z",
+  "updated": "2026-11-19T18:06:19.627Z",
   "tasks": [
     {
       "id": 1,
@@ -845,8 +845,8 @@
       "project": "tile-planner",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
-      "progress": 80,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Дизайн и формат страницы",
@@ -866,14 +866,14 @@
         },
         {
           "text": "Проверка и публикация",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-19T17:54:26.904Z",
-      "updated": "2026-11-19T18:05:21.710Z",
+      "updated": "2026-11-19T18:06:19.627Z",
       "started": "2026-11-19T17:54:26.904Z",
-      "completed": null
+      "completed": "2026-11-19T18:06:19.626Z"
     }
   ],
   "events": [
@@ -2232,6 +2232,14 @@
       "actor": "claude",
       "msg": "Расчёт количества плитки — Подсчёт плитки, упаковок, затирки и клея",
       "progress": 80
+    },
+    {
+      "ts": "2026-11-19T18:06:19.627Z",
+      "task": 24,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Планировщик опубликован как Artifact, файл tile-planner/index.html",
+      "progress": 100
     }
   ]
 }
