@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 30,
-  "updated": "2026-11-19T19:01:20.147Z",
+  "updated": "2026-11-19T19:01:44.238Z",
   "tasks": [
     {
       "id": 1,
@@ -991,11 +991,11 @@
       ],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 20,
       "steps": [
         {
           "text": "Поиск моментов по звуку",
-          "done": false
+          "done": true
         },
         {
           "text": "Превью для подписей",
@@ -1016,7 +1016,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-19T18:46:24.210Z",
-      "updated": "2026-11-19T18:46:24.211Z",
+      "updated": "2026-11-19T19:01:44.237Z",
       "started": "2026-11-19T18:46:24.210Z",
       "completed": null
     },
@@ -2548,6 +2548,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-19T19:01:44.237Z",
+      "task": 28,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Поиск моментов по звуку — поиск всплесков громкости относительно фона",
+      "progress": 20
     }
   ]
 }
