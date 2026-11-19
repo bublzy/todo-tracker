@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 26,
-  "updated": "2026-11-19T18:12:11.490Z",
+  "updated": "2026-11-19T18:13:47.944Z",
   "tasks": [
     {
       "id": 1,
@@ -888,11 +888,11 @@
       ],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 20,
       "steps": [
         {
           "text": "Формат и сценарий",
-          "done": false
+          "done": true
         },
         {
           "text": "Движок под бренд канала",
@@ -913,7 +913,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-19T18:12:11.488Z",
-      "updated": "2026-11-19T18:12:11.490Z",
+      "updated": "2026-11-19T18:13:47.943Z",
       "started": "2026-11-19T18:12:11.488Z",
       "completed": null
     }
@@ -2296,6 +2296,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-19T18:13:47.943Z",
+      "task": 25,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Формат и сценарий — топ-5 жизненных ситуаций + счёт в комментариях",
+      "progress": 20
     }
   ]
 }
