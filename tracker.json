@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 34,
-  "updated": "2026-11-19T20:30:13.973Z",
+  "updated": "2026-11-19T20:30:25.703Z",
   "tasks": [
     {
       "id": 1,
@@ -1104,8 +1104,8 @@
         "humor"
       ],
       "priority": "normal",
-      "status": "doing",
-      "progress": 50,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Сценарий",
@@ -1113,7 +1113,7 @@
         },
         {
           "text": "Рендер с голосом и музыкой",
-          "done": false
+          "done": true
         },
         {
           "text": "Проверка кадров и громкости",
@@ -1121,14 +1121,14 @@
         },
         {
           "text": "Описания для платформ",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-19T20:24:00.459Z",
-      "updated": "2026-11-19T20:30:13.972Z",
+      "updated": "2026-11-19T20:30:25.703Z",
       "started": "2026-11-19T20:24:00.459Z",
-      "completed": null
+      "completed": "2026-11-19T20:30:25.701Z"
     },
     {
       "id": 32,
@@ -2911,6 +2911,14 @@
       "actor": "claude",
       "msg": "Проверка кадров и громкости — кадры ок, −13.9 LUFS",
       "progress": 50
+    },
+    {
+      "ts": "2026-11-19T20:30:25.703Z",
+      "task": 31,
+      "type": "done",
+      "actor": "claude",
+      "msg": "reels/funny-02-brain-3am: reel.mp4 (30.8 с) + reel_upload.mp4 <10 МБ + description.txt; не выложен",
+      "progress": 100
     }
   ]
 }
