@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 25,
-  "updated": "2026-11-19T17:59:39.096Z",
+  "updated": "2026-11-19T18:01:07.807Z",
   "tasks": [
     {
       "id": 1,
@@ -846,11 +846,11 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 20,
       "steps": [
         {
           "text": "Дизайн и формат страницы",
-          "done": false
+          "done": true
         },
         {
           "text": "Редактор комнаты и сантехники",
@@ -871,7 +871,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-19T17:54:26.904Z",
-      "updated": "2026-11-19T17:54:26.906Z",
+      "updated": "2026-11-19T18:01:07.806Z",
       "started": "2026-11-19T17:54:26.904Z",
       "completed": null
     }
@@ -2184,6 +2184,14 @@
       "actor": "claude",
       "msg": "Создать канал — создан: @funnystuffzone (UC-Q84K0dxrXnFin06qiCadw)",
       "progress": 75
+    },
+    {
+      "ts": "2026-11-19T18:01:07.806Z",
+      "task": 24,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Дизайн и формат страницы — Формат: одна интерактивная страница, план пола + развёртка стен",
+      "progress": 20
     }
   ]
 }
