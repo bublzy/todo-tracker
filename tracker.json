@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 31,
-  "updated": "2026-11-19T19:08:15.907Z",
+  "updated": "2026-11-19T19:10:25.346Z",
   "tasks": [
     {
       "id": 1,
@@ -1068,8 +1068,8 @@
       "project": "tile-planner",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
-      "progress": 50,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Хранилище проектов",
@@ -1081,18 +1081,18 @@
         },
         {
           "text": "Проверка",
-          "done": false
+          "done": true
         },
         {
           "text": "Обновить Artifact и сайт",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-19T19:07:20.446Z",
-      "updated": "2026-11-19T19:08:15.905Z",
+      "updated": "2026-11-19T19:10:25.346Z",
       "started": "2026-11-19T19:07:20.446Z",
-      "completed": null
+      "completed": "2026-11-19T19:10:25.344Z"
     }
   ],
   "events": [
@@ -2711,6 +2711,14 @@
       "actor": "claude",
       "msg": "Кнопки и список проектов",
       "progress": 50
+    },
+    {
+      "ts": "2026-11-19T19:10:25.346Z",
+      "task": 30,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Проекты сохраняются с названием, список «Мои проекты»; обновлены Artifact и сайт",
+      "progress": 100
     }
   ]
 }
