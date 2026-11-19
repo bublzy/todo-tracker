@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 25,
-  "updated": "2026-11-19T18:01:36.577Z",
+  "updated": "2026-11-19T18:01:40.054Z",
   "tasks": [
     {
       "id": 1,
@@ -781,7 +781,7 @@
         "channel"
       ],
       "priority": "normal",
-      "status": "doing",
+      "status": "done",
       "progress": 100,
       "steps": [
         {
@@ -803,9 +803,9 @@
       ],
       "actor": "claude",
       "created": "2026-11-19T17:33:16.735Z",
-      "updated": "2026-11-19T18:01:36.576Z",
+      "updated": "2026-11-19T18:01:40.054Z",
       "started": "2026-11-19T17:33:16.735Z",
-      "completed": null
+      "completed": "2026-11-19T18:01:40.052Z"
     },
     {
       "id": 23,
@@ -2199,6 +2199,14 @@
       "type": "step",
       "actor": "claude",
       "msg": "Загрузить оформление — аватар HA!, баннер, описание опубликованы",
+      "progress": 100
+    },
+    {
+      "ts": "2026-11-19T18:01:40.054Z",
+      "task": 22,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Канал Funny Stuff Zone — youtube.com/@funnystuffzone, оформлен",
       "progress": 100
     }
   ]
