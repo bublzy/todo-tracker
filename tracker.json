@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 23,
-  "updated": "2026-11-19T17:35:34.970Z",
+  "nextId": 24,
+  "updated": "2026-11-19T17:36:04.628Z",
   "tasks": [
     {
       "id": 1,
@@ -805,6 +805,37 @@
       "created": "2026-11-19T17:33:16.735Z",
       "updated": "2026-11-19T17:35:34.968Z",
       "started": "2026-11-19T17:33:16.735Z",
+      "completed": null
+    },
+    {
+      "id": 23,
+      "title": "Анализ ICP 19.11",
+      "description": "Разбор ICP командой --coin + свежие новости",
+      "project": "crypto-analyst",
+      "tags": [
+        "analysis"
+      ],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Запуск разбора",
+          "done": false
+        },
+        {
+          "text": "Новости",
+          "done": false
+        },
+        {
+          "text": "Итог",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-19T17:36:04.626Z",
+      "updated": "2026-11-19T17:36:04.628Z",
+      "started": "2026-11-19T17:36:04.626Z",
       "completed": null
     }
   ],
@@ -2026,6 +2057,20 @@
       "actor": "claude",
       "msg": "Оформление — аватар ХА!, баннер с конфетти",
       "progress": 50
+    },
+    {
+      "ts": "2026-11-19T17:36:04.628Z",
+      "task": 23,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-19T17:36:04.628Z",
+      "task": 23,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
