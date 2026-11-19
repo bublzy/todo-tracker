@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 30,
-  "updated": "2026-11-19T19:03:18.327Z",
+  "updated": "2026-11-19T19:07:13.891Z",
   "tasks": [
     {
       "id": 1,
@@ -991,7 +991,7 @@
       ],
       "priority": "normal",
       "status": "doing",
-      "progress": 33,
+      "progress": 50,
       "steps": [
         {
           "text": "Поиск моментов по звуку",
@@ -1003,7 +1003,7 @@
         },
         {
           "text": "Сборка рилса 9:16",
-          "done": false
+          "done": true
         },
         {
           "text": "Тест на синтетическом видео",
@@ -1020,7 +1020,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-19T18:46:24.210Z",
-      "updated": "2026-11-19T19:01:51.051Z",
+      "updated": "2026-11-19T19:07:13.890Z",
       "started": "2026-11-19T18:46:24.210Z",
       "completed": null
     },
@@ -2600,6 +2600,14 @@
       "actor": "claude",
       "msg": "Сайт работает: bublzy.github.io/tile-planner (репо bublzy/tile-planner)",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-19T19:07:13.890Z",
+      "task": 28,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Сборка рилса 9:16 — вертикаль 9:16, зум, вспышка, мем-подписи",
+      "progress": 50
     }
   ]
 }
