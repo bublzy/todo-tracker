@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 32,
-  "updated": "2026-11-19T20:24:00.461Z",
+  "updated": "2026-11-19T20:24:44.567Z",
   "tasks": [
     {
       "id": 1,
@@ -1105,11 +1105,11 @@
       ],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 25,
       "steps": [
         {
           "text": "Сценарий",
-          "done": false
+          "done": true
         },
         {
           "text": "Рендер с голосом и музыкой",
@@ -1126,7 +1126,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-19T20:24:00.459Z",
-      "updated": "2026-11-19T20:24:00.461Z",
+      "updated": "2026-11-19T20:24:44.565Z",
       "started": "2026-11-19T20:24:00.459Z",
       "completed": null
     }
@@ -2769,6 +2769,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-19T20:24:44.565Z",
+      "task": 31,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Сценарий — 7 слайдов: хук, #1–#5 (3:07…7:00 AM), призыв в комменты",
+      "progress": 25
     }
   ]
 }
