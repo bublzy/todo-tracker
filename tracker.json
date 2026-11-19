@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 25,
-  "updated": "2026-11-19T18:06:19.627Z",
+  "nextId": 26,
+  "updated": "2026-11-19T18:12:11.490Z",
   "tasks": [
     {
       "id": 1,
@@ -874,6 +874,48 @@
       "updated": "2026-11-19T18:06:19.627Z",
       "started": "2026-11-19T17:54:26.904Z",
       "completed": "2026-11-19T18:06:19.626Z"
+    },
+    {
+      "id": 25,
+      "title": "Первый рилс для Funny Stuff Zone",
+      "description": "Юмористический рилс на английском: «Things we all do but never admit»",
+      "project": "reels",
+      "tags": [
+        "video",
+        "reels",
+        "humor",
+        "en"
+      ],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Формат и сценарий",
+          "done": false
+        },
+        {
+          "text": "Движок под бренд канала",
+          "done": false
+        },
+        {
+          "text": "Весёлая музыка и озвучка",
+          "done": false
+        },
+        {
+          "text": "Сборка и проверка",
+          "done": false
+        },
+        {
+          "text": "Описание и отправка",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-19T18:12:11.488Z",
+      "updated": "2026-11-19T18:12:11.490Z",
+      "started": "2026-11-19T18:12:11.488Z",
+      "completed": null
     }
   ],
   "events": [
@@ -2240,6 +2282,20 @@
       "actor": "claude",
       "msg": "Планировщик опубликован как Artifact, файл tile-planner/index.html",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-19T18:12:11.490Z",
+      "task": 25,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-19T18:12:11.490Z",
+      "task": 25,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
