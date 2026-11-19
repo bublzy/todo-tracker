@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 25,
-  "updated": "2026-11-19T17:59:17.077Z",
+  "updated": "2026-11-19T17:59:39.096Z",
   "tasks": [
     {
       "id": 1,
@@ -782,7 +782,7 @@
       ],
       "priority": "normal",
       "status": "doing",
-      "progress": 50,
+      "progress": 75,
       "steps": [
         {
           "text": "Согласовать тему и название",
@@ -794,7 +794,7 @@
         },
         {
           "text": "Создать канал",
-          "done": false
+          "done": true
         },
         {
           "text": "Загрузить оформление",
@@ -803,7 +803,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-19T17:33:16.735Z",
-      "updated": "2026-11-19T17:59:17.076Z",
+      "updated": "2026-11-19T17:59:39.095Z",
       "started": "2026-11-19T17:33:16.735Z",
       "completed": null
     },
@@ -2176,6 +2176,14 @@
       "type": "edited",
       "actor": "claude",
       "msg": "изменено: название"
+    },
+    {
+      "ts": "2026-11-19T17:59:39.095Z",
+      "task": 22,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Создать канал — создан: @funnystuffzone (UC-Q84K0dxrXnFin06qiCadw)",
+      "progress": 75
     }
   ]
 }
