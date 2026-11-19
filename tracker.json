@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 22,
-  "updated": "2026-11-19T17:28:27.177Z",
+  "updated": "2026-11-19T17:28:30.872Z",
   "tasks": [
     {
       "id": 1,
@@ -745,8 +745,8 @@
         "en"
       ],
       "priority": "normal",
-      "status": "doing",
-      "progress": 75,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Сжать до 10 МБ",
@@ -762,14 +762,14 @@
         },
         {
           "text": "Опубликовать и проверить",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-19T17:25:41.686Z",
-      "updated": "2026-11-19T17:28:27.175Z",
+      "updated": "2026-11-19T17:28:30.872Z",
       "started": "2026-11-19T17:25:41.686Z",
-      "completed": null
+      "completed": "2026-11-19T17:28:30.871Z"
     }
   ],
   "events": [
@@ -1936,6 +1936,14 @@
       "actor": "claude",
       "msg": "Название, описание, настройки — название и описание EN, не для детей",
       "progress": 75
+    },
+    {
+      "ts": "2026-11-19T17:28:30.872Z",
+      "task": 21,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Опубликован публично: youtube.com/shorts/O0FypmBZ7E4",
+      "progress": 100
     }
   ]
 }
