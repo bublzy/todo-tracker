@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 31,
-  "updated": "2026-11-19T19:07:24.431Z",
+  "updated": "2026-11-19T19:07:28.209Z",
   "tasks": [
     {
       "id": 1,
@@ -991,7 +991,7 @@
       ],
       "priority": "normal",
       "status": "doing",
-      "progress": 83,
+      "progress": 100,
       "steps": [
         {
           "text": "Поиск моментов по звуку",
@@ -1015,12 +1015,12 @@
         },
         {
           "text": "Субтитры по речи (Whisper)",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-19T18:46:24.210Z",
-      "updated": "2026-11-19T19:07:24.431Z",
+      "updated": "2026-11-19T19:07:28.207Z",
       "started": "2026-11-19T18:46:24.210Z",
       "completed": null
     },
@@ -2679,6 +2679,14 @@
       "actor": "claude",
       "msg": "Инструкция для записи с консоли — README: PS5/Xbox -> ПК",
       "progress": 83
+    },
+    {
+      "ts": "2026-11-19T19:07:28.207Z",
+      "task": 28,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Субтитры по речи (Whisper) — faster-whisper в .venv-whisper (Py 3.12)",
+      "progress": 100
     }
   ]
 }
