@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 28,
-  "updated": "2026-11-19T18:45:05.395Z",
+  "nextId": 29,
+  "updated": "2026-11-19T18:46:24.211Z",
   "tasks": [
     {
       "id": 1,
@@ -977,6 +977,47 @@
       "created": "2026-11-19T18:45:05.393Z",
       "updated": "2026-11-19T18:45:05.395Z",
       "started": "2026-11-19T18:45:05.393Z",
+      "completed": null
+    },
+    {
+      "id": 28,
+      "title": "Автонарезка смешных моментов из геймплея (GTA 6)",
+      "description": "Программа: находит смешные моменты по звуку, режет в 9:16 с мем-подписями в стиле Funny Stuff Zone",
+      "project": "reels",
+      "tags": [
+        "video",
+        "clipper",
+        "gta6"
+      ],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Поиск моментов по звуку",
+          "done": false
+        },
+        {
+          "text": "Превью для подписей",
+          "done": false
+        },
+        {
+          "text": "Сборка рилса 9:16",
+          "done": false
+        },
+        {
+          "text": "Тест на синтетическом видео",
+          "done": false
+        },
+        {
+          "text": "Инструкция для записи с консоли",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-19T18:46:24.210Z",
+      "updated": "2026-11-19T18:46:24.211Z",
+      "started": "2026-11-19T18:46:24.210Z",
       "completed": null
     }
   ],
@@ -2431,6 +2472,20 @@
     {
       "ts": "2026-11-19T18:45:05.395Z",
       "task": 27,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-19T18:46:24.211Z",
+      "task": 28,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-19T18:46:24.211Z",
+      "task": 28,
       "type": "started",
       "actor": "claude",
       "progress": 0
