@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 36,
-  "updated": "2026-11-19T20:59:07.424Z",
+  "updated": "2026-11-19T21:02:01.122Z",
   "tasks": [
     {
       "id": 1,
@@ -1240,11 +1240,11 @@
       ],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 20,
       "steps": [
         {
           "text": "Сценарий и персонаж",
-          "done": false
+          "done": true
         },
         {
           "text": "Генератор анимации",
@@ -1265,7 +1265,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-19T20:59:07.422Z",
-      "updated": "2026-11-19T20:59:07.424Z",
+      "updated": "2026-11-19T21:02:01.121Z",
       "started": "2026-11-19T20:59:07.422Z",
       "completed": null
     }
@@ -3052,6 +3052,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-19T21:02:01.121Z",
+      "task": 35,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Сценарий и персонаж — колобок + 4 сцены: спортзал, торт, будильник, сериал",
+      "progress": 20
     }
   ]
 }
