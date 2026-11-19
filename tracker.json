@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 29,
-  "updated": "2026-11-19T18:47:14.811Z",
+  "nextId": 30,
+  "updated": "2026-11-19T19:01:20.147Z",
   "tasks": [
     {
       "id": 1,
@@ -1018,6 +1018,43 @@
       "created": "2026-11-19T18:46:24.210Z",
       "updated": "2026-11-19T18:46:24.211Z",
       "started": "2026-11-19T18:46:24.210Z",
+      "completed": null
+    },
+    {
+      "id": 29,
+      "title": "Планировщик плитки на GitHub Pages",
+      "description": "Публичная ссылка, чтобы открывать с телефона без входа",
+      "project": "tile-planner",
+      "tags": [],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Проверить GitHub и Chrome",
+          "done": false
+        },
+        {
+          "text": "Собрать страницу для сайта",
+          "done": false
+        },
+        {
+          "text": "Репозиторий и загрузка",
+          "done": false
+        },
+        {
+          "text": "Включить Pages",
+          "done": false
+        },
+        {
+          "text": "Проверить сайт",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-19T19:01:20.145Z",
+      "updated": "2026-11-19T19:01:20.147Z",
+      "started": "2026-11-19T19:01:20.145Z",
       "completed": null
     }
   ],
@@ -2497,6 +2534,20 @@
       "actor": "claude",
       "msg": "Розетки, водорозетки и канализация на стенах: перетаскивание, проверка швов, таблица разметки и коронки",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-19T19:01:20.147Z",
+      "task": 29,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-19T19:01:20.147Z",
+      "task": 29,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
