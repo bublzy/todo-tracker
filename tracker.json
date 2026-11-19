@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 20,
-  "updated": "2026-11-19T17:12:33.933Z",
+  "updated": "2026-11-19T17:14:10.911Z",
   "tasks": [
     {
       "id": 1,
@@ -668,11 +668,11 @@
       ],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 20,
       "steps": [
         {
           "text": "Проверить факты",
-          "done": false
+          "done": true
         },
         {
           "text": "Сценарий и озвучка",
@@ -693,7 +693,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-19T17:12:33.932Z",
-      "updated": "2026-11-19T17:12:33.933Z",
+      "updated": "2026-11-19T17:14:10.909Z",
       "started": "2026-11-19T17:12:33.932Z",
       "completed": null
     }
@@ -1738,6 +1738,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-19T17:14:10.909Z",
+      "task": 19,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Проверить факты — ардипитек 4,4 млн, Лаэтоли 3,66 млн, рычаг, лебёдка, ампутация",
+      "progress": 20
     }
   ]
 }
