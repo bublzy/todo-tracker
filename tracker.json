@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 25,
-  "updated": "2026-11-19T17:57:31.896Z",
+  "updated": "2026-11-19T17:58:17.960Z",
   "tasks": [
     {
       "id": 1,
@@ -781,7 +781,7 @@
         "channel"
       ],
       "priority": "normal",
-      "status": "doing",
+      "status": "blocked",
       "progress": 50,
       "steps": [
         {
@@ -803,7 +803,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-19T17:33:16.735Z",
-      "updated": "2026-11-19T17:57:31.895Z",
+      "updated": "2026-11-19T17:58:17.959Z",
       "started": "2026-11-19T17:33:16.735Z",
       "completed": null
     },
@@ -2153,6 +2153,14 @@
       "type": "edited",
       "actor": "claude",
       "msg": "изменено: название"
+    },
+    {
+      "ts": "2026-11-19T17:58:17.959Z",
+      "task": 22,
+      "type": "blocked",
+      "actor": "claude",
+      "msg": "YouTube не принимает название Funny Stuff — ждёт выбор варианта",
+      "progress": 50
     }
   ]
 }
