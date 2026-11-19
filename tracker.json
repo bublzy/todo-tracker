@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 34,
-  "updated": "2026-11-19T20:30:25.703Z",
+  "updated": "2026-11-19T20:30:36.627Z",
   "tasks": [
     {
       "id": 1,
@@ -1138,11 +1138,11 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 25,
       "steps": [
         {
           "text": "Разметка и стили меню",
-          "done": false
+          "done": true
         },
         {
           "text": "Перенести список проектов в меню",
@@ -1159,7 +1159,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-19T20:27:05.462Z",
-      "updated": "2026-11-19T20:27:05.464Z",
+      "updated": "2026-11-19T20:30:36.625Z",
       "started": "2026-11-19T20:27:05.462Z",
       "completed": null
     },
@@ -2919,6 +2919,14 @@
       "actor": "claude",
       "msg": "reels/funny-02-brain-3am: reel.mp4 (30.8 с) + reel_upload.mp4 <10 МБ + description.txt; не выложен",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-19T20:30:36.625Z",
+      "task": 32,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Разметка и стили меню — Логотип стал кнопкой, выезжающее меню",
+      "progress": 25
     }
   ]
 }
