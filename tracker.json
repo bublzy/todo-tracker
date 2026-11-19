@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 24,
-  "updated": "2026-11-19T17:36:33.626Z",
+  "updated": "2026-11-19T17:37:33.122Z",
   "tasks": [
     {
       "id": 1,
@@ -816,27 +816,27 @@
         "analysis"
       ],
       "priority": "normal",
-      "status": "doing",
-      "progress": 0,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Запуск разбора",
-          "done": false
+          "done": true
         },
         {
           "text": "Новости",
-          "done": false
+          "done": true
         },
         {
           "text": "Итог",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-19T17:36:04.626Z",
-      "updated": "2026-11-19T17:36:04.628Z",
+      "updated": "2026-11-19T17:37:33.122Z",
       "started": "2026-11-19T17:36:04.626Z",
-      "completed": null
+      "completed": "2026-11-19T17:37:33.120Z"
     }
   ],
   "events": [
@@ -2079,6 +2079,14 @@
       "actor": "claude",
       "msg": "ждёт: подтверждение названия, хэндла и условий YouTube",
       "progress": 50
+    },
+    {
+      "ts": "2026-11-19T17:37:33.122Z",
+      "task": 23,
+      "type": "done",
+      "actor": "claude",
+      "msg": "ICP 2.21: боковик 2.16–2.28 у дна, тренд вниз; фон — протоколы ФРС с намёком на повышение ставки, отток из ETF",
+      "progress": 100
     }
   ]
 }
