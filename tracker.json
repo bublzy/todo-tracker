@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 31,
-  "updated": "2026-11-19T19:08:12.427Z",
+  "updated": "2026-11-19T19:08:15.907Z",
   "tasks": [
     {
       "id": 1,
@@ -1069,7 +1069,7 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 25,
+      "progress": 50,
       "steps": [
         {
           "text": "Хранилище проектов",
@@ -1077,7 +1077,7 @@
         },
         {
           "text": "Кнопки и список проектов",
-          "done": false
+          "done": true
         },
         {
           "text": "Проверка",
@@ -1090,7 +1090,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-19T19:07:20.446Z",
-      "updated": "2026-11-19T19:08:12.426Z",
+      "updated": "2026-11-19T19:08:15.905Z",
       "started": "2026-11-19T19:07:20.446Z",
       "completed": null
     }
@@ -2703,6 +2703,14 @@
       "actor": "claude",
       "msg": "Хранилище проектов",
       "progress": 25
+    },
+    {
+      "ts": "2026-11-19T19:08:15.905Z",
+      "task": 30,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Кнопки и список проектов",
+      "progress": 50
     }
   ]
 }
