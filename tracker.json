@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 20,
-  "updated": "2026-11-19T17:16:20.774Z",
+  "updated": "2026-11-19T17:16:50.620Z",
   "tasks": [
     {
       "id": 1,
@@ -668,7 +668,7 @@
       ],
       "priority": "normal",
       "status": "doing",
-      "progress": 40,
+      "progress": 60,
       "steps": [
         {
           "text": "Проверить факты",
@@ -680,7 +680,7 @@
         },
         {
           "text": "Собрать ролик",
-          "done": false
+          "done": true
         },
         {
           "text": "Проверить кадры и звук",
@@ -693,7 +693,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-19T17:12:33.932Z",
-      "updated": "2026-11-19T17:16:20.773Z",
+      "updated": "2026-11-19T17:16:50.619Z",
       "started": "2026-11-19T17:12:33.932Z",
       "completed": null
     }
@@ -1754,6 +1754,14 @@
       "actor": "claude",
       "msg": "Сценарий и озвучка — 6 слайдов, 30 с, голос Dmitry",
       "progress": 40
+    },
+    {
+      "ts": "2026-11-19T17:16:50.619Z",
+      "task": 19,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Собрать ролик — reel.mp4 29.9 с",
+      "progress": 60
     }
   ]
 }
