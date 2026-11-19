@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 21,
-  "updated": "2026-11-19T17:19:23.184Z",
+  "updated": "2026-11-19T17:19:56.547Z",
   "tasks": [
     {
       "id": 1,
@@ -709,11 +709,11 @@
       ],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 25,
       "steps": [
         {
           "text": "Голос",
-          "done": false
+          "done": true
         },
         {
           "text": "Перевод слайдов и озвучки",
@@ -730,7 +730,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-19T17:19:23.182Z",
-      "updated": "2026-11-19T17:19:23.184Z",
+      "updated": "2026-11-19T17:19:56.546Z",
       "started": "2026-11-19T17:19:23.182Z",
       "completed": null
     }
@@ -1829,6 +1829,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-19T17:19:56.546Z",
+      "task": 20,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Голос — en-US-AvaNeural, без ускорения",
+      "progress": 25
     }
   ]
 }
