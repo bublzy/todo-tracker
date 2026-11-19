@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 21,
-  "updated": "2026-11-19T17:22:52.524Z",
+  "updated": "2026-11-19T17:22:56.392Z",
   "tasks": [
     {
       "id": 1,
@@ -709,7 +709,7 @@
       ],
       "priority": "normal",
       "status": "doing",
-      "progress": 50,
+      "progress": 75,
       "steps": [
         {
           "text": "Голос",
@@ -721,7 +721,7 @@
         },
         {
           "text": "Рендер и проверка",
-          "done": false
+          "done": true
         },
         {
           "text": "Описание и отправка",
@@ -730,7 +730,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-19T17:19:23.182Z",
-      "updated": "2026-11-19T17:22:52.523Z",
+      "updated": "2026-11-19T17:22:56.391Z",
       "started": "2026-11-19T17:19:23.182Z",
       "completed": null
     }
@@ -1845,6 +1845,14 @@
       "actor": "claude",
       "msg": "Перевод слайдов и озвучки — 6 слайдов EN",
       "progress": 50
+    },
+    {
+      "ts": "2026-11-19T17:22:56.391Z",
+      "task": 20,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Рендер и проверка — 35.1 с, −14.3 LUFS",
+      "progress": 75
     }
   ]
 }
