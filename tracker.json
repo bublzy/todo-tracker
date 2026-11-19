@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 31,
-  "updated": "2026-11-19T19:07:28.209Z",
+  "updated": "2026-11-19T19:07:31.691Z",
   "tasks": [
     {
       "id": 1,
@@ -990,7 +990,7 @@
         "gta6"
       ],
       "priority": "normal",
-      "status": "doing",
+      "status": "done",
       "progress": 100,
       "steps": [
         {
@@ -1020,9 +1020,9 @@
       ],
       "actor": "claude",
       "created": "2026-11-19T18:46:24.210Z",
-      "updated": "2026-11-19T19:07:28.207Z",
+      "updated": "2026-11-19T19:07:31.691Z",
       "started": "2026-11-19T18:46:24.210Z",
-      "completed": null
+      "completed": "2026-11-19T19:07:31.690Z"
     },
     {
       "id": 29,
@@ -2686,6 +2686,14 @@
       "type": "step",
       "actor": "claude",
       "msg": "Субтитры по речи (Whisper) — faster-whisper в .venv-whisper (Py 3.12)",
+      "progress": 100
+    },
+    {
+      "ts": "2026-11-19T19:07:31.691Z",
+      "task": 28,
+      "type": "done",
+      "actor": "claude",
+      "msg": "reels/clipper: clipper.py analyze/render/auto + субтитры Whisper; ждёт записей GTA 6",
       "progress": 100
     }
   ]
