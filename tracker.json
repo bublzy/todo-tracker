@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 20,
-  "updated": "2026-11-19T17:16:54.347Z",
+  "updated": "2026-11-19T17:16:57.811Z",
   "tasks": [
     {
       "id": 1,
@@ -667,8 +667,8 @@
         "reels"
       ],
       "priority": "normal",
-      "status": "doing",
-      "progress": 80,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Проверить факты",
@@ -688,14 +688,14 @@
         },
         {
           "text": "Описание и отправка",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-19T17:12:33.932Z",
-      "updated": "2026-11-19T17:16:54.346Z",
+      "updated": "2026-11-19T17:16:57.811Z",
       "started": "2026-11-19T17:12:33.932Z",
-      "completed": null
+      "completed": "2026-11-19T17:16:57.810Z"
     }
   ],
   "events": [
@@ -1770,6 +1770,14 @@
       "actor": "claude",
       "msg": "Проверить кадры и звук — кадры ок, −14.3 LUFS",
       "progress": 80
+    },
+    {
+      "ts": "2026-11-19T17:16:57.811Z",
+      "task": 19,
+      "type": "done",
+      "actor": "claude",
+      "msg": "reels/big-toe/reel.mp4 (30 с) + описание с источниками",
+      "progress": 100
     }
   ]
 }
