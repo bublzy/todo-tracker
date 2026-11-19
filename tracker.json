@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 26,
-  "updated": "2026-11-19T18:13:55.179Z",
+  "updated": "2026-11-19T18:16:37.570Z",
   "tasks": [
     {
       "id": 1,
@@ -888,7 +888,7 @@
       ],
       "priority": "normal",
       "status": "doing",
-      "progress": 60,
+      "progress": 80,
       "steps": [
         {
           "text": "Формат и сценарий",
@@ -904,7 +904,7 @@
         },
         {
           "text": "Сборка и проверка",
-          "done": false
+          "done": true
         },
         {
           "text": "Описание и отправка",
@@ -913,7 +913,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-19T18:12:11.488Z",
-      "updated": "2026-11-19T18:13:55.178Z",
+      "updated": "2026-11-19T18:16:37.568Z",
       "started": "2026-11-19T18:12:11.488Z",
       "completed": null
     }
@@ -2320,6 +2320,14 @@
       "actor": "claude",
       "msg": "Весёлая музыка и озвучка — C-G-Am-F 116 BPM + хлопки, голос Emma",
       "progress": 60
+    },
+    {
+      "ts": "2026-11-19T18:16:37.568Z",
+      "task": 25,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Сборка и проверка — 35.9 с, −14.1 LUFS, кадры ок",
+      "progress": 80
     }
   ]
 }
