@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 30,
-  "updated": "2026-11-19T19:07:18.222Z",
+  "nextId": 31,
+  "updated": "2026-11-19T19:07:20.448Z",
   "tasks": [
     {
       "id": 1,
@@ -1060,6 +1060,39 @@
       "updated": "2026-11-19T19:03:18.327Z",
       "started": "2026-11-19T19:01:20.145Z",
       "completed": "2026-11-19T19:03:18.325Z"
+    },
+    {
+      "id": 30,
+      "title": "Сохранение проектов с названием",
+      "description": "Библиотека проектов в планировщике: сохранить с названием, открыть, копия, удалить",
+      "project": "tile-planner",
+      "tags": [],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Хранилище проектов",
+          "done": false
+        },
+        {
+          "text": "Кнопки и список проектов",
+          "done": false
+        },
+        {
+          "text": "Проверка",
+          "done": false
+        },
+        {
+          "text": "Обновить Artifact и сайт",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-19T19:07:20.446Z",
+      "updated": "2026-11-19T19:07:20.448Z",
+      "started": "2026-11-19T19:07:20.446Z",
+      "completed": null
     }
   ],
   "events": [
@@ -2616,6 +2649,20 @@
       "actor": "claude",
       "msg": "Тест на синтетическом видео — тест: 4/4 аварии найдены, субтитры распознаны",
       "progress": 67
+    },
+    {
+      "ts": "2026-11-19T19:07:20.448Z",
+      "task": 30,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-19T19:07:20.448Z",
+      "task": 30,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
