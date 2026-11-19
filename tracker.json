@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 33,
-  "updated": "2026-11-19T20:27:05.464Z",
+  "nextId": 34,
+  "updated": "2026-11-19T20:28:21.568Z",
   "tasks": [
     {
       "id": 1,
@@ -1161,6 +1161,39 @@
       "created": "2026-11-19T20:27:05.462Z",
       "updated": "2026-11-19T20:27:05.464Z",
       "started": "2026-11-19T20:27:05.462Z",
+      "completed": null
+    },
+    {
+      "id": 33,
+      "title": "Сайт Levita на GitHub Pages",
+      "description": "Публичный сайт bublzy.github.io/levita",
+      "project": "potolki",
+      "tags": [],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Проверить GitHub и файлы",
+          "done": false
+        },
+        {
+          "text": "Создать репозиторий и залить",
+          "done": false
+        },
+        {
+          "text": "Включить Pages",
+          "done": false
+        },
+        {
+          "text": "Проверить по ссылке",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-19T20:28:21.565Z",
+      "updated": "2026-11-19T20:28:21.568Z",
+      "started": "2026-11-19T20:28:21.565Z",
       "completed": null
     }
   ],
@@ -2821,6 +2854,20 @@
     {
       "ts": "2026-11-19T20:27:05.464Z",
       "task": 32,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-19T20:28:21.568Z",
+      "task": 33,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-19T20:28:21.568Z",
+      "task": 33,
       "type": "started",
       "actor": "claude",
       "progress": 0
