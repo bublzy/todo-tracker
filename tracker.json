@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 34,
-  "updated": "2026-11-19T20:30:09.379Z",
+  "updated": "2026-11-19T20:30:10.343Z",
   "tasks": [
     {
       "id": 1,
@@ -1105,7 +1105,7 @@
       ],
       "priority": "normal",
       "status": "doing",
-      "progress": 25,
+      "progress": 50,
       "steps": [
         {
           "text": "Сценарий",
@@ -1117,7 +1117,7 @@
         },
         {
           "text": "Проверка кадров и громкости",
-          "done": false
+          "done": true
         },
         {
           "text": "Описания для платформ",
@@ -1126,7 +1126,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-19T20:24:00.459Z",
-      "updated": "2026-11-19T20:24:44.565Z",
+      "updated": "2026-11-19T20:30:10.342Z",
       "started": "2026-11-19T20:24:00.459Z",
       "completed": null
     },
@@ -2895,6 +2895,14 @@
       "actor": "claude",
       "msg": "Сайт опубликован: https://bublzy.github.io/levita/ (репозиторий bublzy/levita)",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-19T20:30:10.342Z",
+      "task": 31,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Проверка кадров и громкости — кадры ок, −13.9 LUFS",
+      "progress": 50
     }
   ]
 }
