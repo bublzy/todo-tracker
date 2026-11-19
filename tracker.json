@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 24,
-  "updated": "2026-11-19T17:36:04.628Z",
+  "updated": "2026-11-19T17:36:33.626Z",
   "tasks": [
     {
       "id": 1,
@@ -781,7 +781,7 @@
         "channel"
       ],
       "priority": "normal",
-      "status": "doing",
+      "status": "blocked",
       "progress": 50,
       "steps": [
         {
@@ -803,7 +803,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-19T17:33:16.735Z",
-      "updated": "2026-11-19T17:35:34.968Z",
+      "updated": "2026-11-19T17:36:33.625Z",
       "started": "2026-11-19T17:33:16.735Z",
       "completed": null
     },
@@ -2071,6 +2071,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-19T17:36:33.625Z",
+      "task": 22,
+      "type": "blocked",
+      "actor": "claude",
+      "msg": "ждёт: подтверждение названия, хэндла и условий YouTube",
+      "progress": 50
     }
   ]
 }
