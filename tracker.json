@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 25,
-  "updated": "2026-11-19T17:54:26.906Z",
+  "updated": "2026-11-19T17:57:28.214Z",
   "tasks": [
     {
       "id": 1,
@@ -781,7 +781,7 @@
         "channel"
       ],
       "priority": "normal",
-      "status": "blocked",
+      "status": "doing",
       "progress": 50,
       "steps": [
         {
@@ -803,7 +803,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-19T17:33:16.735Z",
-      "updated": "2026-11-19T17:36:33.625Z",
+      "updated": "2026-11-19T17:57:28.213Z",
       "started": "2026-11-19T17:33:16.735Z",
       "completed": null
     },
@@ -2138,6 +2138,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-19T17:57:28.213Z",
+      "task": 22,
+      "type": "started",
+      "actor": "claude",
+      "msg": "EN: Funny Stuff, @funnystuffzone — подтверждено",
+      "progress": 50
     }
   ]
 }
