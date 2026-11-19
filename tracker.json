@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 22,
-  "updated": "2026-11-19T17:26:23.684Z",
+  "updated": "2026-11-19T17:27:15.151Z",
   "tasks": [
     {
       "id": 1,
@@ -746,7 +746,7 @@
       ],
       "priority": "normal",
       "status": "doing",
-      "progress": 25,
+      "progress": 50,
       "steps": [
         {
           "text": "Сжать до 10 МБ",
@@ -754,7 +754,7 @@
         },
         {
           "text": "Загрузить в Studio",
-          "done": false
+          "done": true
         },
         {
           "text": "Название, описание, настройки",
@@ -767,7 +767,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-19T17:25:41.686Z",
-      "updated": "2026-11-19T17:26:23.683Z",
+      "updated": "2026-11-19T17:27:15.150Z",
       "started": "2026-11-19T17:25:41.686Z",
       "completed": null
     }
@@ -1920,6 +1920,14 @@
       "actor": "claude",
       "msg": "Сжать до 10 МБ — 8.9 МБ",
       "progress": 25
+    },
+    {
+      "ts": "2026-11-19T17:27:15.150Z",
+      "task": 21,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Загрузить в Studio — файл загружен",
+      "progress": 50
     }
   ]
 }
