@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 27,
-  "updated": "2026-11-19T18:28:47.122Z",
+  "updated": "2026-11-19T18:30:14.682Z",
   "tasks": [
     {
       "id": 1,
@@ -924,27 +924,27 @@
       "project": "tile-planner",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
-      "progress": 0,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Слой клея и чистовые размеры",
-          "done": false
+          "done": true
         },
         {
           "text": "Проверка, что сантехника влезает",
-          "done": false
+          "done": true
         },
         {
           "text": "Проверка и публикация",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-19T18:28:47.120Z",
-      "updated": "2026-11-19T18:28:47.122Z",
+      "updated": "2026-11-19T18:30:14.682Z",
       "started": "2026-11-19T18:28:47.120Z",
-      "completed": null
+      "completed": "2026-11-19T18:30:14.680Z"
     }
   ],
   "events": [
@@ -2379,6 +2379,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-19T18:30:14.682Z",
+      "task": 26,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Слой плитка + клей вычитается из размеров комнаты, есть проверка, что сантехника влезает",
+      "progress": 100
     }
   ]
 }
