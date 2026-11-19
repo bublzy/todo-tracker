@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 26,
-  "updated": "2026-11-19T18:16:41.129Z",
+  "nextId": 27,
+  "updated": "2026-11-19T18:28:47.122Z",
   "tasks": [
     {
       "id": 1,
@@ -916,6 +916,35 @@
       "updated": "2026-11-19T18:16:41.129Z",
       "started": "2026-11-19T18:12:11.488Z",
       "completed": "2026-11-19T18:16:41.128Z"
+    },
+    {
+      "id": 26,
+      "title": "Учесть слой плитки и клея в планировщике",
+      "description": "Чистовые размеры комнаты: слой плитка + клей 6 мм на стенах и полу",
+      "project": "tile-planner",
+      "tags": [],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Слой клея и чистовые размеры",
+          "done": false
+        },
+        {
+          "text": "Проверка, что сантехника влезает",
+          "done": false
+        },
+        {
+          "text": "Проверка и публикация",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-19T18:28:47.120Z",
+      "updated": "2026-11-19T18:28:47.122Z",
+      "started": "2026-11-19T18:28:47.120Z",
+      "completed": null
     }
   ],
   "events": [
@@ -2336,6 +2365,20 @@
       "actor": "claude",
       "msg": "reels/funny-01-things-we-do/reel.mp4 (36 с) + description.txt",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-19T18:28:47.122Z",
+      "task": 26,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-19T18:28:47.122Z",
+      "task": 26,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
