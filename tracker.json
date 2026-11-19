@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 34,
-  "updated": "2026-11-19T20:31:55.042Z",
+  "nextId": 35,
+  "updated": "2026-11-19T20:35:52.862Z",
   "tasks": [
     {
       "id": 1,
@@ -1195,6 +1195,38 @@
       "updated": "2026-11-19T20:30:09.379Z",
       "started": "2026-11-19T20:28:21.565Z",
       "completed": "2026-11-19T20:30:09.377Z"
+    },
+    {
+      "id": 34,
+      "title": "Выложить «Your brain at 3 AM» на Funny Stuff Zone",
+      "description": "",
+      "project": "reels",
+      "tags": [
+        "youtube",
+        "humor"
+      ],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Открыть Studio канала",
+          "done": false
+        },
+        {
+          "text": "Загрузить и заполнить",
+          "done": false
+        },
+        {
+          "text": "Опубликовать и проверить",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-19T20:35:52.861Z",
+      "updated": "2026-11-19T20:35:52.862Z",
+      "started": "2026-11-19T20:35:52.861Z",
+      "completed": null
     }
   ],
   "events": [
@@ -2943,6 +2975,20 @@
       "actor": "claude",
       "msg": "Логотип открывает меню с плашкой «Проекты»: список, новая комната, пример, перенос. Artifact v5 и сайт обновлены",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-19T20:35:52.862Z",
+      "task": 34,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-19T20:35:52.862Z",
+      "task": 34,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
