@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 30,
-  "updated": "2026-11-19T19:01:47.683Z",
+  "updated": "2026-11-19T19:01:51.052Z",
   "tasks": [
     {
       "id": 1,
@@ -991,7 +991,7 @@
       ],
       "priority": "normal",
       "status": "doing",
-      "progress": 40,
+      "progress": 33,
       "steps": [
         {
           "text": "Поиск моментов по звуку",
@@ -1012,11 +1012,15 @@
         {
           "text": "Инструкция для записи с консоли",
           "done": false
+        },
+        {
+          "text": "Субтитры по речи (Whisper)",
+          "done": false
         }
       ],
       "actor": "claude",
       "created": "2026-11-19T18:46:24.210Z",
-      "updated": "2026-11-19T19:01:47.682Z",
+      "updated": "2026-11-19T19:01:51.051Z",
       "started": "2026-11-19T18:46:24.210Z",
       "completed": null
     },
@@ -2564,6 +2568,14 @@
       "actor": "claude",
       "msg": "Превью для подписей — превью кадров до/в момент/после",
       "progress": 40
+    },
+    {
+      "ts": "2026-11-19T19:01:51.051Z",
+      "task": 28,
+      "type": "edited",
+      "actor": "claude",
+      "msg": "добавлен шаг: Субтитры по речи (Whisper)",
+      "progress": 33
     }
   ]
 }
