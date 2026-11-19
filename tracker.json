@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 26,
-  "updated": "2026-11-19T18:16:37.570Z",
+  "updated": "2026-11-19T18:16:41.129Z",
   "tasks": [
     {
       "id": 1,
@@ -887,8 +887,8 @@
         "en"
       ],
       "priority": "normal",
-      "status": "doing",
-      "progress": 80,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Формат и сценарий",
@@ -908,14 +908,14 @@
         },
         {
           "text": "Описание и отправка",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-19T18:12:11.488Z",
-      "updated": "2026-11-19T18:16:37.568Z",
+      "updated": "2026-11-19T18:16:41.129Z",
       "started": "2026-11-19T18:12:11.488Z",
-      "completed": null
+      "completed": "2026-11-19T18:16:41.128Z"
     }
   ],
   "events": [
@@ -2328,6 +2328,14 @@
       "actor": "claude",
       "msg": "Сборка и проверка — 35.9 с, −14.1 LUFS, кадры ок",
       "progress": 80
+    },
+    {
+      "ts": "2026-11-19T18:16:41.129Z",
+      "task": 25,
+      "type": "done",
+      "actor": "claude",
+      "msg": "reels/funny-01-things-we-do/reel.mp4 (36 с) + description.txt",
+      "progress": 100
     }
   ]
 }
