@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 29,
-  "updated": "2026-11-19T18:46:24.211Z",
+  "updated": "2026-11-19T18:47:14.811Z",
   "tasks": [
     {
       "id": 1,
@@ -953,31 +953,31 @@
       "project": "tile-planner",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
-      "progress": 0,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Редактор точек",
-          "done": false
+          "done": true
         },
         {
           "text": "Отрисовка и перетаскивание",
-          "done": false
+          "done": true
         },
         {
           "text": "Проверка швов и таблица",
-          "done": false
+          "done": true
         },
         {
           "text": "Проверка и публикация",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-19T18:45:05.393Z",
-      "updated": "2026-11-19T18:45:05.395Z",
+      "updated": "2026-11-19T18:47:14.810Z",
       "started": "2026-11-19T18:45:05.393Z",
-      "completed": null
+      "completed": "2026-11-19T18:47:14.809Z"
     },
     {
       "id": 28,
@@ -2489,6 +2489,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-19T18:47:14.810Z",
+      "task": 27,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Розетки, водорозетки и канализация на стенах: перетаскивание, проверка швов, таблица разметки и коронки",
+      "progress": 100
     }
   ]
 }
