@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 37,
-  "updated": "2026-11-21T18:54:54.258Z",
+  "updated": "2026-11-21T18:58:53.483Z",
   "tasks": [
     {
       "id": 1,
@@ -1239,8 +1239,8 @@
         "meme"
       ],
       "priority": "normal",
-      "status": "doing",
-      "progress": 20,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Сценарий и персонаж",
@@ -1248,26 +1248,26 @@
         },
         {
           "text": "Генератор анимации",
-          "done": false
+          "done": true
         },
         {
           "text": "Рендер с голосом и звуком",
-          "done": false
+          "done": true
         },
         {
           "text": "Проверка кадров и громкости",
-          "done": false
+          "done": true
         },
         {
           "text": "Описания для платформ",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-19T20:59:07.422Z",
-      "updated": "2026-11-19T21:02:01.121Z",
+      "updated": "2026-11-21T18:58:53.483Z",
       "started": "2026-11-19T20:59:07.422Z",
-      "completed": null
+      "completed": "2026-11-21T18:58:53.481Z"
     },
     {
       "id": 36,
@@ -3105,6 +3105,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-21T18:58:53.483Z",
+      "task": 35,
+      "type": "done",
+      "actor": "claude",
+      "msg": "reels/funny-03-expectation-reality: reel.mp4 (40 с) + reel_upload.mp4 <10 МБ + description.txt; не выложен",
+      "progress": 100
     }
   ]
 }
