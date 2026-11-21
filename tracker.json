@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 41,
-  "updated": "2026-11-21T20:18:57.311Z",
+  "updated": "2026-11-21T20:22:20.695Z",
   "tasks": [
     {
       "id": 1,
@@ -1410,12 +1410,12 @@
         "humor"
       ],
       "priority": "normal",
-      "status": "doing",
-      "progress": 40,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Заготовка проекта",
-          "done": false
+          "done": true
         },
         {
           "text": "Кот и 4 сцены",
@@ -1427,18 +1427,18 @@
         },
         {
           "text": "Рендер и проверка",
-          "done": false
+          "done": true
         },
         {
           "text": "Описания и отправка",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-21T20:15:00.109Z",
-      "updated": "2026-11-21T20:18:57.310Z",
+      "updated": "2026-11-21T20:22:20.695Z",
       "started": "2026-11-21T20:15:00.109Z",
-      "completed": null
+      "completed": "2026-11-21T20:22:20.694Z"
     }
   ],
   "events": [
@@ -3396,6 +3396,14 @@
       "actor": "claude",
       "msg": "Пузыри и звуки речи — пузыри печатаются по буквам с бормотанием, мяу, звон, грохот, мурлыканье",
       "progress": 40
+    },
+    {
+      "ts": "2026-11-21T20:22:20.695Z",
+      "task": 40,
+      "type": "done",
+      "actor": "claude",
+      "msg": "reels/funny-04-pet-could-talk: reel.mp4 28 с + reel_upload.mp4 <10 МБ + description.txt; не выложен",
+      "progress": 100
     }
   ]
 }
