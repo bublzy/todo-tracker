@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 37,
-  "updated": "2026-11-21T19:03:27.217Z",
+  "nextId": 38,
+  "updated": "2026-11-21T19:11:00.660Z",
   "tasks": [
     {
       "id": 1,
@@ -1299,6 +1299,43 @@
       "updated": "2026-11-21T19:03:27.217Z",
       "started": "2026-11-21T18:54:54.256Z",
       "completed": "2026-11-21T19:03:27.216Z"
+    },
+    {
+      "id": 37,
+      "title": "Expectation vs Reality: без озвучки, со смешными звуками",
+      "description": "Убрать голос, синтезировать звуковые эффекты и привязать к событиям анимации",
+      "project": "reels",
+      "tags": [
+        "youtube",
+        "humor",
+        "meme"
+      ],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Синтез звуков",
+          "done": false
+        },
+        {
+          "text": "Привязка к анимации, без голоса",
+          "done": false
+        },
+        {
+          "text": "Рендер и проверка",
+          "done": false
+        },
+        {
+          "text": "Описание и отправка",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-21T19:11:00.659Z",
+      "updated": "2026-11-21T19:11:00.660Z",
+      "started": "2026-11-21T19:11:00.659Z",
+      "completed": null
     }
   ],
   "events": [
@@ -3128,6 +3165,20 @@
       "actor": "claude",
       "msg": "ICP пробил исторический минимум (1.87), рынок акций обвалился (NVDA -14%), отчёт обновлён по прежней ссылке",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-21T19:11:00.660Z",
+      "task": 37,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-21T19:11:00.660Z",
+      "task": 37,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
