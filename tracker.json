@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 42,
-  "updated": "2026-11-21T20:48:11.057Z",
+  "nextId": 43,
+  "updated": "2026-11-21T20:49:12.800Z",
   "tasks": [
     {
       "id": 1,
@@ -1470,6 +1470,39 @@
       "created": "2026-11-21T20:48:11.056Z",
       "updated": "2026-11-21T20:48:11.057Z",
       "started": "2026-11-21T20:48:11.056Z",
+      "completed": null
+    },
+    {
+      "id": 42,
+      "title": "Планировщик плитки: новый дизайн",
+      "description": "Обновить цвета, окна и панели в современном стиле",
+      "project": "tile-planner",
+      "tags": [],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Новая палитра и шрифты",
+          "done": false
+        },
+        {
+          "text": "Окна, кнопки, панели",
+          "done": false
+        },
+        {
+          "text": "Проверка в светлой/тёмной и на телефоне",
+          "done": false
+        },
+        {
+          "text": "Обновить Artifact и сайт",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-21T20:49:12.799Z",
+      "updated": "2026-11-21T20:49:12.800Z",
+      "started": "2026-11-21T20:49:12.799Z",
       "completed": null
     }
   ],
@@ -3447,6 +3480,20 @@
     {
       "ts": "2026-11-21T20:48:11.057Z",
       "task": 41,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-21T20:49:12.800Z",
+      "task": 42,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-21T20:49:12.800Z",
+      "task": 42,
       "type": "started",
       "actor": "claude",
       "progress": 0
