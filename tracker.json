@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 44,
-  "updated": "2026-11-21T21:23:45.202Z",
+  "nextId": 45,
+  "updated": "2026-11-21T21:24:26.320Z",
   "tasks": [
     {
       "id": 1,
@@ -1536,6 +1536,35 @@
       "created": "2026-11-21T21:21:38.034Z",
       "updated": "2026-11-21T21:23:45.201Z",
       "started": "2026-11-21T21:21:38.034Z",
+      "completed": null
+    },
+    {
+      "id": 44,
+      "title": "Планировщик плитки: тёплая палитра",
+      "description": "Заменить холодные тона на тёплые",
+      "project": "tile-planner",
+      "tags": [],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Тёплые цвета",
+          "done": false
+        },
+        {
+          "text": "Проверка",
+          "done": false
+        },
+        {
+          "text": "Обновить Artifact и сайт",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-21T21:24:26.319Z",
+      "updated": "2026-11-21T21:24:26.320Z",
+      "started": "2026-11-21T21:24:26.319Z",
       "completed": null
     }
   ],
@@ -3600,6 +3629,20 @@
       "actor": "claude",
       "msg": "ждёт: 56 мм бокового не влезает в корпус 64 мм — нужно решение по масштабу",
       "progress": 50
+    },
+    {
+      "ts": "2026-11-21T21:24:26.320Z",
+      "task": 44,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-21T21:24:26.320Z",
+      "task": 44,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
