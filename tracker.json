@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 41,
-  "updated": "2026-11-21T20:22:20.695Z",
+  "nextId": 42,
+  "updated": "2026-11-21T20:48:11.057Z",
   "tasks": [
     {
       "id": 1,
@@ -1439,6 +1439,38 @@
       "updated": "2026-11-21T20:22:20.695Z",
       "started": "2026-11-21T20:15:00.109Z",
       "completed": "2026-11-21T20:22:20.694Z"
+    },
+    {
+      "id": 41,
+      "title": "Выложить «What if your pet could talk?» на Funny Stuff Zone",
+      "description": "",
+      "project": "reels",
+      "tags": [
+        "youtube",
+        "humor"
+      ],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Открыть Studio канала",
+          "done": false
+        },
+        {
+          "text": "Загрузить и заполнить",
+          "done": false
+        },
+        {
+          "text": "Опубликовать и проверить",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-21T20:48:11.056Z",
+      "updated": "2026-11-21T20:48:11.057Z",
+      "started": "2026-11-21T20:48:11.056Z",
+      "completed": null
     }
   ],
   "events": [
@@ -3404,6 +3436,20 @@
       "actor": "claude",
       "msg": "reels/funny-04-pet-could-talk: reel.mp4 28 с + reel_upload.mp4 <10 МБ + description.txt; не выложен",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-21T20:48:11.057Z",
+      "task": 41,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-21T20:48:11.057Z",
+      "task": 41,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
