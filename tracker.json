@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 39,
-  "updated": "2026-11-21T19:14:30.464Z",
+  "updated": "2026-11-21T19:16:34.718Z",
   "tasks": [
     {
       "id": 1,
@@ -1311,8 +1311,8 @@
         "meme"
       ],
       "priority": "normal",
-      "status": "doing",
-      "progress": 50,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Синтез звуков",
@@ -1324,18 +1324,18 @@
         },
         {
           "text": "Рендер и проверка",
-          "done": false
+          "done": true
         },
         {
           "text": "Описание и отправка",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-21T19:11:00.659Z",
-      "updated": "2026-11-21T19:12:35.638Z",
+      "updated": "2026-11-21T19:16:34.718Z",
       "started": "2026-11-21T19:11:00.659Z",
-      "completed": null
+      "completed": "2026-11-21T19:16:34.716Z"
     },
     {
       "id": 38,
@@ -3247,6 +3247,14 @@
       "type": "done",
       "actor": "claude",
       "msg": "Медвежий рынок близко к капитуляции: BTC пролив до 55.1k и отскок к 60.3k, ликвидации .5B, ставка ФРС, обвал техсектора",
+      "progress": 100
+    },
+    {
+      "ts": "2026-11-21T19:16:34.718Z",
+      "task": 37,
+      "type": "done",
+      "actor": "claude",
+      "msg": "без голоса, 20 синтезированных звуков по таймингам анимации; reel.mp4 33 с, reel_upload.mp4 <10 МБ; не выложен",
       "progress": 100
     }
   ]
