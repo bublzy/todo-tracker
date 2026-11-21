@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 45,
-  "updated": "2026-11-21T21:25:45.885Z",
+  "updated": "2026-11-21T21:27:59.425Z",
   "tasks": [
     {
       "id": 1,
@@ -1512,7 +1512,7 @@
       "project": "3d-models",
       "tags": [],
       "priority": "normal",
-      "status": "blocked",
+      "status": "doing",
       "progress": 50,
       "steps": [
         {
@@ -1534,7 +1534,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-21T21:21:38.034Z",
-      "updated": "2026-11-21T21:23:45.201Z",
+      "updated": "2026-11-21T21:27:59.424Z",
       "started": "2026-11-21T21:21:38.034Z",
       "completed": null
     },
@@ -3651,6 +3651,14 @@
       "actor": "claude",
       "msg": "Тёплая палитра: травертин + оливковый. Artifact v7 и сайт обновлены",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-21T21:27:59.424Z",
+      "task": 43,
+      "type": "started",
+      "actor": "claude",
+      "msg": "Решение: масштаб под бок 56 мм (наружный), верх — наружный 33 мм",
+      "progress": 50
     }
   ]
 }
