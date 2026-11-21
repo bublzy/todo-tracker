@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 36,
-  "updated": "2026-11-19T21:02:01.122Z",
+  "nextId": 37,
+  "updated": "2026-11-21T18:54:54.258Z",
   "tasks": [
     {
       "id": 1,
@@ -1267,6 +1267,37 @@
       "created": "2026-11-19T20:59:07.422Z",
       "updated": "2026-11-19T21:02:01.121Z",
       "started": "2026-11-19T20:59:07.422Z",
+      "completed": null
+    },
+    {
+      "id": 36,
+      "title": "Анализ ICP и рынка 21.11",
+      "description": "Разбор ICP командой --coin, обзор рынка, свежие новости",
+      "project": "crypto-analyst",
+      "tags": [
+        "analysis"
+      ],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Запуск разбора и обзора",
+          "done": false
+        },
+        {
+          "text": "Новости",
+          "done": false
+        },
+        {
+          "text": "Публикация и итог",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-21T18:54:54.256Z",
+      "updated": "2026-11-21T18:54:54.258Z",
+      "started": "2026-11-21T18:54:54.256Z",
       "completed": null
     }
   ],
@@ -3060,6 +3091,20 @@
       "actor": "claude",
       "msg": "Сценарий и персонаж — колобок + 4 сцены: спортзал, торт, будильник, сериал",
       "progress": 20
+    },
+    {
+      "ts": "2026-11-21T18:54:54.258Z",
+      "task": 36,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-21T18:54:54.258Z",
+      "task": 36,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
