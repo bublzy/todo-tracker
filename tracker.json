@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 46,
-  "updated": "2026-11-21T21:31:19.404Z",
+  "updated": "2026-11-21T21:31:22.833Z",
   "tasks": [
     {
       "id": 1,
@@ -1575,7 +1575,7 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 67,
+      "progress": 100,
       "steps": [
         {
           "text": "Собрать варианты",
@@ -1587,12 +1587,12 @@
         },
         {
           "text": "Отправить на выбор",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-21T21:30:07.469Z",
-      "updated": "2026-11-21T21:31:19.403Z",
+      "updated": "2026-11-21T21:31:22.832Z",
       "started": "2026-11-21T21:30:07.469Z",
       "completed": null
     }
@@ -3718,6 +3718,14 @@
       "actor": "claude",
       "msg": "Снимки экрана",
       "progress": 67
+    },
+    {
+      "ts": "2026-11-21T21:31:22.832Z",
+      "task": 45,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Отправить на выбор — Снимки отправлены",
+      "progress": 100
     }
   ]
 }
