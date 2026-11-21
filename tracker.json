@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 44,
-  "updated": "2026-11-21T21:23:41.656Z",
+  "updated": "2026-11-21T21:23:45.202Z",
   "tasks": [
     {
       "id": 1,
@@ -1512,7 +1512,7 @@
       "project": "3d-models",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
+      "status": "blocked",
       "progress": 50,
       "steps": [
         {
@@ -1534,7 +1534,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-21T21:21:38.034Z",
-      "updated": "2026-11-21T21:23:41.654Z",
+      "updated": "2026-11-21T21:23:45.201Z",
       "started": "2026-11-21T21:21:38.034Z",
       "completed": null
     }
@@ -3591,6 +3591,14 @@
       "type": "step",
       "actor": "claude",
       "msg": "Замерить текущие отверстия — Верх: внутр. Ø≈19.5 мм; бок (тангенциальный вход): внутр. Ø≈15 мм",
+      "progress": 50
+    },
+    {
+      "ts": "2026-11-21T21:23:45.201Z",
+      "task": 43,
+      "type": "blocked",
+      "actor": "claude",
+      "msg": "ждёт: 56 мм бокового не влезает в корпус 64 мм — нужно решение по масштабу",
       "progress": 50
     }
   ]
