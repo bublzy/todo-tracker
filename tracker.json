@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 38,
-  "updated": "2026-11-21T19:11:00.660Z",
+  "nextId": 39,
+  "updated": "2026-11-21T19:11:23.214Z",
   "tasks": [
     {
       "id": 1,
@@ -1335,6 +1335,37 @@
       "created": "2026-11-21T19:11:00.659Z",
       "updated": "2026-11-21T19:11:00.660Z",
       "started": "2026-11-21T19:11:00.659Z",
+      "completed": null
+    },
+    {
+      "id": 38,
+      "title": "Оценка рынка 21.11",
+      "description": "Общий анализ рынка: BTC/ETH, широта, акции, макро, потоки ETF",
+      "project": "crypto-analyst",
+      "tags": [
+        "analysis"
+      ],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Данные BTC/ETH/рынок",
+          "done": false
+        },
+        {
+          "text": "Макро и ETF",
+          "done": false
+        },
+        {
+          "text": "Итоговая оценка",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-21T19:11:23.212Z",
+      "updated": "2026-11-21T19:11:23.214Z",
+      "started": "2026-11-21T19:11:23.212Z",
       "completed": null
     }
   ],
@@ -3176,6 +3207,20 @@
     {
       "ts": "2026-11-21T19:11:00.660Z",
       "task": 37,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-21T19:11:23.214Z",
+      "task": 38,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-21T19:11:23.214Z",
+      "task": 38,
       "type": "started",
       "actor": "claude",
       "progress": 0
