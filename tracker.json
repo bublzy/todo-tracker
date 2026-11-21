@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 39,
-  "updated": "2026-11-21T19:11:23.214Z",
+  "updated": "2026-11-21T19:12:32.035Z",
   "tasks": [
     {
       "id": 1,
@@ -1312,11 +1312,11 @@
       ],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 25,
       "steps": [
         {
           "text": "Синтез звуков",
-          "done": false
+          "done": true
         },
         {
           "text": "Привязка к анимации, без голоса",
@@ -1333,7 +1333,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-21T19:11:00.659Z",
-      "updated": "2026-11-21T19:11:00.660Z",
+      "updated": "2026-11-21T19:12:32.033Z",
       "started": "2026-11-21T19:11:00.659Z",
       "completed": null
     },
@@ -3224,6 +3224,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-21T19:12:32.033Z",
+      "task": 37,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Синтез звуков — 20 звуков: бонк, пружинка, свисток, шипение, вомп-вомп, будильник, птицы...",
+      "progress": 25
     }
   ]
 }
