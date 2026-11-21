@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 37,
-  "updated": "2026-11-21T19:03:23.557Z",
+  "updated": "2026-11-21T19:03:27.217Z",
   "tasks": [
     {
       "id": 1,
@@ -1278,27 +1278,27 @@
         "analysis"
       ],
       "priority": "normal",
-      "status": "doing",
-      "progress": 0,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Запуск разбора и обзора",
-          "done": false
+          "done": true
         },
         {
           "text": "Новости",
-          "done": false
+          "done": true
         },
         {
           "text": "Публикация и итог",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-21T18:54:54.256Z",
-      "updated": "2026-11-21T19:03:23.556Z",
+      "updated": "2026-11-21T19:03:27.217Z",
       "started": "2026-11-21T18:54:54.256Z",
-      "completed": null
+      "completed": "2026-11-21T19:03:27.216Z"
     }
   ],
   "events": [
@@ -3120,6 +3120,14 @@
       "type": "note",
       "actor": "claude",
       "msg": "Python по умолчанию сменился на 3.12 без библиотек — переустановил requirements"
+    },
+    {
+      "ts": "2026-11-21T19:03:27.217Z",
+      "task": 36,
+      "type": "done",
+      "actor": "claude",
+      "msg": "ICP пробил исторический минимум (1.87), рынок акций обвалился (NVDA -14%), отчёт обновлён по прежней ссылке",
+      "progress": 100
     }
   ]
 }
