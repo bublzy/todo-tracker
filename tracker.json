@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 37,
-  "updated": "2026-11-21T18:58:53.483Z",
+  "updated": "2026-11-21T19:03:23.557Z",
   "tasks": [
     {
       "id": 1,
@@ -1296,7 +1296,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-21T18:54:54.256Z",
-      "updated": "2026-11-21T18:54:54.258Z",
+      "updated": "2026-11-21T19:03:23.556Z",
       "started": "2026-11-21T18:54:54.256Z",
       "completed": null
     }
@@ -3113,6 +3113,13 @@
       "actor": "claude",
       "msg": "reels/funny-03-expectation-reality: reel.mp4 (40 с) + reel_upload.mp4 <10 МБ + description.txt; не выложен",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-21T19:03:23.556Z",
+      "task": 36,
+      "type": "note",
+      "actor": "claude",
+      "msg": "Python по умолчанию сменился на 3.12 без библиотек — переустановил requirements"
     }
   ]
 }
