@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 40,
-  "updated": "2026-11-21T19:24:10.044Z",
+  "nextId": 41,
+  "updated": "2026-11-21T20:15:00.111Z",
   "tasks": [
     {
       "id": 1,
@@ -1399,6 +1399,46 @@
       "updated": "2026-11-21T19:24:10.044Z",
       "started": "2026-11-21T19:21:07.824Z",
       "completed": "2026-11-21T19:24:10.043Z"
+    },
+    {
+      "id": 40,
+      "title": "«What if your pet could talk?» для Funny Stuff Zone",
+      "description": "Анимация: колобок-хозяин и рыжий кот, реплики в пузырях с «бормотанием», без озвучки, свои звуки и музыка",
+      "project": "reels",
+      "tags": [
+        "youtube",
+        "humor"
+      ],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Заготовка проекта",
+          "done": false
+        },
+        {
+          "text": "Кот и 4 сцены",
+          "done": false
+        },
+        {
+          "text": "Пузыри и звуки речи",
+          "done": false
+        },
+        {
+          "text": "Рендер и проверка",
+          "done": false
+        },
+        {
+          "text": "Описания и отправка",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-21T20:15:00.109Z",
+      "updated": "2026-11-21T20:15:00.111Z",
+      "started": "2026-11-21T20:15:00.109Z",
+      "completed": null
     }
   ],
   "events": [
@@ -3326,6 +3366,20 @@
       "actor": "claude",
       "msg": "Опубликован публично: youtube.com/shorts/iO3abIgk54g, проверка авторских прав — без замечаний",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-21T20:15:00.111Z",
+      "task": 40,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-21T20:15:00.111Z",
+      "task": 40,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
