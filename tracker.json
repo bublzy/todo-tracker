@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 46,
-  "updated": "2026-11-21T21:33:42.336Z",
+  "updated": "2026-11-21T21:34:35.435Z",
   "tasks": [
     {
       "id": 1,
@@ -1574,7 +1574,7 @@
       "project": "tile-planner",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
+      "status": "done",
       "progress": 100,
       "steps": [
         {
@@ -1592,9 +1592,9 @@
       ],
       "actor": "claude",
       "created": "2026-11-21T21:30:07.469Z",
-      "updated": "2026-11-21T21:33:42.335Z",
+      "updated": "2026-11-21T21:34:35.435Z",
       "started": "2026-11-21T21:30:07.469Z",
-      "completed": null
+      "completed": "2026-11-21T21:34:35.434Z"
     }
   ],
   "events": [
@@ -3764,6 +3764,14 @@
       "type": "started",
       "actor": "claude",
       "msg": "Выбран «Мёд», применяю",
+      "progress": 100
+    },
+    {
+      "ts": "2026-11-21T21:34:35.435Z",
+      "task": 45,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Выбрана палитра «Мёд», выложена в Artifact v8 и на сайт",
       "progress": 100
     }
   ]
