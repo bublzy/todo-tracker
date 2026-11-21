@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 43,
-  "updated": "2026-11-21T20:51:32.732Z",
+  "updated": "2026-11-21T20:52:47.751Z",
   "tasks": [
     {
       "id": 1,
@@ -1479,8 +1479,8 @@
       "project": "tile-planner",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
-      "progress": 50,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Новая палитра и шрифты",
@@ -1492,18 +1492,18 @@
         },
         {
           "text": "Проверка в светлой/тёмной и на телефоне",
-          "done": false
+          "done": true
         },
         {
           "text": "Обновить Artifact и сайт",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-21T20:49:12.799Z",
-      "updated": "2026-11-21T20:51:32.730Z",
+      "updated": "2026-11-21T20:52:47.751Z",
       "started": "2026-11-21T20:49:12.799Z",
-      "completed": null
+      "completed": "2026-11-21T20:52:47.750Z"
     }
   ],
   "events": [
@@ -3521,6 +3521,14 @@
       "actor": "claude",
       "msg": "Окна, кнопки, панели — Панели с мягкими тенями, окна по центру",
       "progress": 50
+    },
+    {
+      "ts": "2026-11-21T20:52:47.751Z",
+      "task": 42,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Новый дизайн: фарфор + кобальт, шрифт Onest, мягкие тени, окна по центру. Artifact v6 и сайт обновлены",
+      "progress": 100
     }
   ]
 }
