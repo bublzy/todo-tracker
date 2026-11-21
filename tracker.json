@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 44,
-  "updated": "2026-11-21T21:21:38.036Z",
+  "updated": "2026-11-21T21:23:37.957Z",
   "tasks": [
     {
       "id": 1,
@@ -1513,11 +1513,11 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 25,
       "steps": [
         {
           "text": "Найти Blender и открыть STL",
-          "done": false
+          "done": true
         },
         {
           "text": "Замерить текущие отверстия",
@@ -1534,7 +1534,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-21T21:21:38.034Z",
-      "updated": "2026-11-21T21:21:38.036Z",
+      "updated": "2026-11-21T21:23:37.956Z",
       "started": "2026-11-21T21:21:38.034Z",
       "completed": null
     }
@@ -3576,6 +3576,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-21T21:23:37.956Z",
+      "task": 43,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Найти Blender и открыть STL — Blender 4.5 найден, модель 64×64×50 мм, сетка замкнутая",
+      "progress": 25
     }
   ]
 }
