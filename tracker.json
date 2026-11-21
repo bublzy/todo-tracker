@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 43,
-  "updated": "2026-11-21T20:52:47.751Z",
+  "nextId": 44,
+  "updated": "2026-11-21T21:21:38.036Z",
   "tasks": [
     {
       "id": 1,
@@ -1504,6 +1504,39 @@
       "updated": "2026-11-21T20:52:47.751Z",
       "started": "2026-11-21T20:49:12.799Z",
       "completed": "2026-11-21T20:52:47.750Z"
+    },
+    {
+      "id": 43,
+      "title": "Циклон: отверстия крышки 33/56 мм",
+      "description": "Изменить диаметры отверстий в STL-модели крышки циклона через Blender",
+      "project": "3d-models",
+      "tags": [],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Найти Blender и открыть STL",
+          "done": false
+        },
+        {
+          "text": "Замерить текущие отверстия",
+          "done": false
+        },
+        {
+          "text": "Сделать верхнее 33 мм и боковое 56 мм",
+          "done": false
+        },
+        {
+          "text": "Экспортировать и проверить STL",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-21T21:21:38.034Z",
+      "updated": "2026-11-21T21:21:38.036Z",
+      "started": "2026-11-21T21:21:38.034Z",
+      "completed": null
     }
   ],
   "events": [
@@ -3529,6 +3562,20 @@
       "actor": "claude",
       "msg": "Новый дизайн: фарфор + кобальт, шрифт Onest, мягкие тени, окна по центру. Artifact v6 и сайт обновлены",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-21T21:21:38.036Z",
+      "task": 43,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-21T21:21:38.036Z",
+      "task": 43,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
