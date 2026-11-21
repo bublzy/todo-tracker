@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 41,
-  "updated": "2026-11-21T20:15:00.111Z",
+  "updated": "2026-11-21T20:18:53.798Z",
   "tasks": [
     {
       "id": 1,
@@ -1411,7 +1411,7 @@
       ],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 20,
       "steps": [
         {
           "text": "Заготовка проекта",
@@ -1419,7 +1419,7 @@
         },
         {
           "text": "Кот и 4 сцены",
-          "done": false
+          "done": true
         },
         {
           "text": "Пузыри и звуки речи",
@@ -1436,7 +1436,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-21T20:15:00.109Z",
-      "updated": "2026-11-21T20:15:00.111Z",
+      "updated": "2026-11-21T20:18:53.797Z",
       "started": "2026-11-21T20:15:00.109Z",
       "completed": null
     }
@@ -3380,6 +3380,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-21T20:18:53.797Z",
+      "task": 40,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Кот и 4 сцены — кот, 4 сцены: дом, 3 часа ночи, ветеринар, ноутбук",
+      "progress": 20
     }
   ]
 }
