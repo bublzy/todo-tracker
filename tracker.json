@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 43,
-  "updated": "2026-11-21T20:49:57.150Z",
+  "updated": "2026-11-21T20:51:28.746Z",
   "tasks": [
     {
       "id": 1,
@@ -1480,11 +1480,11 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 25,
       "steps": [
         {
           "text": "Новая палитра и шрифты",
-          "done": false
+          "done": true
         },
         {
           "text": "Окна, кнопки, панели",
@@ -1501,7 +1501,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-21T20:49:12.799Z",
-      "updated": "2026-11-21T20:49:12.800Z",
+      "updated": "2026-11-21T20:51:28.745Z",
       "started": "2026-11-21T20:49:12.799Z",
       "completed": null
     }
@@ -3505,6 +3505,14 @@
       "actor": "claude",
       "msg": "Опубликован публично: youtube.com/shorts/YMWyYhfkYh8, проверка авторских прав — без замечаний",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-21T20:51:28.745Z",
+      "task": 42,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Новая палитра и шрифты — Палитра фарфор + кобальт, шрифт Onest",
+      "progress": 25
     }
   ]
 }
