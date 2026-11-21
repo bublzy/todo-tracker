@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 45,
-  "updated": "2026-11-21T21:27:59.425Z",
+  "nextId": 46,
+  "updated": "2026-11-21T21:30:07.471Z",
   "tasks": [
     {
       "id": 1,
@@ -1566,6 +1566,35 @@
       "updated": "2026-11-21T21:25:45.885Z",
       "started": "2026-11-21T21:24:26.319Z",
       "completed": "2026-11-21T21:25:45.884Z"
+    },
+    {
+      "id": 45,
+      "title": "Планировщик плитки: три варианта палитры",
+      "description": "Показать три тёплые палитры на выбор",
+      "project": "tile-planner",
+      "tags": [],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Собрать варианты",
+          "done": false
+        },
+        {
+          "text": "Снимки экрана",
+          "done": false
+        },
+        {
+          "text": "Отправить на выбор",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-21T21:30:07.469Z",
+      "updated": "2026-11-21T21:30:07.471Z",
+      "started": "2026-11-21T21:30:07.469Z",
+      "completed": null
     }
   ],
   "events": [
@@ -3659,6 +3688,20 @@
       "actor": "claude",
       "msg": "Решение: масштаб под бок 56 мм (наружный), верх — наружный 33 мм",
       "progress": 50
+    },
+    {
+      "ts": "2026-11-21T21:30:07.471Z",
+      "task": 45,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-21T21:30:07.471Z",
+      "task": 45,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
