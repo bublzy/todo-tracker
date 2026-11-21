@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 39,
-  "updated": "2026-11-21T19:12:35.639Z",
+  "updated": "2026-11-21T19:14:30.464Z",
   "tasks": [
     {
       "id": 1,
@@ -1346,27 +1346,27 @@
         "analysis"
       ],
       "priority": "normal",
-      "status": "doing",
-      "progress": 0,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Данные BTC/ETH/рынок",
-          "done": false
+          "done": true
         },
         {
           "text": "Макро и ETF",
-          "done": false
+          "done": true
         },
         {
           "text": "Итоговая оценка",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-21T19:11:23.212Z",
-      "updated": "2026-11-21T19:11:23.214Z",
+      "updated": "2026-11-21T19:14:30.464Z",
       "started": "2026-11-21T19:11:23.212Z",
-      "completed": null
+      "completed": "2026-11-21T19:14:30.463Z"
     }
   ],
   "events": [
@@ -3240,6 +3240,14 @@
       "actor": "claude",
       "msg": "Привязка к анимации, без голоса — голос убран, звуки по таймингам анимации",
       "progress": 50
+    },
+    {
+      "ts": "2026-11-21T19:14:30.464Z",
+      "task": 38,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Медвежий рынок близко к капитуляции: BTC пролив до 55.1k и отскок к 60.3k, ликвидации .5B, ставка ФРС, обвал техсектора",
+      "progress": 100
     }
   ]
 }
