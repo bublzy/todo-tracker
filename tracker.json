@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 46,
-  "updated": "2026-11-21T21:31:22.833Z",
+  "updated": "2026-11-21T21:31:26.631Z",
   "tasks": [
     {
       "id": 1,
@@ -1574,7 +1574,7 @@
       "project": "tile-planner",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
+      "status": "blocked",
       "progress": 100,
       "steps": [
         {
@@ -1592,7 +1592,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-21T21:30:07.469Z",
-      "updated": "2026-11-21T21:31:22.832Z",
+      "updated": "2026-11-21T21:31:26.630Z",
       "started": "2026-11-21T21:30:07.469Z",
       "completed": null
     }
@@ -3725,6 +3725,14 @@
       "type": "step",
       "actor": "claude",
       "msg": "Отправить на выбор — Снимки отправлены",
+      "progress": 100
+    },
+    {
+      "ts": "2026-11-21T21:31:26.630Z",
+      "task": 45,
+      "type": "blocked",
+      "actor": "claude",
+      "msg": "ждёт: какой вариант выбрать",
       "progress": 100
     }
   ]
