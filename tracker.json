@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 46,
-  "updated": "2026-11-21T21:33:02.386Z",
+  "updated": "2026-11-21T21:33:06.104Z",
   "tasks": [
     {
       "id": 1,
@@ -1512,8 +1512,8 @@
       "project": "3d-models",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
-      "progress": 75,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Найти Blender и открыть STL",
@@ -1529,14 +1529,14 @@
         },
         {
           "text": "Экспортировать и проверить STL",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-21T21:21:38.034Z",
-      "updated": "2026-11-21T21:33:02.385Z",
+      "updated": "2026-11-21T21:33:06.104Z",
       "started": "2026-11-21T21:21:38.034Z",
-      "completed": null
+      "completed": "2026-11-21T21:33:06.102Z"
     },
     {
       "id": 44,
@@ -3749,6 +3749,14 @@
       "actor": "claude",
       "msg": "Сделать верхнее 33 мм и боковое 56 мм — Масштаб ×3.17: бок наружн. 56.0 мм; верх — конус 45° + трубка наружн. 33 / внутр. 28 мм",
       "progress": 75
+    },
+    {
+      "ts": "2026-11-21T21:33:06.104Z",
+      "task": 43,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Готово: E:/Модели 3D/cyclone_lid_side56_top33.stl (202×202×209 мм, сетка замкнута)",
+      "progress": 100
     }
   ]
 }
