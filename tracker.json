@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 50,
-  "updated": "2026-11-22T21:58:37.113Z",
+  "updated": "2026-11-22T22:00:48.811Z",
   "tasks": [
     {
       "id": 1,
@@ -1718,27 +1718,27 @@
         "humor"
       ],
       "priority": "normal",
-      "status": "doing",
-      "progress": 0,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Открыть Studio канала",
-          "done": false
+          "done": true
         },
         {
           "text": "Загрузить и заполнить",
-          "done": false
+          "done": true
         },
         {
           "text": "Опубликовать и проверить",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-22T21:58:37.112Z",
-      "updated": "2026-11-22T21:58:37.113Z",
+      "updated": "2026-11-22T22:00:48.811Z",
       "started": "2026-11-22T21:58:37.112Z",
-      "completed": null
+      "completed": "2026-11-22T22:00:48.809Z"
     }
   ],
   "events": [
@@ -4069,6 +4069,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-22T22:00:48.811Z",
+      "task": 49,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Опубликован публично: youtube.com/shorts/D46UP7ZZdqs, проверка авторских прав — без замечаний",
+      "progress": 100
     }
   ]
 }
