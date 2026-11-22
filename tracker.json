@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 46,
-  "updated": "2026-11-21T21:34:35.435Z",
+  "nextId": 47,
+  "updated": "2026-11-22T21:41:57.394Z",
   "tasks": [
     {
       "id": 1,
@@ -1595,6 +1595,43 @@
       "updated": "2026-11-21T21:34:35.435Z",
       "started": "2026-11-21T21:30:07.469Z",
       "completed": "2026-11-21T21:34:35.434Z"
+    },
+    {
+      "id": 46,
+      "title": "Циклон: крышка ≤170 мм, отверстия 56/33",
+      "description": "Уменьшить основание до 170×170 мм, сохранив наружные Ø56 сбоку и Ø33 сверху",
+      "project": "3d-models",
+      "tags": [],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Найти ось бокового патрубка",
+          "done": false
+        },
+        {
+          "text": "Масштаб под 170 мм",
+          "done": false
+        },
+        {
+          "text": "Перестроить патрубки 33 и 56",
+          "done": false
+        },
+        {
+          "text": "Проверить размеры и сетку",
+          "done": false
+        },
+        {
+          "text": "Сохранить STL",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-22T21:41:57.393Z",
+      "updated": "2026-11-22T21:41:57.394Z",
+      "started": "2026-11-22T21:41:57.393Z",
+      "completed": null
     }
   ],
   "events": [
@@ -3773,6 +3810,20 @@
       "actor": "claude",
       "msg": "Выбрана палитра «Мёд», выложена в Artifact v8 и на сайт",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-22T21:41:57.394Z",
+      "task": 46,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-22T21:41:57.394Z",
+      "task": 46,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
