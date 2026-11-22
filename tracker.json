@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 49,
-  "updated": "2026-11-22T21:57:53.034Z",
+  "nextId": 50,
+  "updated": "2026-11-22T21:58:37.113Z",
   "tasks": [
     {
       "id": 1,
@@ -1707,6 +1707,38 @@
       "updated": "2026-11-22T21:55:20.169Z",
       "started": "2026-11-22T21:52:17.077Z",
       "completed": "2026-11-22T21:55:20.167Z"
+    },
+    {
+      "id": 49,
+      "title": "Выложить «What if your fridge could talk?» на Funny Stuff Zone",
+      "description": "",
+      "project": "reels",
+      "tags": [
+        "youtube",
+        "humor"
+      ],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Открыть Studio канала",
+          "done": false
+        },
+        {
+          "text": "Загрузить и заполнить",
+          "done": false
+        },
+        {
+          "text": "Опубликовать и проверить",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-22T21:58:37.112Z",
+      "updated": "2026-11-22T21:58:37.113Z",
+      "started": "2026-11-22T21:58:37.112Z",
+      "completed": null
     }
   ],
   "events": [
@@ -4023,6 +4055,20 @@
       "actor": "claude",
       "msg": "Готово: E:/Модели 3D/cyclone_lid_170mm_side56_top33.stl (169.5×169.5×178 мм)",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-22T21:58:37.113Z",
+      "task": 49,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-22T21:58:37.113Z",
+      "task": 49,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
