@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 48,
-  "updated": "2026-11-22T21:46:58.314Z",
+  "updated": "2026-11-22T21:52:04.267Z",
   "tasks": [
     {
       "id": 1,
@@ -1643,12 +1643,12 @@
         "humor"
       ],
       "priority": "normal",
-      "status": "doing",
-      "progress": 40,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Заготовка проекта",
-          "done": false
+          "done": true
         },
         {
           "text": "Холодильник и 4 сцены",
@@ -1660,18 +1660,18 @@
         },
         {
           "text": "Рендер и проверка",
-          "done": false
+          "done": true
         },
         {
           "text": "Описания и отправка",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-22T21:43:16.882Z",
-      "updated": "2026-11-22T21:46:58.313Z",
+      "updated": "2026-11-22T21:52:04.267Z",
       "started": "2026-11-22T21:43:16.882Z",
-      "completed": null
+      "completed": "2026-11-22T21:52:04.256Z"
     }
   ],
   "events": [
@@ -3902,6 +3902,14 @@
       "actor": "claude",
       "msg": "Звуки холодильника — дверь, гул, крадущиеся шаги, дан-дан-ДАН, муха, хруст",
       "progress": 40
+    },
+    {
+      "ts": "2026-11-22T21:52:04.267Z",
+      "task": 47,
+      "type": "done",
+      "actor": "claude",
+      "msg": "reels/funny-05-fridge-could-talk: reel.mp4 30 с + reel_upload.mp4 <10 МБ + description.txt; не выложен",
+      "progress": 100
     }
   ]
 }
