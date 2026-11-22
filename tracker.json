@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 49,
-  "updated": "2026-11-22T21:57:49.522Z",
+  "updated": "2026-11-22T21:57:53.034Z",
   "tasks": [
     {
       "id": 1,
@@ -1603,8 +1603,8 @@
       "project": "3d-models",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
-      "progress": 80,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Найти ось бокового патрубка",
@@ -1624,14 +1624,14 @@
         },
         {
           "text": "Сохранить STL",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-22T21:41:57.393Z",
-      "updated": "2026-11-22T21:57:49.521Z",
+      "updated": "2026-11-22T21:57:53.034Z",
       "started": "2026-11-22T21:41:57.393Z",
-      "completed": null
+      "completed": "2026-11-22T21:57:53.033Z"
     },
     {
       "id": 47,
@@ -4015,6 +4015,14 @@
       "actor": "claude",
       "msg": "Проверить размеры и сетку — Замер: бок 56.00, верх 33.00, сетка без дыр",
       "progress": 80
+    },
+    {
+      "ts": "2026-11-22T21:57:53.034Z",
+      "task": 46,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Готово: E:/Модели 3D/cyclone_lid_170mm_side56_top33.stl (169.5×169.5×178 мм)",
+      "progress": 100
     }
   ]
 }
