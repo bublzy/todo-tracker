@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 47,
-  "updated": "2026-11-22T21:43:06.142Z",
+  "nextId": 48,
+  "updated": "2026-11-22T21:43:16.884Z",
   "tasks": [
     {
       "id": 1,
@@ -1631,6 +1631,46 @@
       "created": "2026-11-22T21:41:57.393Z",
       "updated": "2026-11-22T21:43:06.140Z",
       "started": "2026-11-22T21:41:57.393Z",
+      "completed": null
+    },
+    {
+      "id": 47,
+      "title": "«What if your fridge could talk?» для Funny Stuff Zone",
+      "description": "Анимация: колобок и говорящий холодильник, 4 сцены (10-й визит, 3 ночи, пицца «Кевин», диета), без озвучки, пузыри и звуки",
+      "project": "reels",
+      "tags": [
+        "youtube",
+        "humor"
+      ],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Заготовка проекта",
+          "done": false
+        },
+        {
+          "text": "Холодильник и 4 сцены",
+          "done": false
+        },
+        {
+          "text": "Звуки холодильника",
+          "done": false
+        },
+        {
+          "text": "Рендер и проверка",
+          "done": false
+        },
+        {
+          "text": "Описания и отправка",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-22T21:43:16.882Z",
+      "updated": "2026-11-22T21:43:16.884Z",
+      "started": "2026-11-22T21:43:16.882Z",
       "completed": null
     }
   ],
@@ -3832,6 +3872,20 @@
       "actor": "claude",
       "msg": "Найти ось бокового патрубка — Ось бок. патрубка: -101.7°, наклон 5.5°, наружн. 17.46 мм (в прошлой версии бок был ~55.3, не 56)",
       "progress": 20
+    },
+    {
+      "ts": "2026-11-22T21:43:16.884Z",
+      "task": 47,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-22T21:43:16.884Z",
+      "task": 47,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
