@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 49,
-  "updated": "2026-11-22T21:54:22.971Z",
+  "updated": "2026-11-22T21:54:27.088Z",
   "tasks": [
     {
       "id": 1,
@@ -1683,7 +1683,7 @@
       ],
       "priority": "normal",
       "status": "doing",
-      "progress": 50,
+      "progress": 75,
       "steps": [
         {
           "text": "Разобрать сборщик и вкладку",
@@ -1695,7 +1695,7 @@
         },
         {
           "text": "Вкладка: переключатель каналов",
-          "done": false
+          "done": true
         },
         {
           "text": "Запустить и проверить",
@@ -1704,7 +1704,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-22T21:52:17.077Z",
-      "updated": "2026-11-22T21:54:22.970Z",
+      "updated": "2026-11-22T21:54:27.087Z",
       "started": "2026-11-22T21:52:17.077Z",
       "completed": null
     }
@@ -3975,6 +3975,14 @@
       "actor": "claude",
       "msg": "Сборщик: несколько каналов — workflow: второй шаг для Funny Stuff Zone -> youtube-funnystuffzone.json",
       "progress": 50
+    },
+    {
+      "ts": "2026-11-22T21:54:27.087Z",
+      "task": 48,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Вкладка: переключатель каналов — кнопки каналов вверху вкладки YouTube",
+      "progress": 75
     }
   ]
 }
