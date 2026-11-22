@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 49,
-  "updated": "2026-11-22T21:54:27.088Z",
+  "updated": "2026-11-22T21:55:20.169Z",
   "tasks": [
     {
       "id": 1,
@@ -1682,8 +1682,8 @@
         "youtube"
       ],
       "priority": "normal",
-      "status": "doing",
-      "progress": 75,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Разобрать сборщик и вкладку",
@@ -1699,14 +1699,14 @@
         },
         {
           "text": "Запустить и проверить",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-22T21:52:17.077Z",
-      "updated": "2026-11-22T21:54:27.087Z",
+      "updated": "2026-11-22T21:55:20.169Z",
       "started": "2026-11-22T21:52:17.077Z",
-      "completed": null
+      "completed": "2026-11-22T21:55:20.167Z"
     }
   ],
   "events": [
@@ -3983,6 +3983,14 @@
       "actor": "claude",
       "msg": "Вкладка: переключатель каналов — кнопки каналов вверху вкладки YouTube",
       "progress": 75
+    },
+    {
+      "ts": "2026-11-22T21:55:20.169Z",
+      "task": 48,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Сборщик пишет оба канала (youtube.json + youtube-funnystuffzone.json), на вкладке YouTube переключатель каналов; проверено на сайте",
+      "progress": 100
     }
   ]
 }
