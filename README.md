@@ -14,5 +14,5 @@
 
 Отчёт по публичной статистике канала: просмотры по дням, всего просмотров, подписчики, таблица роликов.
 
-- Сбор: workflow `.github/workflows/youtube-stats.yml` каждые 3 часа (и вручную через *Run workflow*) запускает `.github/scripts/youtube-stats.mjs`, тот берёт данные из YouTube Data API v3 и дописывает снимок в `youtube.json` на ветке `data`. Последние 14 дней хранятся все снимки, старше — по одному в сутки.
+- Сбор: workflow `.github/workflows/youtube-stats.yml` каждые 3 часа (и вручную через *Run workflow*) запускает `.github/scripts/youtube-stats.mjs`, тот берёт данные из YouTube Data API v3 и дописывает снимок на ветку `data`: «Наука — Сегодня» в `youtube.json`, «Funny Stuff Zone» в `youtube-funnystuffzone.json`. Каналы переключаются кнопками вверху вкладки. Последние 14 дней хранятся все снимки, старше — по одному в сутки.
 - Ключ API хранится только в секрете репозитория `YT_API_KEY` и на страницу не попадает. Без ключа workflow просто пропускает сбор.

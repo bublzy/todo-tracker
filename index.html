@@ -139,6 +139,7 @@ h2.sec{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--
 .ythead .hd{color:var(--muted);font-size:13px}
 .ythead .hd a{color:var(--muted)}
 .ythead .tabs{margin-left:auto}
+.ytch{margin-bottom:14px;flex-wrap:wrap}
 .kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
 .kpi{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:14px 16px;box-shadow:var(--shadow);min-width:0}
 .kpi .l{font-size:12px;color:var(--muted);font-weight:600}
@@ -221,6 +222,7 @@ h2.sec{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--
   </section>
 
   <section id="v-youtube" class="hide yt">
+    <nav class="tabs ytch" id="ytCh" aria-label="Канал"></nav>
     <div id="ytBody"><div class="empty">Загружаю статистику…</div></div>
   </section>
 </main>
@@ -512,9 +514,28 @@ function setView(v){ view = v; store.set('tt.view', v);
 }
 
 // ---------- youtube ----------
-const YT_API = `https://api.github.com/repos/${CFG.owner}/${CFG.repo}/contents/youtube.json?ref=${CFG.branch}`;
-const YT_RAW = `https://raw.githubusercontent.com/${CFG.owner}/${CFG.repo}/${CFG.branch}/youtube.json`;
+// каналы: у каждого свой файл на ветке data (пишет .github/workflows/youtube-stats.yml)
+const YT_CHANNELS = [
+  { key:'nauka', label:'Наука — Сегодня', file:'youtube.json' },
+  { key:'funny', label:'Funny Stuff Zone', file:'youtube-funnystuffzone.json' },
+];
+const ytApi = f => `https://api.github.com/repos/${CFG.owner}/${CFG.repo}/contents/${f}?ref=${CFG.branch}`;
+const ytRaw = f => `https://raw.githubusercontent.com/${CFG.owner}/${CFG.repo}/${CFG.branch}/${f}`;
+let ytCh = YT_CHANNELS.some(c => c.key === store.get('tt.ytCh')) ? store.get('tt.ytCh') : YT_CHANNELS[0].key;
+const ytCache = {};                                        // key -> { data, etag } — переключение без повторной загрузки
+const ytFile = () => YT_CHANNELS.find(c => c.key === ytCh).file;
 let yt = null, ytEtag = '', ytState = 'loading', ytErr = '', ytSort = { k:'views', dir:-1 };
+function renderYTChannels(){
+  $('#ytCh').innerHTML = YT_CHANNELS.map(c => `<button class="rg${c.key === ytCh ? ' on' : ''}" data-ych="${c.key}">${esc(c.label)}</button>`).join('');
+}
+function switchYT(key){
+  if (key === ytCh) return;
+  ytCh = key; store.set('tt.ytCh', key);
+  const c = ytCache[key]; yt = c?.data || null; ytEtag = c?.etag || ''; ytState = yt ? 'ok' : 'loading'; ytErr = '';
+  renderYTChannels();
+  if (yt) renderYT(); else $('#ytBody').innerHTML = '<div class="empty">Загружаю статистику…</div>';
+  loadYT();
+}
 let ytRange = store.get('tt.ytRange') || '30';
 const nf = new Intl.NumberFormat('ru');
 const fmt = n => n == null ? '—' : nf.format(n);
@@ -525,22 +546,29 @@ const dlong = t => new Date(t).toLocaleString('ru', { day:'numeric', month:'long
 const localDay = t => { const d = new Date(t); return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`; };
 
 async function loadYT(){
-  if (/^(localhost|127\.0\.0\.1)$/.test(host)) {           // локальная проверка вёрстки: youtube.json рядом с index.html
-    try { const r = await fetch('youtube.json?t=' + Date.now(), { cache:'no-store' }); if (r.ok) { yt = await r.json(); ytState = 'ok'; return renderYT(); } } catch {}
+  const key = ytCh, file = ytFile();
+  const done = (data, etag, state) => {                    // ответ мог прийти уже после переключения канала
+    if (data) ytCache[key] = { data, etag };
+    if (key !== ytCh) return;
+    if (data || state) { yt = data; ytEtag = etag; ytState = state || 'ok'; renderYT(); }
+  };
+  renderYTChannels();
+  if (/^(localhost|127\.0\.0\.1)$/.test(host)) {           // локальная проверка вёрстки: json рядом с index.html
+    try { const r = await fetch(file + '?t=' + Date.now(), { cache:'no-store' }); if (r.ok) return done(await r.json(), '', 'ok'); } catch {}
   }
   const headers = { Accept:'application/vnd.github.raw+json' };
   if (token) headers.Authorization = 'Bearer ' + token;
   if (ytEtag) headers['If-None-Match'] = ytEtag;
   try {
-    let r = await fetch(YT_API, { headers, cache:'no-store' });
+    let r = await fetch(ytApi(file), { headers, cache:'no-store' }), etag = '';
     if (r.status === 304) return;
-    if (r.status === 404) { yt = null; ytState = 'missing'; return renderYT(); }
-    if (!r.ok) { r = await fetch(YT_RAW + '?t=' + Date.now(), { cache:'no-store' }); ytEtag = '';
-      if (r.status === 404) { yt = null; ytState = 'missing'; return renderYT(); } }
-    else ytEtag = r.headers.get('ETag') || '';
+    if (r.status === 404) return done(null, '', 'missing');
+    if (!r.ok) { r = await fetch(ytRaw(file) + '?t=' + Date.now(), { cache:'no-store' });
+      if (r.status === 404) return done(null, '', 'missing'); }
+    else etag = r.headers.get('ETag') || '';
     if (!r.ok) throw new Error('HTTP ' + r.status);
-    yt = await r.json(); ytState = 'ok'; renderYT();
-  } catch (e) { ytErr = String(e.message || e); if (!yt) { ytState = 'error'; renderYT(); } }
+    done(await r.json(), etag, 'ok');
+  } catch (e) { if (key !== ytCh) return; ytErr = String(e.message || e); if (!yt) { ytState = 'error'; renderYT(); } }
 }
 setInterval(() => { if (view === 'youtube' && !document.hidden) loadYT(); }, 5 * 60000);
 
@@ -561,7 +589,7 @@ function renderYT(){
   if (ytState === 'loading') return;
   if (ytState === 'missing' || ytState === 'error' || !yt?.channel) {
     box.innerHTML = `<div class="ytempty"><h3>Статистика канала ещё не собиралась</h3>
-      <p>Отчёт строится по снимкам, которые GitHub Actions сохраняет каждые 3 часа в <code>youtube.json</code> на ветке <code>data</code>.</p>
+      <p>Отчёт строится по снимкам, которые GitHub Actions сохраняет каждые 3 часа в <code>${esc(ytFile())}</code> на ветке <code>data</code>.</p>
       <p>Чтобы сбор заработал, нужен ключ YouTube Data API v3 в секрете репозитория <code>YT_API_KEY</code>. Первый снимок появится после ближайшего запуска workflow «YouTube stats».</p>
       ${ytState === 'error' ? `<p>Не удалось загрузить данные: ${esc(ytErr)}</p>` : ''}</div>`;
     return;
@@ -709,6 +737,7 @@ function barChart(box, bars, empty){
   });
 }
 document.addEventListener('click', e => {
+  const ych = e.target.closest('[data-ych]'); if (ych) return switchYT(ych.dataset.ych);
   const rg = e.target.closest('[data-rg]'); if (rg) { ytRange = rg.dataset.rg; store.set('tt.ytRange', ytRange); return renderYT(); }
   const th = e.target.closest('th[data-sort]');
   if (th) { const k = th.dataset.sort; ytSort = { k, dir: ytSort.k === k ? -ytSort.dir : (k === 'title' ? 1 : -1) }; return renderYT(); }

@@ -1,6 +1,7 @@
 name: YouTube stats
 
-# Каждые 3 часа сохраняет снимок публичной статистики канала в youtube.json на ветке data.
+# Каждые 3 часа сохраняет снимок публичной статистики каналов на ветке data:
+# «Наука — Сегодня» -> youtube.json, «Funny Stuff Zone» -> youtube-funnystuffzone.json.
 # Страница трекера (вкладка «YouTube») рисует по нему отчёт.
 on:
   schedule:
@@ -35,18 +36,26 @@ jobs:
         with:
           node-version: 22
 
-      - name: Собрать статистику
+      - name: Собрать статистику — Наука — Сегодня
         env:
           YT_API_KEY: ${{ secrets.YT_API_KEY }}
           YT_CHANNEL_ID: UCovx5_eaInF8mZf9GaObQwA   # @nauka_segodnya
         run: node site/.github/scripts/youtube-stats.mjs data/youtube.json
 
+      - name: Собрать статистику — Funny Stuff Zone
+        if: ${{ !cancelled() }}
+        env:
+          YT_API_KEY: ${{ secrets.YT_API_KEY }}
+          YT_CHANNEL_ID: UC-Q84K0dxrXnFin06qiCadw   # @funnystuffzone
+        run: node site/.github/scripts/youtube-stats.mjs data/youtube-funnystuffzone.json
+
       - name: Сохранить в ветку data
+        if: ${{ !cancelled() }}
         working-directory: data
         run: |
           git config user.name "youtube-stats"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A youtube.json 2>/dev/null || true
+          git add -A youtube*.json 2>/dev/null || true
           if git diff --cached --quiet; then echo "без изменений"; exit 0; fi
           git commit -q -m "youtube: снимок статистики"
           for i in 1 2 3 4; do
