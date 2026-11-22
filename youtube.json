@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-22T21:52:18.724Z",
+ "updated": "2026-11-22T21:53:40.893Z",
  "channel": {
   "id": "UCovx5_eaInF8mZf9GaObQwA",
   "title": "Наука — Сегодня",
@@ -392,6 +392,17 @@
   },
   {
    "ts": "2026-11-22T21:52:18.724Z",
+   "views": 145,
+   "channelViews": 145,
+   "subs": 1,
+   "videos": 2,
+   "v": {
+    "O0FypmBZ7E4": 16,
+    "udKb8RWEOgM": 129
+   }
+  },
+  {
+   "ts": "2026-11-22T21:53:40.893Z",
    "views": 145,
    "channelViews": 145,
    "subs": 1,
