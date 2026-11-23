@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 53,
-  "updated": "2026-11-23T18:55:26.234Z",
+  "nextId": 54,
+  "updated": "2026-11-23T18:57:17.940Z",
   "tasks": [
     {
       "id": 1,
@@ -1843,6 +1843,39 @@
       "updated": "2026-11-23T18:55:26.234Z",
       "started": "2026-11-23T18:53:33.484Z",
       "completed": "2026-11-23T18:55:26.233Z"
+    },
+    {
+      "id": 53,
+      "title": "Планировщик плитки: стены по клику, удаление вытягиванием",
+      "description": "Размер стены вводится нажатием на стену; предмет, вытянутый за комнату, удаляется",
+      "project": "tile-planner",
+      "tags": [],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Окно размера по клику на стену",
+          "done": false
+        },
+        {
+          "text": "Удаление вытягиванием за комнату",
+          "done": false
+        },
+        {
+          "text": "Проверка",
+          "done": false
+        },
+        {
+          "text": "Обновить Artifact и сайт",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-23T18:57:17.939Z",
+      "updated": "2026-11-23T18:57:17.940Z",
+      "started": "2026-11-23T18:57:17.939Z",
+      "completed": null
     }
   ],
   "events": [
@@ -4271,6 +4304,20 @@
       "actor": "claude",
       "msg": "Опубликован публично: youtube.com/shorts/8giNb4JcRNc, проверка авторских прав — без замечаний",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-23T18:57:17.940Z",
+      "task": 53,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-23T18:57:17.940Z",
+      "task": 53,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
