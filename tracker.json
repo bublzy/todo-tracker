@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 51,
-  "updated": "2026-11-23T18:04:08.681Z",
+  "nextId": 52,
+  "updated": "2026-11-23T18:34:53.511Z",
   "tasks": [
     {
       "id": 1,
@@ -1779,6 +1779,38 @@
       "updated": "2026-11-23T18:04:08.681Z",
       "started": "2026-11-23T17:57:41.285Z",
       "completed": "2026-11-23T18:04:08.680Z"
+    },
+    {
+      "id": 51,
+      "title": "Job interview: свои голоса для кота и колобка",
+      "description": "",
+      "project": "reels",
+      "tags": [
+        "youtube",
+        "humor"
+      ],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Синтез голосов",
+          "done": false
+        },
+        {
+          "text": "Интонация вопросов и пересборка звука",
+          "done": false
+        },
+        {
+          "text": "Проверка и отправка",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-23T18:34:53.509Z",
+      "updated": "2026-11-23T18:34:53.511Z",
+      "started": "2026-11-23T18:34:53.509Z",
+      "completed": null
     }
   ],
   "events": [
@@ -4163,6 +4195,20 @@
       "actor": "claude",
       "msg": "reels/funny-06-cat-job-interview: reel.mp4 32 с + reel_upload.mp4 <10 МБ + description.txt; не выложен",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-23T18:34:53.511Z",
+      "task": 51,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-23T18:34:53.511Z",
+      "task": 51,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
