@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 55,
-  "updated": "2026-11-23T19:05:48.391Z",
+  "updated": "2026-11-23T19:05:52.163Z",
   "tasks": [
     {
       "id": 1,
@@ -1887,7 +1887,7 @@
         "humor"
       ],
       "priority": "normal",
-      "status": "doing",
+      "status": "blocked",
       "progress": 75,
       "steps": [
         {
@@ -1909,7 +1909,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-23T19:00:33.254Z",
-      "updated": "2026-11-23T19:05:48.390Z",
+      "updated": "2026-11-23T19:05:52.162Z",
       "started": "2026-11-23T19:00:33.254Z",
       "completed": null
     }
@@ -4399,6 +4399,14 @@
       "type": "step",
       "actor": "claude",
       "msg": "Тест на пробном клипе — механика проверена на пробном клипе",
+      "progress": 75
+    },
+    {
+      "ts": "2026-11-23T19:05:52.162Z",
+      "task": 54,
+      "type": "blocked",
+      "actor": "claude",
+      "msg": "ждёт: видео с котом от пользователя в reels/cat-cartoon/input",
       "progress": 75
     }
   ]
