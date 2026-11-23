@@ -1,26 +1,36 @@
 {
  "version": 1,
- "updated": "2026-11-23T16:17:41.605Z",
+ "updated": "2026-11-23T19:11:41.609Z",
  "channel": {
   "id": "UC-Q84K0dxrXnFin06qiCadw",
   "title": "Funny Stuff Zone",
   "handle": "@funnystuffzone",
   "thumb": "https://yt3.ggpht.com/2GNYUVKty_D9bnlkRawu8YaN5gs-_s5CSB1S9u8PNSoyGZkcuMbE_5N2OAc9IXSvtxht5bjqtw=s240-c-k-c0x00ffffff-no-rj",
-  "views": 2338,
+  "views": 2360,
   "channelViews": 180,
   "subs": 2,
   "hiddenSubs": false,
-  "videos": 4
+  "videos": 5
  },
  "videos": [
+  {
+   "id": "8giNb4JcRNc",
+   "title": "My cat had a job interview 🐱💼 wait for the ending #shorts",
+   "published": "2026-11-23T18:55:13Z",
+   "duration": 33,
+   "thumb": "https://i.ytimg.com/vi/8giNb4JcRNc/mqdefault.jpg",
+   "views": 8,
+   "likes": 0,
+   "comments": 0
+  },
   {
    "id": "D46UP7ZZdqs",
    "title": "What if your fridge could talk? 🧊 #2 is too real #shorts",
    "published": "2026-11-22T22:00:37Z",
    "duration": 31,
    "thumb": "https://i.ytimg.com/vi/D46UP7ZZdqs/mqdefault.jpg",
-   "views": 381,
-   "likes": 6,
+   "views": 394,
+   "likes": 7,
    "comments": 0
   },
   {
@@ -39,7 +49,7 @@
    "published": "2026-11-21T19:24:00Z",
    "duration": 34,
    "thumb": "https://i.ytimg.com/vi/iO3abIgk54g/mqdefault.jpg",
-   "views": 569,
+   "views": 570,
    "likes": 8,
    "comments": 0
   },
@@ -142,6 +152,20 @@
     "D46UP7ZZdqs": 381,
     "YMWyYhfkYh8": 1207,
     "iO3abIgk54g": 569,
+    "iV30FQkMz6Y": 181
+   }
+  },
+  {
+   "ts": "2026-11-23T19:11:41.609Z",
+   "views": 2360,
+   "channelViews": 180,
+   "subs": 2,
+   "videos": 5,
+   "v": {
+    "8giNb4JcRNc": 8,
+    "D46UP7ZZdqs": 394,
+    "YMWyYhfkYh8": 1207,
+    "iO3abIgk54g": 570,
     "iV30FQkMz6Y": 181
    }
   }
