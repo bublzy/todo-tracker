@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 52,
-  "updated": "2026-11-23T18:36:47.523Z",
+  "nextId": 53,
+  "updated": "2026-11-23T18:53:33.485Z",
   "tasks": [
     {
       "id": 1,
@@ -1811,6 +1811,38 @@
       "updated": "2026-11-23T18:36:47.523Z",
       "started": "2026-11-23T18:34:53.509Z",
       "completed": "2026-11-23T18:36:47.521Z"
+    },
+    {
+      "id": 52,
+      "title": "Выложить «My cat's job interview» на Funny Stuff Zone",
+      "description": "",
+      "project": "reels",
+      "tags": [
+        "youtube",
+        "humor"
+      ],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Открыть Studio канала",
+          "done": false
+        },
+        {
+          "text": "Загрузить и заполнить",
+          "done": false
+        },
+        {
+          "text": "Опубликовать и проверить",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-23T18:53:33.484Z",
+      "updated": "2026-11-23T18:53:33.485Z",
+      "started": "2026-11-23T18:53:33.484Z",
+      "completed": null
     }
   ],
   "events": [
@@ -4217,6 +4249,20 @@
       "actor": "claude",
       "msg": "sfx.voice_cat («мяу»-слоги) и sfx.voice_blob («бл-уп»), вопросы с повышением интонации; звук пересобран (--audio-only), видео отправлено",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-23T18:53:33.485Z",
+      "task": 52,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-23T18:53:33.485Z",
+      "task": 52,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
