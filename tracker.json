@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 50,
-  "updated": "2026-11-22T22:00:48.811Z",
+  "nextId": 51,
+  "updated": "2026-11-23T17:57:41.286Z",
   "tasks": [
     {
       "id": 1,
@@ -1739,6 +1739,46 @@
       "updated": "2026-11-22T22:00:48.811Z",
       "started": "2026-11-22T21:58:37.112Z",
       "completed": "2026-11-22T22:00:48.809Z"
+    },
+    {
+      "id": 50,
+      "title": "«My cat's job interview» для Funny Stuff Zone",
+      "description": "Кот на собеседовании у колобка: 5 вопросов, у каждого ответа визуальная шутка, финал «I already work here»; без озвучки, пузыри и звуки",
+      "project": "reels",
+      "tags": [
+        "youtube",
+        "humor"
+      ],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Заготовка и модуль персонажей",
+          "done": false
+        },
+        {
+          "text": "Офис и 5 раундов",
+          "done": false
+        },
+        {
+          "text": "Заставка, финал, звуки",
+          "done": false
+        },
+        {
+          "text": "Рендер и проверка",
+          "done": false
+        },
+        {
+          "text": "Описания и отправка",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-23T17:57:41.285Z",
+      "updated": "2026-11-23T17:57:41.286Z",
+      "started": "2026-11-23T17:57:41.285Z",
+      "completed": null
     }
   ],
   "events": [
@@ -4077,6 +4117,20 @@
       "actor": "claude",
       "msg": "Опубликован публично: youtube.com/shorts/D46UP7ZZdqs, проверка авторских прав — без замечаний",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-23T17:57:41.286Z",
+      "task": 50,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-23T17:57:41.286Z",
+      "task": 50,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
