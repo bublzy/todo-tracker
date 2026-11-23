@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 55,
-  "updated": "2026-11-23T19:25:25.769Z",
+  "nextId": 56,
+  "updated": "2026-11-23T20:41:05.268Z",
   "tasks": [
     {
       "id": 1,
@@ -1912,6 +1912,47 @@
       "updated": "2026-11-23T19:25:25.769Z",
       "started": "2026-11-23T19:00:33.254Z",
       "completed": "2026-11-23T19:25:25.768Z"
+    },
+    {
+      "id": 55,
+      "title": "3D-кот в окрасе нашего кота + анимация",
+      "description": "Мультяшный фильтр не понравился. Делаем 3D-модель кота по видео (цвета, полоски, глаза), рендер на GPU и анимацию для Funny Stuff Zone",
+      "project": "reels",
+      "tags": [],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Изучить окрас по кадрам",
+          "done": false
+        },
+        {
+          "text": "GPU-рендер в браузере",
+          "done": false
+        },
+        {
+          "text": "3D-модель кота",
+          "done": false
+        },
+        {
+          "text": "Рендер и сверка с фото",
+          "done": false
+        },
+        {
+          "text": "Тестовая анимация",
+          "done": false
+        },
+        {
+          "text": "Показать результат",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-23T20:41:05.266Z",
+      "updated": "2026-11-23T20:41:05.268Z",
+      "started": "2026-11-23T20:41:05.266Z",
+      "completed": null
     }
   ],
   "events": [
@@ -4432,6 +4473,20 @@
       "actor": "claude",
       "msg": "reels/cat-cartoon: cartoon.py (Кувахара + ступени яркости) + reel.py; reel.mp4 18.6 с из двух видео кота, reel_upload.mp4 <10 МБ; не выложен",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-23T20:41:05.268Z",
+      "task": 55,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-23T20:41:05.268Z",
+      "task": 55,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
