@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 55,
-  "updated": "2026-11-23T19:01:05.953Z",
+  "updated": "2026-11-23T19:01:13.576Z",
   "tasks": [
     {
       "id": 1,
@@ -1851,31 +1851,31 @@
       "project": "tile-planner",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
-      "progress": 0,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Окно размера по клику на стену",
-          "done": false
+          "done": true
         },
         {
           "text": "Удаление вытягиванием за комнату",
-          "done": false
+          "done": true
         },
         {
           "text": "Проверка",
-          "done": false
+          "done": true
         },
         {
           "text": "Обновить Artifact и сайт",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-23T18:57:17.939Z",
-      "updated": "2026-11-23T18:57:17.940Z",
+      "updated": "2026-11-23T19:01:13.576Z",
       "started": "2026-11-23T18:57:17.939Z",
-      "completed": null
+      "completed": "2026-11-23T19:01:13.574Z"
     },
     {
       "id": 54,
@@ -4376,6 +4376,14 @@
       "actor": "claude",
       "msg": "Проверить библиотеки — OpenCV нет — фильтр на numpy + Pillow",
       "progress": 25
+    },
+    {
+      "ts": "2026-11-23T19:01:13.576Z",
+      "task": 53,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Размер стены по клику на стену + удаление вытягиванием с «Вернуть». Artifact v10 и сайт обновлены",
+      "progress": 100
     }
   ]
 }
