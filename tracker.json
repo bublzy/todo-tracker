@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 57,
-  "updated": "2026-11-23T21:33:06.350Z",
+  "updated": "2026-11-23T21:34:39.640Z",
   "tasks": [
     {
       "id": 1,
@@ -1962,11 +1962,11 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 17,
       "steps": [
         {
           "text": "Низкое реалистичное мяуканье",
-          "done": false
+          "done": true
         },
         {
           "text": "Сцена батарея",
@@ -1991,7 +1991,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-23T21:33:06.349Z",
-      "updated": "2026-11-23T21:33:06.350Z",
+      "updated": "2026-11-23T21:34:39.639Z",
       "started": "2026-11-23T21:33:06.349Z",
       "completed": null
     }
@@ -4590,6 +4590,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-23T21:34:39.639Z",
+      "task": 56,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Низкое реалистичное мяуканье — voice_real.py: синтез голоса ~300 Гц с формантами м-я-у, хрипотцой, дыханием и эхом",
+      "progress": 17
     }
   ]
 }
