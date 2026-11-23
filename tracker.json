@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 56,
-  "updated": "2026-11-23T21:02:04.926Z",
+  "updated": "2026-11-23T21:02:09.192Z",
   "tasks": [
     {
       "id": 1,
@@ -1920,8 +1920,8 @@
       "project": "reels",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
-      "progress": 83,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Изучить окрас по кадрам",
@@ -1945,14 +1945,14 @@
         },
         {
           "text": "Показать результат",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-23T20:41:05.266Z",
-      "updated": "2026-11-23T21:02:04.925Z",
+      "updated": "2026-11-23T21:02:09.192Z",
       "started": "2026-11-23T20:41:05.266Z",
-      "completed": null
+      "completed": "2026-11-23T21:02:09.191Z"
     }
   ],
   "events": [
@@ -4527,6 +4527,14 @@
       "actor": "claude",
       "msg": "Тестовая анимация — Тестовый клип 6.5 с: поворот головы, ухо, наклон, мяу, медленное моргание",
       "progress": 83
+    },
+    {
+      "ts": "2026-11-23T21:02:09.192Z",
+      "task": 55,
+      "type": "done",
+      "actor": "claude",
+      "msg": "3D-кот готов: модель в шейдере (reels/cat-3d), рендер на GPU ~0.9 с/кадр, тестовый клип со звуком out/test_clip_sound.mp4",
+      "progress": 100
     }
   ]
 }
