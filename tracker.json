@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 55,
-  "updated": "2026-11-23T19:00:33.255Z",
+  "updated": "2026-11-23T19:01:05.953Z",
   "tasks": [
     {
       "id": 1,
@@ -1888,11 +1888,11 @@
       ],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 25,
       "steps": [
         {
           "text": "Проверить библиотеки",
-          "done": false
+          "done": true
         },
         {
           "text": "Написать фильтр",
@@ -1909,7 +1909,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-23T19:00:33.254Z",
-      "updated": "2026-11-23T19:00:33.255Z",
+      "updated": "2026-11-23T19:01:05.951Z",
       "started": "2026-11-23T19:00:33.254Z",
       "completed": null
     }
@@ -4368,6 +4368,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-23T19:01:05.951Z",
+      "task": 54,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Проверить библиотеки — OpenCV нет — фильтр на numpy + Pillow",
+      "progress": 25
     }
   ]
 }
