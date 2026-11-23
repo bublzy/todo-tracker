@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 54,
-  "updated": "2026-11-23T18:57:17.940Z",
+  "nextId": 55,
+  "updated": "2026-11-23T19:00:33.255Z",
   "tasks": [
     {
       "id": 1,
@@ -1875,6 +1875,42 @@
       "created": "2026-11-23T18:57:17.939Z",
       "updated": "2026-11-23T18:57:17.940Z",
       "started": "2026-11-23T18:57:17.939Z",
+      "completed": null
+    },
+    {
+      "id": 54,
+      "title": "Мультяшный фильтр для видео с котом пользователя",
+      "description": "Инструмент: реальное видео кота -> «рисованный» стиль (контуры, плоские цвета) + наши пузыри, звуки и музыка",
+      "project": "reels",
+      "tags": [
+        "youtube",
+        "humor"
+      ],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Проверить библиотеки",
+          "done": false
+        },
+        {
+          "text": "Написать фильтр",
+          "done": false
+        },
+        {
+          "text": "Тест на пробном клипе",
+          "done": false
+        },
+        {
+          "text": "Ждём видео пользователя",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-23T19:00:33.254Z",
+      "updated": "2026-11-23T19:00:33.255Z",
+      "started": "2026-11-23T19:00:33.254Z",
       "completed": null
     }
   ],
@@ -4315,6 +4351,20 @@
     {
       "ts": "2026-11-23T18:57:17.940Z",
       "task": 53,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-23T19:00:33.255Z",
+      "task": 54,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-23T19:00:33.255Z",
+      "task": 54,
       "type": "started",
       "actor": "claude",
       "progress": 0
