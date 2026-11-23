@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 56,
-  "updated": "2026-11-23T20:41:05.268Z",
+  "updated": "2026-11-23T20:47:59.987Z",
   "tasks": [
     {
       "id": 1,
@@ -1921,11 +1921,11 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 17,
       "steps": [
         {
           "text": "Изучить окрас по кадрам",
-          "done": false
+          "done": true
         },
         {
           "text": "GPU-рендер в браузере",
@@ -1950,7 +1950,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-23T20:41:05.266Z",
-      "updated": "2026-11-23T20:41:05.268Z",
+      "updated": "2026-11-23T20:47:59.986Z",
       "started": "2026-11-23T20:41:05.266Z",
       "completed": null
     }
@@ -4487,6 +4487,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-23T20:47:59.986Z",
+      "task": 55,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Изучить окрас по кадрам — Окрас: коричнево-серый табби, глаза зелёно-жёлтые, светлая морда, кирпичный нос",
+      "progress": 17
     }
   ]
 }
