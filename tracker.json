@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 51,
-  "updated": "2026-11-23T17:57:41.286Z",
+  "updated": "2026-11-23T17:59:59.726Z",
   "tasks": [
     {
       "id": 1,
@@ -1751,11 +1751,11 @@
       ],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 20,
       "steps": [
         {
           "text": "Заготовка и модуль персонажей",
-          "done": false
+          "done": true
         },
         {
           "text": "Офис и 5 раундов",
@@ -1776,7 +1776,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-23T17:57:41.285Z",
-      "updated": "2026-11-23T17:57:41.286Z",
+      "updated": "2026-11-23T17:59:59.725Z",
       "started": "2026-11-23T17:57:41.285Z",
       "completed": null
     }
@@ -4131,6 +4131,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-23T17:59:59.725Z",
+      "task": 50,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Заготовка и модуль персонажей",
+      "progress": 20
     }
   ]
 }
