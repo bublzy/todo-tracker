@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 51,
-  "updated": "2026-11-23T18:00:07.415Z",
+  "updated": "2026-11-23T18:04:08.681Z",
   "tasks": [
     {
       "id": 1,
@@ -1750,8 +1750,8 @@
         "humor"
       ],
       "priority": "normal",
-      "status": "doing",
-      "progress": 60,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Заготовка и модуль персонажей",
@@ -1767,18 +1767,18 @@
         },
         {
           "text": "Рендер и проверка",
-          "done": false
+          "done": true
         },
         {
           "text": "Описания и отправка",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-23T17:57:41.285Z",
-      "updated": "2026-11-23T18:00:07.413Z",
+      "updated": "2026-11-23T18:04:08.681Z",
       "started": "2026-11-23T17:57:41.285Z",
-      "completed": null
+      "completed": "2026-11-23T18:04:08.680Z"
     }
   ],
   "events": [
@@ -4155,6 +4155,14 @@
       "actor": "claude",
       "msg": "Заставка, финал, звуки",
       "progress": 60
+    },
+    {
+      "ts": "2026-11-23T18:04:08.681Z",
+      "task": 50,
+      "type": "done",
+      "actor": "claude",
+      "msg": "reels/funny-06-cat-job-interview: reel.mp4 32 с + reel_upload.mp4 <10 МБ + description.txt; не выложен",
+      "progress": 100
     }
   ]
 }
