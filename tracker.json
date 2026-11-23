@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 52,
-  "updated": "2026-11-23T18:34:53.511Z",
+  "updated": "2026-11-23T18:36:47.523Z",
   "tasks": [
     {
       "id": 1,
@@ -1790,27 +1790,27 @@
         "humor"
       ],
       "priority": "normal",
-      "status": "doing",
-      "progress": 0,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Синтез голосов",
-          "done": false
+          "done": true
         },
         {
           "text": "Интонация вопросов и пересборка звука",
-          "done": false
+          "done": true
         },
         {
           "text": "Проверка и отправка",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-23T18:34:53.509Z",
-      "updated": "2026-11-23T18:34:53.511Z",
+      "updated": "2026-11-23T18:36:47.523Z",
       "started": "2026-11-23T18:34:53.509Z",
-      "completed": null
+      "completed": "2026-11-23T18:36:47.521Z"
     }
   ],
   "events": [
@@ -4209,6 +4209,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-23T18:36:47.523Z",
+      "task": 51,
+      "type": "done",
+      "actor": "claude",
+      "msg": "sfx.voice_cat («мяу»-слоги) и sfx.voice_blob («бл-уп»), вопросы с повышением интонации; звук пересобран (--audio-only), видео отправлено",
+      "progress": 100
     }
   ]
 }
