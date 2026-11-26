@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 62,
-  "updated": "2026-11-26T13:29:11.211Z",
+  "updated": "2026-11-26T13:30:22.162Z",
   "tasks": [
     {
       "id": 1,
@@ -2143,7 +2143,7 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 17,
+      "progress": 33,
       "steps": [
         {
           "text": "Спроектировать структуру и хранение",
@@ -2151,7 +2151,7 @@
         },
         {
           "text": "Вход и кабинеты",
-          "done": false
+          "done": true
         },
         {
           "text": "Комнаты с размерами и мебелью",
@@ -2172,7 +2172,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-26T13:15:03.480Z",
-      "updated": "2026-11-26T13:23:29.934Z",
+      "updated": "2026-11-26T13:30:22.160Z",
       "started": "2026-11-26T13:15:03.480Z",
       "completed": null
     }
@@ -5046,6 +5046,14 @@
       "actor": "claude",
       "msg": "Настоящие мяу (Wikimedia Commons, PD/CC0) вместо синтеза; reels/cat-3d/reel_upload.mp4, не выложен",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-26T13:30:22.160Z",
+      "task": 61,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Вход и кабинеты",
+      "progress": 33
     }
   ]
 }
