@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 62,
-  "updated": "2026-11-26T13:30:32.378Z",
+  "updated": "2026-11-26T13:30:36.432Z",
   "tasks": [
     {
       "id": 1,
@@ -2143,7 +2143,7 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 67,
+      "progress": 83,
       "steps": [
         {
           "text": "Спроектировать структуру и хранение",
@@ -2163,7 +2163,7 @@
         },
         {
           "text": "Материалы",
-          "done": false
+          "done": true
         },
         {
           "text": "Проверка и публикация",
@@ -2172,7 +2172,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-26T13:15:03.480Z",
-      "updated": "2026-11-26T13:30:32.377Z",
+      "updated": "2026-11-26T13:30:36.431Z",
       "started": "2026-11-26T13:15:03.480Z",
       "completed": null
     }
@@ -5070,6 +5070,14 @@
       "actor": "claude",
       "msg": "Смета и расходы",
       "progress": 67
+    },
+    {
+      "ts": "2026-11-26T13:30:36.431Z",
+      "task": 61,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Материалы",
+      "progress": 83
     }
   ]
 }
