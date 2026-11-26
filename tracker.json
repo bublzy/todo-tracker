@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 57,
-  "updated": "2026-11-26T11:40:03.278Z",
+  "updated": "2026-11-26T11:40:07.177Z",
   "tasks": [
     {
       "id": 1,
@@ -1961,8 +1961,8 @@
       "project": "reels",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
-      "progress": 83,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Низкое реалистичное мяуканье",
@@ -1986,14 +1986,14 @@
         },
         {
           "text": "Проверка и отправка",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-23T21:33:06.349Z",
-      "updated": "2026-11-26T11:40:03.277Z",
+      "updated": "2026-11-26T11:40:07.177Z",
       "started": "2026-11-23T21:33:06.349Z",
-      "completed": null
+      "completed": "2026-11-26T11:40:07.175Z"
     }
   ],
   "events": [
@@ -4644,6 +4644,14 @@
       "actor": "claude",
       "msg": "Рендер и сборка — reel3d.py: пузыри, голос, музыка; 26 с, -14.3 LUFS",
       "progress": 83
+    },
+    {
+      "ts": "2026-11-26T11:40:07.177Z",
+      "task": 56,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Рилс готов: reels/cat-3d/reel_upload.mp4 (26 с, 8.8 МБ), не выложен — ждёт решения",
+      "progress": 100
     }
   ]
 }
