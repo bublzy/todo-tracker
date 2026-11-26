@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 68,
-  "updated": "2026-11-26T16:07:38.622Z",
+  "nextId": 69,
+  "updated": "2026-11-26T16:07:47.088Z",
   "tasks": [
     {
       "id": 1,
@@ -2392,6 +2392,43 @@
       "created": "2026-11-26T16:07:38.620Z",
       "updated": "2026-11-26T16:07:38.622Z",
       "started": "2026-11-26T16:07:38.620Z",
+      "completed": null
+    },
+    {
+      "id": 68,
+      "title": "APK для приложения «Замер»",
+      "description": "Обёртка WebView, чтобы поставить приложение на телефон",
+      "project": "zamer",
+      "tags": [],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Проверить работу без облака",
+          "done": false
+        },
+        {
+          "text": "Обёртка WebView для Android",
+          "done": false
+        },
+        {
+          "text": "Сборка и подпись APK",
+          "done": false
+        },
+        {
+          "text": "Проверка в эмуляторе",
+          "done": false
+        },
+        {
+          "text": "Отправить APK",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-26T16:07:47.087Z",
+      "updated": "2026-11-26T16:07:47.088Z",
+      "started": "2026-11-26T16:07:47.087Z",
       "completed": null
     }
   ],
@@ -5640,6 +5677,20 @@
     {
       "ts": "2026-11-26T16:07:38.622Z",
       "task": 67,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-26T16:07:47.088Z",
+      "task": 68,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-26T16:07:47.088Z",
+      "task": 68,
       "type": "started",
       "actor": "claude",
       "progress": 0
