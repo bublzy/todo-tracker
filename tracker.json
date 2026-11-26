@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 65,
-  "updated": "2026-11-26T14:39:26.242Z",
+  "updated": "2026-11-26T14:39:30.389Z",
   "tasks": [
     {
       "id": 1,
@@ -2265,8 +2265,8 @@
       "project": "reels",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
-      "progress": 75,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Новые реплики",
@@ -2282,14 +2282,14 @@
         },
         {
           "text": "Сборка и отправка",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-26T14:22:47.784Z",
-      "updated": "2026-11-26T14:39:26.240Z",
+      "updated": "2026-11-26T14:39:30.389Z",
       "started": "2026-11-26T14:22:47.784Z",
-      "completed": null
+      "completed": "2026-11-26T14:39:30.388Z"
     }
   ],
   "events": [
@@ -5410,6 +5410,14 @@
       "actor": "claude",
       "msg": "Липсинк и перерендер — Липсинк, 3D перерендерен",
       "progress": 75
+    },
+    {
+      "ts": "2026-11-26T14:39:30.389Z",
+      "task": 64,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Дубляж британским голосом (edge-tts Ryan), рот под голос; reel_upload.mp4, не выложен",
+      "progress": 100
     }
   ]
 }
