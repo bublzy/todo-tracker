@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 64,
-  "updated": "2026-11-26T14:22:43.206Z",
+  "nextId": 65,
+  "updated": "2026-11-26T14:22:47.785Z",
   "tasks": [
     {
       "id": 1,
@@ -2256,6 +2256,39 @@
       "created": "2026-11-26T14:22:25.663Z",
       "updated": "2026-11-26T14:22:43.205Z",
       "started": "2026-11-26T14:22:25.663Z",
+      "completed": null
+    },
+    {
+      "id": 64,
+      "title": "Дубляж 3D-кота смешным голосом",
+      "description": "Кот говорит чопорным британским голосом (edge-tts), нормальные английские реплики, рот под голос",
+      "project": "reels",
+      "tags": [],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Новые реплики",
+          "done": false
+        },
+        {
+          "text": "Озвучка edge-tts",
+          "done": false
+        },
+        {
+          "text": "Липсинк и перерендер",
+          "done": false
+        },
+        {
+          "text": "Сборка и отправка",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-26T14:22:47.784Z",
+      "updated": "2026-11-26T14:22:47.785Z",
+      "started": "2026-11-26T14:22:47.784Z",
       "completed": null
     }
   ],
@@ -5283,6 +5316,20 @@
       "type": "note",
       "actor": "claude",
       "msg": "Каталог: catalog/<id> — читают все, пишет только сам мастер (и владелец может убрать карточку)"
+    },
+    {
+      "ts": "2026-11-26T14:22:47.785Z",
+      "task": 64,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-26T14:22:47.785Z",
+      "task": 64,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
