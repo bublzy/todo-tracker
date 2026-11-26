@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 58,
-  "updated": "2026-11-26T11:49:57.210Z",
+  "nextId": 59,
+  "updated": "2026-11-26T11:53:02.348Z",
   "tasks": [
     {
       "id": 1,
@@ -2027,6 +2027,43 @@
       "updated": "2026-11-26T11:49:57.210Z",
       "started": "2026-11-26T11:45:59.247Z",
       "completed": "2026-11-26T11:49:57.209Z"
+    },
+    {
+      "id": 58,
+      "title": "Новая озвучка 3D-кота в стиле 2008 (LOLcats)",
+      "description": "Реплики на lolspeak, TTS-голос с бурундучьим питчем, титры Impact, кот шевелит ртом под голос, звуки эпохи",
+      "project": "reels",
+      "tags": [],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Реплики lolspeak",
+          "done": false
+        },
+        {
+          "text": "TTS-озвучка",
+          "done": false
+        },
+        {
+          "text": "Липсинк и перерендер",
+          "done": false
+        },
+        {
+          "text": "Титры и звук 2008",
+          "done": false
+        },
+        {
+          "text": "Проверка и отправка",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-26T11:53:02.347Z",
+      "updated": "2026-11-26T11:53:02.348Z",
+      "started": "2026-11-26T11:53:02.347Z",
+      "completed": null
     }
   ],
   "events": [
@@ -4707,6 +4744,20 @@
       "actor": "claude",
       "msg": "Голос переделан: мягкие реакции (нюх, облизывание, мррп, ип!, хмпф, урчание живота) вместо мяу/слогов; reel_upload.mp4 пересобран",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-26T11:53:02.348Z",
+      "task": 58,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-26T11:53:02.348Z",
+      "task": 58,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
