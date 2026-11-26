@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 58,
-  "updated": "2026-11-26T11:45:59.248Z",
+  "updated": "2026-11-26T11:49:57.210Z",
   "tasks": [
     {
       "id": 1,
@@ -2002,31 +2002,31 @@
       "project": "reels",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
-      "progress": 0,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Новый синтез мяуканья",
-          "done": false
+          "done": true
         },
         {
           "text": "Одно мяу на реплику вместо слогов",
-          "done": false
+          "done": true
         },
         {
           "text": "Пересобрать рилс",
-          "done": false
+          "done": true
         },
         {
           "text": "Отправить",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-26T11:45:59.247Z",
-      "updated": "2026-11-26T11:45:59.248Z",
+      "updated": "2026-11-26T11:49:57.210Z",
       "started": "2026-11-26T11:45:59.247Z",
-      "completed": null
+      "completed": "2026-11-26T11:49:57.209Z"
     }
   ],
   "events": [
@@ -4699,6 +4699,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-26T11:49:57.210Z",
+      "task": 57,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Голос переделан: мягкие реакции (нюх, облизывание, мррп, ип!, хмпф, урчание живота) вместо мяу/слогов; reel_upload.mp4 пересобран",
+      "progress": 100
     }
   ]
 }
