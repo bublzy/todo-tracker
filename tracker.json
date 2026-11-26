@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 67,
-  "updated": "2026-11-26T14:50:43.577Z",
+  "updated": "2026-11-26T14:50:47.831Z",
   "tasks": [
     {
       "id": 1,
@@ -2328,7 +2328,7 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 67,
+      "progress": 83,
       "steps": [
         {
           "text": "Общие данные и права",
@@ -2348,7 +2348,7 @@
         },
         {
           "text": "Проверка вдвоём",
-          "done": false
+          "done": true
         },
         {
           "text": "Публикация",
@@ -2357,7 +2357,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-26T14:46:29.133Z",
-      "updated": "2026-11-26T14:50:43.575Z",
+      "updated": "2026-11-26T14:50:47.830Z",
       "started": "2026-11-26T14:46:29.133Z",
       "completed": null
     }
@@ -5556,6 +5556,14 @@
       "actor": "claude",
       "msg": "Уведомления",
       "progress": 67
+    },
+    {
+      "ts": "2026-11-26T14:50:47.830Z",
+      "task": 66,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Проверка вдвоём",
+      "progress": 83
     }
   ]
 }
