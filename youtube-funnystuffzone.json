@@ -1,12 +1,12 @@
 {
  "version": 1,
- "updated": "2026-11-26T19:09:34.578Z",
+ "updated": "2026-11-26T22:03:38.345Z",
  "channel": {
   "id": "UC-Q84K0dxrXnFin06qiCadw",
   "title": "Funny Stuff Zone",
   "handle": "@funnystuffzone",
   "thumb": "https://yt3.ggpht.com/2GNYUVKty_D9bnlkRawu8YaN5gs-_s5CSB1S9u8PNSoyGZkcuMbE_5N2OAc9IXSvtxht5bjqtw=s240-c-k-c0x00ffffff-no-rj",
-  "views": 3451,
+  "views": 3793,
   "channelViews": 2569,
   "subs": 6,
   "hiddenSubs": false,
@@ -19,8 +19,8 @@
    "published": "2026-11-26T16:09:36Z",
    "duration": 27,
    "thumb": "https://i.ytimg.com/vi/qMrqO7zsRZ8/mqdefault.jpg",
-   "views": 882,
-   "likes": 24,
+   "views": 1224,
+   "likes": 21,
    "comments": 1
   },
   {
@@ -29,7 +29,7 @@
    "published": "2026-11-23T18:55:13Z",
    "duration": 33,
    "thumb": "https://i.ytimg.com/vi/8giNb4JcRNc/mqdefault.jpg",
-   "views": 81,
+   "views": 80,
    "likes": 2,
    "comments": 0
   },
@@ -49,7 +49,7 @@
    "published": "2026-11-21T20:49:46Z",
    "duration": 29,
    "thumb": "https://i.ytimg.com/vi/YMWyYhfkYh8/mqdefault.jpg",
-   "views": 1286,
+   "views": 1287,
    "likes": 24,
    "comments": 1
   },
@@ -513,6 +513,21 @@
     "8giNb4JcRNc": 81,
     "D46UP7ZZdqs": 446,
     "YMWyYhfkYh8": 1286,
+    "iO3abIgk54g": 575,
+    "iV30FQkMz6Y": 181
+   }
+  },
+  {
+   "ts": "2026-11-26T22:03:38.345Z",
+   "views": 3793,
+   "channelViews": 2569,
+   "subs": 6,
+   "videos": 6,
+   "v": {
+    "qMrqO7zsRZ8": 1224,
+    "8giNb4JcRNc": 80,
+    "D46UP7ZZdqs": 446,
+    "YMWyYhfkYh8": 1287,
     "iO3abIgk54g": 575,
     "iV30FQkMz6Y": 181
    }
