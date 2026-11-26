@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 59,
-  "updated": "2026-11-26T12:07:08.390Z",
+  "updated": "2026-11-26T12:07:12.850Z",
   "tasks": [
     {
       "id": 1,
@@ -2035,8 +2035,8 @@
       "project": "reels",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
-      "progress": 80,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Реплики lolspeak",
@@ -2056,14 +2056,14 @@
         },
         {
           "text": "Проверка и отправка",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-26T11:53:02.347Z",
-      "updated": "2026-11-26T12:07:08.388Z",
+      "updated": "2026-11-26T12:07:12.850Z",
       "started": "2026-11-26T11:53:02.347Z",
-      "completed": null
+      "completed": "2026-11-26T12:07:12.849Z"
     }
   ],
   "events": [
@@ -4790,6 +4790,14 @@
       "actor": "claude",
       "msg": "Титры и звук 2008 — Титры Impact, звуки эпохи, музыка приглушается под голос",
       "progress": 80
+    },
+    {
+      "ts": "2026-11-26T12:07:12.850Z",
+      "task": 58,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Версия 2008: LOLcat-титры + TTS-озвучка + липсинк; reels/cat-3d/reel_upload.mp4 (26 с), не выложен",
+      "progress": 100
     }
   ]
 }
