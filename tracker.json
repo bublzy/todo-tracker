@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 66,
-  "updated": "2026-11-26T14:45:10.724Z",
+  "updated": "2026-11-26T14:46:13.905Z",
   "tasks": [
     {
       "id": 1,
@@ -2299,11 +2299,11 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 33,
       "steps": [
         {
           "text": "Голос и мяу",
-          "done": false
+          "done": true
         },
         {
           "text": "Перерендер 3D",
@@ -2316,7 +2316,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-26T14:45:10.722Z",
-      "updated": "2026-11-26T14:45:10.724Z",
+      "updated": "2026-11-26T14:46:13.903Z",
       "started": "2026-11-26T14:45:10.722Z",
       "completed": null
     }
@@ -5461,6 +5461,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-26T14:46:13.903Z",
+      "task": 65,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Голос и мяу — en-US-BrianNeural +8Hz, 4 мультяшных мяу в паузах",
+      "progress": 33
     }
   ]
 }
