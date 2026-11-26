@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 57,
-  "updated": "2026-11-26T11:40:07.177Z",
+  "nextId": 58,
+  "updated": "2026-11-26T11:45:59.248Z",
   "tasks": [
     {
       "id": 1,
@@ -1994,6 +1994,39 @@
       "updated": "2026-11-26T11:40:07.177Z",
       "started": "2026-11-23T21:33:06.349Z",
       "completed": "2026-11-26T11:40:07.175Z"
+    },
+    {
+      "id": 57,
+      "title": "Переделать голос кота в рилсе с 3D-котом",
+      "description": "Синтетический голос звучит плохо: новый синтез мяу (голосовые связки + резонансы рта), без бормотания слогами",
+      "project": "reels",
+      "tags": [],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Новый синтез мяуканья",
+          "done": false
+        },
+        {
+          "text": "Одно мяу на реплику вместо слогов",
+          "done": false
+        },
+        {
+          "text": "Пересобрать рилс",
+          "done": false
+        },
+        {
+          "text": "Отправить",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-26T11:45:59.247Z",
+      "updated": "2026-11-26T11:45:59.248Z",
+      "started": "2026-11-26T11:45:59.247Z",
+      "completed": null
     }
   ],
   "events": [
@@ -4652,6 +4685,20 @@
       "actor": "claude",
       "msg": "Рилс готов: reels/cat-3d/reel_upload.mp4 (26 с, 8.8 МБ), не выложен — ждёт решения",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-26T11:45:59.248Z",
+      "task": 57,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-26T11:45:59.248Z",
+      "task": 57,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
