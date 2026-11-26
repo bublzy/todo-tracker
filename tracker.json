@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 60,
-  "updated": "2026-11-26T12:33:31.797Z",
+  "nextId": 61,
+  "updated": "2026-11-26T13:08:50.262Z",
   "tasks": [
     {
       "id": 1,
@@ -2097,6 +2097,43 @@
       "updated": "2026-11-26T12:33:31.797Z",
       "started": "2026-11-26T12:20:13.286Z",
       "completed": "2026-11-26T12:33:31.795Z"
+    },
+    {
+      "id": 60,
+      "title": "Настоящее мяуканье в рилс с 3D-котом",
+      "description": "Синтез не похож на кота: берём реальные записи мяу с Wikimedia Commons (public domain / CC0)",
+      "project": "reels",
+      "tags": [],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Найти записи со свободной лицензией",
+          "done": false
+        },
+        {
+          "text": "Разрешение на скачивание",
+          "done": false
+        },
+        {
+          "text": "Нарезка под реплики",
+          "done": false
+        },
+        {
+          "text": "Перерендер и сборка",
+          "done": false
+        },
+        {
+          "text": "Отправка",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-26T13:08:50.260Z",
+      "updated": "2026-11-26T13:08:50.262Z",
+      "started": "2026-11-26T13:08:50.260Z",
+      "completed": null
     }
   ],
   "events": [
@@ -4869,6 +4906,20 @@
       "actor": "claude",
       "msg": "Озвучка убрана, вместо неё протяжные котячьи мяу с недовольными нотками, рот под звук; reel_upload.mp4 пересобран",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-26T13:08:50.262Z",
+      "task": 60,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-26T13:08:50.262Z",
+      "task": 60,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
