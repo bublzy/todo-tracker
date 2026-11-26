@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 62,
-  "updated": "2026-11-26T13:23:29.936Z",
+  "updated": "2026-11-26T13:29:07.066Z",
   "tasks": [
     {
       "id": 1,
@@ -2106,7 +2106,7 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 60,
+      "progress": 80,
       "steps": [
         {
           "text": "Найти записи со свободной лицензией",
@@ -2122,7 +2122,7 @@
         },
         {
           "text": "Перерендер и сборка",
-          "done": false
+          "done": true
         },
         {
           "text": "Отправка",
@@ -2131,7 +2131,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-26T13:08:50.260Z",
-      "updated": "2026-11-26T13:16:40.426Z",
+      "updated": "2026-11-26T13:29:07.064Z",
       "started": "2026-11-26T13:08:50.260Z",
       "completed": null
     },
@@ -5030,6 +5030,14 @@
       "type": "note",
       "actor": "claude",
       "msg": "Пишу файл E:/projects/game/zamer/index.html: вход, кабинеты, план комнат, смета, расходы, материалы"
+    },
+    {
+      "ts": "2026-11-26T13:29:07.064Z",
+      "task": 60,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Перерендер и сборка — 3D перерендерен под новый рот, рилс собран -14.1 LUFS",
+      "progress": 80
     }
   ]
 }
