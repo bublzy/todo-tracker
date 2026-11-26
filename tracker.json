@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 67,
-  "updated": "2026-11-26T14:50:52.159Z",
+  "updated": "2026-11-26T14:50:55.995Z",
   "tasks": [
     {
       "id": 1,
@@ -2327,7 +2327,7 @@
       "project": "stroyka",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
+      "status": "done",
       "progress": 100,
       "steps": [
         {
@@ -2357,9 +2357,9 @@
       ],
       "actor": "claude",
       "created": "2026-11-26T14:46:29.133Z",
-      "updated": "2026-11-26T14:50:52.158Z",
+      "updated": "2026-11-26T14:50:55.995Z",
       "started": "2026-11-26T14:46:29.133Z",
-      "completed": null
+      "completed": "2026-11-26T14:50:55.993Z"
     }
   ],
   "events": [
@@ -5571,6 +5571,14 @@
       "type": "step",
       "actor": "claude",
       "msg": "Публикация",
+      "progress": 100
+    },
+    {
+      "ts": "2026-11-26T14:50:55.995Z",
+      "task": 66,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Этапы с оплатой: мастер отмечает выполнение, заказчик видит долг и отмечает оплату, мастер подтверждает; колокольчик уведомлений. Версия 4",
       "progress": 100
     }
   ]
