@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 69,
-  "updated": "2026-11-26T16:10:30.059Z",
+  "updated": "2026-11-26T16:10:34.148Z",
   "tasks": [
     {
       "id": 1,
@@ -2402,7 +2402,7 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 20,
+      "progress": 40,
       "steps": [
         {
           "text": "Проверить работу без облака",
@@ -2410,7 +2410,7 @@
         },
         {
           "text": "Обёртка WebView для Android",
-          "done": false
+          "done": true
         },
         {
           "text": "Сборка и подпись APK",
@@ -2427,7 +2427,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-26T16:07:47.087Z",
-      "updated": "2026-11-26T16:10:30.058Z",
+      "updated": "2026-11-26T16:10:34.147Z",
       "started": "2026-11-26T16:07:47.087Z",
       "completed": null
     }
@@ -5726,6 +5726,14 @@
       "actor": "claude",
       "msg": "Проверить работу без облака — Без облака работает локально; этапы и каталог показывают пояснение",
       "progress": 20
+    },
+    {
+      "ts": "2026-11-26T16:10:34.147Z",
+      "task": 68,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Обёртка WebView для Android — WebView: свой адрес для localStorage, выбор фото, кнопка «назад»",
+      "progress": 40
     }
   ]
 }
