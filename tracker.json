@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 59,
-  "updated": "2026-11-26T11:53:02.348Z",
+  "updated": "2026-11-26T11:54:19.752Z",
   "tasks": [
     {
       "id": 1,
@@ -2036,11 +2036,11 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 20,
       "steps": [
         {
           "text": "Реплики lolspeak",
-          "done": false
+          "done": true
         },
         {
           "text": "TTS-озвучка",
@@ -2061,7 +2061,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-26T11:53:02.347Z",
-      "updated": "2026-11-26T11:53:02.348Z",
+      "updated": "2026-11-26T11:54:19.751Z",
       "started": "2026-11-26T11:53:02.347Z",
       "completed": null
     }
@@ -4758,6 +4758,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-26T11:54:19.751Z",
+      "task": 58,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Реплики lolspeak — Реплики lolspeak: OH HAI SAUSAGE, I CAN HAS SAUSAGE?, DO NOT WANT, KTHXBAI",
+      "progress": 20
     }
   ]
 }
