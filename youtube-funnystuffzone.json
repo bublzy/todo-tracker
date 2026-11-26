@@ -1,18 +1,28 @@
 {
  "version": 1,
- "updated": "2026-11-26T13:30:24.124Z",
+ "updated": "2026-11-26T16:16:10.669Z",
  "channel": {
   "id": "UC-Q84K0dxrXnFin06qiCadw",
   "title": "Funny Stuff Zone",
   "handle": "@funnystuffzone",
   "thumb": "https://yt3.ggpht.com/2GNYUVKty_D9bnlkRawu8YaN5gs-_s5CSB1S9u8PNSoyGZkcuMbE_5N2OAc9IXSvtxht5bjqtw=s240-c-k-c0x00ffffff-no-rj",
-  "views": 2569,
+  "views": 2580,
   "channelViews": 2566,
   "subs": 4,
   "hiddenSubs": false,
-  "videos": 5
+  "videos": 6
  },
  "videos": [
+  {
+   "id": "qMrqO7zsRZ8",
+   "title": "\"What are you staring at? Give me the sausage!\" 🐱🌭 #shorts",
+   "published": "2026-11-26T16:09:36Z",
+   "duration": 27,
+   "thumb": "https://i.ytimg.com/vi/qMrqO7zsRZ8/mqdefault.jpg",
+   "views": 11,
+   "likes": 1,
+   "comments": 0
+  },
   {
    "id": "8giNb4JcRNc",
    "title": "My cat had a job interview 🐱💼 wait for the ending #shorts",
@@ -40,7 +50,7 @@
    "duration": 29,
    "thumb": "https://i.ytimg.com/vi/YMWyYhfkYh8/mqdefault.jpg",
    "views": 1286,
-   "likes": 23,
+   "likes": 24,
    "comments": 1
   },
   {
@@ -470,6 +480,21 @@
    "subs": 4,
    "videos": 5,
    "v": {
+    "8giNb4JcRNc": 81,
+    "D46UP7ZZdqs": 446,
+    "YMWyYhfkYh8": 1286,
+    "iO3abIgk54g": 575,
+    "iV30FQkMz6Y": 181
+   }
+  },
+  {
+   "ts": "2026-11-26T16:16:10.669Z",
+   "views": 2580,
+   "channelViews": 2566,
+   "subs": 4,
+   "videos": 6,
+   "v": {
+    "qMrqO7zsRZ8": 11,
     "8giNb4JcRNc": 81,
     "D46UP7ZZdqs": 446,
     "YMWyYhfkYh8": 1286,
