@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 69,
-  "updated": "2026-11-26T16:12:06.950Z",
+  "updated": "2026-11-26T16:12:10.757Z",
   "tasks": [
     {
       "id": 1,
@@ -2401,8 +2401,8 @@
       "project": "zamer",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
-      "progress": 80,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Проверить работу без облака",
@@ -2422,14 +2422,14 @@
         },
         {
           "text": "Отправить APK",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-26T16:07:47.087Z",
-      "updated": "2026-11-26T16:12:06.948Z",
+      "updated": "2026-11-26T16:12:10.757Z",
       "started": "2026-11-26T16:07:47.087Z",
-      "completed": null
+      "completed": "2026-11-26T16:12:10.755Z"
     }
   ],
   "events": [
@@ -5750,6 +5750,14 @@
       "actor": "claude",
       "msg": "Проверка в эмуляторе — Эмулятор не запустился (нет ускорения); страница из APK проверена в браузере на телефонном размере",
       "progress": 80
+    },
+    {
+      "ts": "2026-11-26T16:12:10.757Z",
+      "task": 68,
+      "type": "done",
+      "actor": "claude",
+      "msg": "APK собран: zamer/android/Zamer.apk, сборка через build.sh. Работает без облака, данные на телефоне",
+      "progress": 100
     }
   ]
 }
