@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 69,
-  "updated": "2026-11-26T16:09:46.950Z",
+  "updated": "2026-11-26T16:10:30.059Z",
   "tasks": [
     {
       "id": 1,
@@ -2402,11 +2402,11 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 20,
       "steps": [
         {
           "text": "Проверить работу без облака",
-          "done": false
+          "done": true
         },
         {
           "text": "Обёртка WebView для Android",
@@ -2427,7 +2427,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-26T16:07:47.087Z",
-      "updated": "2026-11-26T16:07:47.088Z",
+      "updated": "2026-11-26T16:10:30.058Z",
       "started": "2026-11-26T16:07:47.087Z",
       "completed": null
     }
@@ -5718,6 +5718,14 @@
       "actor": "claude",
       "msg": "Опубликовано на Funny Stuff Zone (Public): youtube.com/shorts/qMrqO7zsRZ8",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-26T16:10:30.058Z",
+      "task": 68,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Проверить работу без облака — Без облака работает локально; этапы и каталог показывают пояснение",
+      "progress": 20
     }
   ]
 }
