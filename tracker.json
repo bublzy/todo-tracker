@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 61,
-  "updated": "2026-11-26T13:08:57.117Z",
+  "updated": "2026-11-26T13:09:01.244Z",
   "tasks": [
     {
       "id": 1,
@@ -2105,7 +2105,7 @@
       "project": "reels",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
+      "status": "blocked",
       "progress": 20,
       "steps": [
         {
@@ -2131,7 +2131,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-26T13:08:50.260Z",
-      "updated": "2026-11-26T13:08:57.115Z",
+      "updated": "2026-11-26T13:09:01.243Z",
       "started": "2026-11-26T13:08:50.260Z",
       "completed": null
     }
@@ -4927,6 +4927,14 @@
       "type": "step",
       "actor": "claude",
       "msg": "Найти записи со свободной лицензией — 7 записей PD/CC0 на Wikimedia Commons",
+      "progress": 20
+    },
+    {
+      "ts": "2026-11-26T13:09:01.243Z",
+      "task": 60,
+      "type": "blocked",
+      "actor": "claude",
+      "msg": "ждёт: разрешение скачать записи мяу",
       "progress": 20
     }
   ]
