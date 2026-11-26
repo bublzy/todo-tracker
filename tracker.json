@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 59,
-  "updated": "2026-11-26T12:07:12.850Z",
+  "nextId": 60,
+  "updated": "2026-11-26T12:20:13.287Z",
   "tasks": [
     {
       "id": 1,
@@ -2064,6 +2064,39 @@
       "updated": "2026-11-26T12:07:12.850Z",
       "started": "2026-11-26T11:53:02.347Z",
       "completed": "2026-11-26T12:07:12.849Z"
+    },
+    {
+      "id": 59,
+      "title": "Котячьи мяу вместо озвучки в рилсе с 3D-котом",
+      "description": "Убрать TTS-голос, добавить милые протяжные котячьи мяу с недовольными нотками, рот под звук",
+      "project": "reels",
+      "tags": [],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Синтез котячьих мяу",
+          "done": false
+        },
+        {
+          "text": "Расстановка + рот",
+          "done": false
+        },
+        {
+          "text": "Перерендер и сборка",
+          "done": false
+        },
+        {
+          "text": "Отправка",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-26T12:20:13.286Z",
+      "updated": "2026-11-26T12:20:13.287Z",
+      "started": "2026-11-26T12:20:13.286Z",
+      "completed": null
     }
   ],
   "events": [
@@ -4798,6 +4831,20 @@
       "actor": "claude",
       "msg": "Версия 2008: LOLcat-титры + TTS-озвучка + липсинк; reels/cat-3d/reel_upload.mp4 (26 с), не выложен",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-26T12:20:13.287Z",
+      "task": 59,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-26T12:20:13.287Z",
+      "task": 59,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
