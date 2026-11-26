@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 67,
-  "updated": "2026-11-26T14:46:29.135Z",
+  "updated": "2026-11-26T14:50:31.147Z",
   "tasks": [
     {
       "id": 1,
@@ -2328,11 +2328,11 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 17,
       "steps": [
         {
           "text": "Общие данные и права",
-          "done": false
+          "done": true
         },
         {
           "text": "Этапы у мастера",
@@ -2357,7 +2357,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-26T14:46:29.133Z",
-      "updated": "2026-11-26T14:46:29.135Z",
+      "updated": "2026-11-26T14:50:31.144Z",
       "started": "2026-11-26T14:46:29.133Z",
       "completed": null
     }
@@ -5524,6 +5524,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-26T14:50:31.144Z",
+      "task": 66,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Общие данные и права",
+      "progress": 17
     }
   ]
 }
