@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 60,
-  "updated": "2026-11-26T12:21:17.637Z",
+  "updated": "2026-11-26T12:33:31.797Z",
   "tasks": [
     {
       "id": 1,
@@ -2072,8 +2072,8 @@
       "project": "reels",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
-      "progress": 50,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Синтез котячьих мяу",
@@ -2085,18 +2085,18 @@
         },
         {
           "text": "Перерендер и сборка",
-          "done": false
+          "done": true
         },
         {
           "text": "Отправка",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-26T12:20:13.286Z",
-      "updated": "2026-11-26T12:21:17.636Z",
+      "updated": "2026-11-26T12:33:31.797Z",
       "started": "2026-11-26T12:20:13.286Z",
-      "completed": null
+      "completed": "2026-11-26T12:33:31.795Z"
     }
   ],
   "events": [
@@ -4861,6 +4861,14 @@
       "actor": "claude",
       "msg": "Расстановка + рот — 10 звуков под реплики, рот по громкости",
       "progress": 50
+    },
+    {
+      "ts": "2026-11-26T12:33:31.797Z",
+      "task": 59,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Озвучка убрана, вместо неё протяжные котячьи мяу с недовольными нотками, рот под звук; reel_upload.mp4 пересобран",
+      "progress": 100
     }
   ]
 }
