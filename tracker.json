@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 65,
-  "updated": "2026-11-26T14:22:47.785Z",
+  "updated": "2026-11-26T14:23:52.142Z",
   "tasks": [
     {
       "id": 1,
@@ -2266,11 +2266,11 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 25,
       "steps": [
         {
           "text": "Новые реплики",
-          "done": false
+          "done": true
         },
         {
           "text": "Озвучка edge-tts",
@@ -2287,7 +2287,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-26T14:22:47.784Z",
-      "updated": "2026-11-26T14:22:47.785Z",
+      "updated": "2026-11-26T14:23:52.140Z",
       "started": "2026-11-26T14:22:47.784Z",
       "completed": null
     }
@@ -5330,6 +5330,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-26T14:23:52.140Z",
+      "task": 64,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Новые реплики — Реплики: What are you staring at? / quality control / Pay up.",
+      "progress": 25
     }
   ]
 }
