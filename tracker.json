@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 63,
-  "updated": "2026-11-26T14:00:51.155Z",
+  "updated": "2026-11-26T14:00:56.127Z",
   "tasks": [
     {
       "id": 1,
@@ -2184,7 +2184,7 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 83,
+      "progress": 100,
       "steps": [
         {
           "text": "Загрузка фото",
@@ -2208,12 +2208,12 @@
         },
         {
           "text": "Профиль нанимателя: с кем работал, отзывы, идеи",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-26T13:55:00.434Z",
-      "updated": "2026-11-26T14:00:51.154Z",
+      "updated": "2026-11-26T14:00:56.126Z",
       "started": "2026-11-26T13:55:00.434Z",
       "completed": null
     }
@@ -5197,6 +5197,14 @@
       "actor": "claude",
       "msg": "Проверка и публикация",
       "progress": 83
+    },
+    {
+      "ts": "2026-11-26T14:00:56.126Z",
+      "task": 62,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Профиль нанимателя: с кем работал, отзывы, идеи",
+      "progress": 100
     }
   ]
 }
