@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 63,
-  "updated": "2026-11-26T14:00:38.551Z",
+  "updated": "2026-11-26T14:00:42.758Z",
   "tasks": [
     {
       "id": 1,
@@ -2184,7 +2184,7 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 33,
+      "progress": 50,
       "steps": [
         {
           "text": "Загрузка фото",
@@ -2196,7 +2196,7 @@
         },
         {
           "text": "Примеры работ",
-          "done": false
+          "done": true
         },
         {
           "text": "Расценки и свои услуги в смете",
@@ -2213,7 +2213,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-26T13:55:00.434Z",
-      "updated": "2026-11-26T14:00:38.549Z",
+      "updated": "2026-11-26T14:00:42.757Z",
       "started": "2026-11-26T13:55:00.434Z",
       "completed": null
     }
@@ -5173,6 +5173,14 @@
       "actor": "claude",
       "msg": "Страница профиля",
       "progress": 33
+    },
+    {
+      "ts": "2026-11-26T14:00:42.757Z",
+      "task": 62,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Примеры работ",
+      "progress": 50
     }
   ]
 }
