@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 62,
-  "updated": "2026-11-26T13:30:28.668Z",
+  "updated": "2026-11-26T13:30:32.378Z",
   "tasks": [
     {
       "id": 1,
@@ -2143,7 +2143,7 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 50,
+      "progress": 67,
       "steps": [
         {
           "text": "Спроектировать структуру и хранение",
@@ -2159,7 +2159,7 @@
         },
         {
           "text": "Смета и расходы",
-          "done": false
+          "done": true
         },
         {
           "text": "Материалы",
@@ -2172,7 +2172,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-26T13:15:03.480Z",
-      "updated": "2026-11-26T13:30:28.668Z",
+      "updated": "2026-11-26T13:30:32.377Z",
       "started": "2026-11-26T13:15:03.480Z",
       "completed": null
     }
@@ -5062,6 +5062,14 @@
       "actor": "claude",
       "msg": "Комнаты с размерами и мебелью",
       "progress": 50
+    },
+    {
+      "ts": "2026-11-26T13:30:32.377Z",
+      "task": 61,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Смета и расходы",
+      "progress": 67
     }
   ]
 }
