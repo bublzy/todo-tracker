@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 69,
-  "updated": "2026-11-26T16:10:34.148Z",
+  "updated": "2026-11-26T16:10:37.898Z",
   "tasks": [
     {
       "id": 1,
@@ -2402,7 +2402,7 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 40,
+      "progress": 60,
       "steps": [
         {
           "text": "Проверить работу без облака",
@@ -2414,7 +2414,7 @@
         },
         {
           "text": "Сборка и подпись APK",
-          "done": false
+          "done": true
         },
         {
           "text": "Проверка в эмуляторе",
@@ -2427,7 +2427,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-26T16:07:47.087Z",
-      "updated": "2026-11-26T16:10:34.147Z",
+      "updated": "2026-11-26T16:10:37.896Z",
       "started": "2026-11-26T16:07:47.087Z",
       "completed": null
     }
@@ -5734,6 +5734,14 @@
       "actor": "claude",
       "msg": "Обёртка WebView для Android — WebView: свой адрес для localStorage, выбор фото, кнопка «назад»",
       "progress": 40
+    },
+    {
+      "ts": "2026-11-26T16:10:37.896Z",
+      "task": 68,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Сборка и подпись APK — Собран без Gradle, подписан, 66 КБ",
+      "progress": 60
     }
   ]
 }
