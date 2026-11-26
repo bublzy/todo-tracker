@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 65,
-  "updated": "2026-11-26T14:23:52.142Z",
+  "updated": "2026-11-26T14:23:56.083Z",
   "tasks": [
     {
       "id": 1,
@@ -2266,7 +2266,7 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 25,
+      "progress": 50,
       "steps": [
         {
           "text": "Новые реплики",
@@ -2274,7 +2274,7 @@
         },
         {
           "text": "Озвучка edge-tts",
-          "done": false
+          "done": true
         },
         {
           "text": "Липсинк и перерендер",
@@ -2287,7 +2287,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-26T14:22:47.784Z",
-      "updated": "2026-11-26T14:23:52.140Z",
+      "updated": "2026-11-26T14:23:56.082Z",
       "started": "2026-11-26T14:22:47.784Z",
       "completed": null
     }
@@ -5338,6 +5338,14 @@
       "actor": "claude",
       "msg": "Новые реплики — Реплики: What are you staring at? / quality control / Pay up.",
       "progress": 25
+    },
+    {
+      "ts": "2026-11-26T14:23:56.082Z",
+      "task": 64,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Озвучка edge-tts — edge-tts en-GB-RyanNeural, чопорный британец",
+      "progress": 50
     }
   ]
 }
