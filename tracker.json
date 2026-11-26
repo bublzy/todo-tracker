@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 62,
-  "updated": "2026-11-26T13:30:40.513Z",
+  "updated": "2026-11-26T13:30:44.286Z",
   "tasks": [
     {
       "id": 1,
@@ -2142,7 +2142,7 @@
       "project": "stroyka",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
+      "status": "done",
       "progress": 100,
       "steps": [
         {
@@ -2172,9 +2172,9 @@
       ],
       "actor": "claude",
       "created": "2026-11-26T13:15:03.480Z",
-      "updated": "2026-11-26T13:30:40.512Z",
+      "updated": "2026-11-26T13:30:44.286Z",
       "started": "2026-11-26T13:15:03.480Z",
-      "completed": null
+      "completed": "2026-11-26T13:30:44.285Z"
     }
   ],
   "events": [
@@ -5085,6 +5085,14 @@
       "type": "step",
       "actor": "claude",
       "msg": "Проверка и публикация",
+      "progress": 100
+    },
+    {
+      "ts": "2026-11-26T13:30:44.286Z",
+      "task": 61,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Готово: артефакт «Замер» claude.ai/artifact/952v3aVTaQe1DXefVD2mN5, файл E:/projects/game/zamer/index.html",
       "progress": 100
     }
   ]
