@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 66,
-  "updated": "2026-11-26T14:46:13.905Z",
+  "nextId": 67,
+  "updated": "2026-11-26T14:46:29.135Z",
   "tasks": [
     {
       "id": 1,
@@ -2318,6 +2318,47 @@
       "created": "2026-11-26T14:45:10.722Z",
       "updated": "2026-11-26T14:46:13.903Z",
       "started": "2026-11-26T14:45:10.722Z",
+      "completed": null
+    },
+    {
+      "id": 66,
+      "title": "Замер: этапы работ с оплатой между мастером и заказчиком",
+      "description": "Мастер отмечает выполненные этапы, заказчик видит долг, отмечает оплату, мастер подтверждает; уведомления у обоих",
+      "project": "stroyka",
+      "tags": [],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Общие данные и права",
+          "done": false
+        },
+        {
+          "text": "Этапы у мастера",
+          "done": false
+        },
+        {
+          "text": "Этапы у заказчика и долг",
+          "done": false
+        },
+        {
+          "text": "Уведомления",
+          "done": false
+        },
+        {
+          "text": "Проверка вдвоём",
+          "done": false
+        },
+        {
+          "text": "Публикация",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-26T14:46:29.133Z",
+      "updated": "2026-11-26T14:46:29.135Z",
+      "started": "2026-11-26T14:46:29.133Z",
       "completed": null
     }
   ],
@@ -5469,6 +5510,20 @@
       "actor": "claude",
       "msg": "Голос и мяу — en-US-BrianNeural +8Hz, 4 мультяшных мяу в паузах",
       "progress": 33
+    },
+    {
+      "ts": "2026-11-26T14:46:29.135Z",
+      "task": 66,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-26T14:46:29.135Z",
+      "task": 66,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
