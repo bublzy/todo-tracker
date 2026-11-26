@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 62,
-  "updated": "2026-11-26T13:15:03.481Z",
+  "updated": "2026-11-26T13:15:16.942Z",
   "tasks": [
     {
       "id": 1,
@@ -2105,7 +2105,7 @@
       "project": "reels",
       "tags": [],
       "priority": "normal",
-      "status": "blocked",
+      "status": "doing",
       "progress": 20,
       "steps": [
         {
@@ -2131,7 +2131,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-26T13:08:50.260Z",
-      "updated": "2026-11-26T13:09:01.243Z",
+      "updated": "2026-11-26T13:15:16.940Z",
       "started": "2026-11-26T13:08:50.260Z",
       "completed": null
     },
@@ -4991,6 +4991,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-26T13:15:16.940Z",
+      "task": 60,
+      "type": "started",
+      "actor": "claude",
+      "msg": "разрешено, скачиваю",
+      "progress": 20
     }
   ]
 }
