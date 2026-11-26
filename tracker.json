@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 65,
-  "updated": "2026-11-26T14:23:56.083Z",
+  "updated": "2026-11-26T14:25:11.713Z",
   "tasks": [
     {
       "id": 1,
@@ -2225,11 +2225,11 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 17,
       "steps": [
         {
           "text": "Общее хранилище и правила доступа",
-          "done": false
+          "done": true
         },
         {
           "text": "Публикация из профиля мастера",
@@ -2254,7 +2254,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-26T14:22:25.663Z",
-      "updated": "2026-11-26T14:22:43.205Z",
+      "updated": "2026-11-26T14:25:11.712Z",
       "started": "2026-11-26T14:22:25.663Z",
       "completed": null
     },
@@ -5346,6 +5346,14 @@
       "actor": "claude",
       "msg": "Озвучка edge-tts — edge-tts en-GB-RyanNeural, чопорный британец",
       "progress": 50
+    },
+    {
+      "ts": "2026-11-26T14:25:11.712Z",
+      "task": 63,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Общее хранилище и правила доступа",
+      "progress": 17
     }
   ]
 }
