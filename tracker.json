@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 67,
-  "updated": "2026-11-26T14:56:49.027Z",
+  "updated": "2026-11-26T14:59:48.555Z",
   "tasks": [
     {
       "id": 1,
@@ -2298,8 +2298,8 @@
       "project": "reels",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
-      "progress": 67,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Голос и мяу",
@@ -2311,14 +2311,14 @@
         },
         {
           "text": "Сборка и отправка",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-26T14:45:10.722Z",
-      "updated": "2026-11-26T14:56:49.025Z",
+      "updated": "2026-11-26T14:59:48.555Z",
       "started": "2026-11-26T14:45:10.722Z",
-      "completed": null
+      "completed": "2026-11-26T14:59:48.551Z"
     },
     {
       "id": 66,
@@ -5588,6 +5588,14 @@
       "actor": "claude",
       "msg": "Перерендер 3D — 3D перерендерен",
       "progress": 67
+    },
+    {
+      "ts": "2026-11-26T14:59:48.555Z",
+      "task": 65,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Голос Brian (моложе), -16 LUFS, 4 мультяшных мяу; reel_upload.mp4, не выложен",
+      "progress": 100
     }
   ]
 }
