@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 67,
-  "updated": "2026-11-26T14:50:39.420Z",
+  "updated": "2026-11-26T14:50:43.577Z",
   "tasks": [
     {
       "id": 1,
@@ -2328,7 +2328,7 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 50,
+      "progress": 67,
       "steps": [
         {
           "text": "Общие данные и права",
@@ -2344,7 +2344,7 @@
         },
         {
           "text": "Уведомления",
-          "done": false
+          "done": true
         },
         {
           "text": "Проверка вдвоём",
@@ -2357,7 +2357,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-26T14:46:29.133Z",
-      "updated": "2026-11-26T14:50:39.418Z",
+      "updated": "2026-11-26T14:50:43.575Z",
       "started": "2026-11-26T14:46:29.133Z",
       "completed": null
     }
@@ -5548,6 +5548,14 @@
       "actor": "claude",
       "msg": "Этапы у заказчика и долг",
       "progress": 50
+    },
+    {
+      "ts": "2026-11-26T14:50:43.575Z",
+      "task": 66,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Уведомления",
+      "progress": 67
     }
   ]
 }
