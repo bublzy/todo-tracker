@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 61,
-  "updated": "2026-11-26T13:09:01.244Z",
+  "nextId": 62,
+  "updated": "2026-11-26T13:15:03.481Z",
   "tasks": [
     {
       "id": 1,
@@ -2133,6 +2133,47 @@
       "created": "2026-11-26T13:08:50.260Z",
       "updated": "2026-11-26T13:09:01.243Z",
       "started": "2026-11-26T13:08:50.260Z",
+      "completed": null
+    },
+    {
+      "id": 61,
+      "title": "Приложение для строителей и клиентов",
+      "description": "Вход с выбором роли, кабинеты мастера и клиента, смета, комнаты с размерами, расходы, материалы",
+      "project": "stroyka",
+      "tags": [],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Спроектировать структуру и хранение",
+          "done": false
+        },
+        {
+          "text": "Вход и кабинеты",
+          "done": false
+        },
+        {
+          "text": "Комнаты с размерами и мебелью",
+          "done": false
+        },
+        {
+          "text": "Смета и расходы",
+          "done": false
+        },
+        {
+          "text": "Материалы",
+          "done": false
+        },
+        {
+          "text": "Проверка и публикация",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-26T13:15:03.480Z",
+      "updated": "2026-11-26T13:15:03.481Z",
+      "started": "2026-11-26T13:15:03.480Z",
       "completed": null
     }
   ],
@@ -4936,6 +4977,20 @@
       "actor": "claude",
       "msg": "ждёт: разрешение скачать записи мяу",
       "progress": 20
+    },
+    {
+      "ts": "2026-11-26T13:15:03.481Z",
+      "task": 61,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-26T13:15:03.481Z",
+      "task": 61,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
