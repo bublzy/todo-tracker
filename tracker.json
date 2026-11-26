@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 62,
-  "updated": "2026-11-26T13:29:07.066Z",
+  "updated": "2026-11-26T13:29:11.211Z",
   "tasks": [
     {
       "id": 1,
@@ -2105,8 +2105,8 @@
       "project": "reels",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
-      "progress": 80,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Найти записи со свободной лицензией",
@@ -2126,14 +2126,14 @@
         },
         {
           "text": "Отправка",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-26T13:08:50.260Z",
-      "updated": "2026-11-26T13:29:07.064Z",
+      "updated": "2026-11-26T13:29:11.211Z",
       "started": "2026-11-26T13:08:50.260Z",
-      "completed": null
+      "completed": "2026-11-26T13:29:11.210Z"
     },
     {
       "id": 61,
@@ -5038,6 +5038,14 @@
       "actor": "claude",
       "msg": "Перерендер и сборка — 3D перерендерен под новый рот, рилс собран -14.1 LUFS",
       "progress": 80
+    },
+    {
+      "ts": "2026-11-26T13:29:11.211Z",
+      "task": 60,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Настоящие мяу (Wikimedia Commons, PD/CC0) вместо синтеза; reels/cat-3d/reel_upload.mp4, не выложен",
+      "progress": 100
     }
   ]
 }
