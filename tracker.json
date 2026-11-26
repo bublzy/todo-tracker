@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 62,
-  "updated": "2026-11-26T13:30:44.286Z",
+  "nextId": 63,
+  "updated": "2026-11-26T13:55:00.435Z",
   "tasks": [
     {
       "id": 1,
@@ -2175,6 +2175,43 @@
       "updated": "2026-11-26T13:30:44.286Z",
       "started": "2026-11-26T13:15:03.480Z",
       "completed": "2026-11-26T13:30:44.285Z"
+    },
+    {
+      "id": 62,
+      "title": "Замер: профиль с фото, примерами работ и расценками",
+      "description": "Страница профиля для строителя и нанимателя: фото, примеры работ, расценки и свои услуги",
+      "project": "stroyka",
+      "tags": [],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Загрузка фото",
+          "done": false
+        },
+        {
+          "text": "Страница профиля",
+          "done": false
+        },
+        {
+          "text": "Примеры работ",
+          "done": false
+        },
+        {
+          "text": "Расценки и свои услуги в смете",
+          "done": false
+        },
+        {
+          "text": "Проверка и публикация",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-26T13:55:00.434Z",
+      "updated": "2026-11-26T13:55:00.435Z",
+      "started": "2026-11-26T13:55:00.434Z",
+      "completed": null
     }
   ],
   "events": [
@@ -5094,6 +5131,20 @@
       "actor": "claude",
       "msg": "Готово: артефакт «Замер» claude.ai/artifact/952v3aVTaQe1DXefVD2mN5, файл E:/projects/game/zamer/index.html",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-26T13:55:00.435Z",
+      "task": 62,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-26T13:55:00.435Z",
+      "task": 62,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
