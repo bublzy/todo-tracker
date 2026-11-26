@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 63,
-  "updated": "2026-11-26T14:00:56.127Z",
+  "updated": "2026-11-26T14:01:00.899Z",
   "tasks": [
     {
       "id": 1,
@@ -2183,7 +2183,7 @@
       "project": "stroyka",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
+      "status": "done",
       "progress": 100,
       "steps": [
         {
@@ -2213,9 +2213,9 @@
       ],
       "actor": "claude",
       "created": "2026-11-26T13:55:00.434Z",
-      "updated": "2026-11-26T14:00:56.126Z",
+      "updated": "2026-11-26T14:01:00.899Z",
       "started": "2026-11-26T13:55:00.434Z",
-      "completed": null
+      "completed": "2026-11-26T14:01:00.898Z"
     }
   ],
   "events": [
@@ -5204,6 +5204,14 @@
       "type": "step",
       "actor": "claude",
       "msg": "Профиль нанимателя: с кем работал, отзывы, идеи",
+      "progress": 100
+    },
+    {
+      "ts": "2026-11-26T14:01:00.899Z",
+      "task": 62,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Профили строителя и нанимателя с фото, примерами, отзывами и расценками; опубликовано, версия 2",
       "progress": 100
     }
   ]
