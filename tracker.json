@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 67,
-  "updated": "2026-11-26T14:59:48.555Z",
+  "nextId": 68,
+  "updated": "2026-11-26T16:07:38.622Z",
   "tasks": [
     {
       "id": 1,
@@ -2360,6 +2360,39 @@
       "updated": "2026-11-26T14:50:55.995Z",
       "started": "2026-11-26T14:46:29.133Z",
       "completed": "2026-11-26T14:50:55.993Z"
+    },
+    {
+      "id": 67,
+      "title": "Загрузка рилса с котом на Funny Stuff Zone",
+      "description": "3D-кот, дубляж + мультяшные мяу",
+      "project": "reels",
+      "tags": [],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Открыть YouTube Studio",
+          "done": false
+        },
+        {
+          "text": "Загрузить видео и заполнить данные",
+          "done": false
+        },
+        {
+          "text": "Опубликовать (Public)",
+          "done": false
+        },
+        {
+          "text": "Записать ссылку",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-26T16:07:38.620Z",
+      "updated": "2026-11-26T16:07:38.622Z",
+      "started": "2026-11-26T16:07:38.620Z",
+      "completed": null
     }
   ],
   "events": [
@@ -5596,6 +5629,20 @@
       "actor": "claude",
       "msg": "Голос Brian (моложе), -16 LUFS, 4 мультяшных мяу; reel_upload.mp4, не выложен",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-26T16:07:38.622Z",
+      "task": 67,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-26T16:07:38.622Z",
+      "task": 67,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
