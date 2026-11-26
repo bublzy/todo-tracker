@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 65,
-  "updated": "2026-11-26T14:39:30.389Z",
+  "nextId": 66,
+  "updated": "2026-11-26T14:45:10.724Z",
   "tasks": [
     {
       "id": 1,
@@ -2290,6 +2290,35 @@
       "updated": "2026-11-26T14:39:30.389Z",
       "started": "2026-11-26T14:22:47.784Z",
       "completed": "2026-11-26T14:39:30.388Z"
+    },
+    {
+      "id": 65,
+      "title": "Дубляж 3D-кота: голос моложе, тише, мультяшные мяу",
+      "description": "Молодой голос edge-tts, громкость -16 LUFS, мультяшные мяу в паузах, рот под мяу",
+      "project": "reels",
+      "tags": [],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Голос и мяу",
+          "done": false
+        },
+        {
+          "text": "Перерендер 3D",
+          "done": false
+        },
+        {
+          "text": "Сборка и отправка",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-26T14:45:10.722Z",
+      "updated": "2026-11-26T14:45:10.724Z",
+      "started": "2026-11-26T14:45:10.722Z",
+      "completed": null
     }
   ],
   "events": [
@@ -5418,6 +5447,20 @@
       "actor": "claude",
       "msg": "Дубляж британским голосом (edge-tts Ryan), рот под голос; reel_upload.mp4, не выложен",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-26T14:45:10.724Z",
+      "task": 65,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-26T14:45:10.724Z",
+      "task": 65,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
