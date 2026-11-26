@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-26T01:26:36.687Z",
+ "updated": "2026-11-26T04:12:27.121Z",
  "channel": {
   "id": "UC-Q84K0dxrXnFin06qiCadw",
   "title": "Funny Stuff Zone",
@@ -409,6 +409,20 @@
   },
   {
    "ts": "2026-11-26T01:26:36.687Z",
+   "views": 2566,
+   "channelViews": 2553,
+   "subs": 4,
+   "videos": 5,
+   "v": {
+    "8giNb4JcRNc": 81,
+    "D46UP7ZZdqs": 446,
+    "YMWyYhfkYh8": 1286,
+    "iO3abIgk54g": 572,
+    "iV30FQkMz6Y": 181
+   }
+  },
+  {
+   "ts": "2026-11-26T04:12:27.121Z",
    "views": 2566,
    "channelViews": 2553,
    "subs": 4,
