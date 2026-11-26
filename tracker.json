@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 69,
-  "updated": "2026-11-26T16:08:14.007Z",
+  "updated": "2026-11-26T16:09:01.212Z",
   "tasks": [
     {
       "id": 1,
@@ -2369,7 +2369,7 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 25,
+      "progress": 50,
       "steps": [
         {
           "text": "Открыть YouTube Studio",
@@ -2377,7 +2377,7 @@
         },
         {
           "text": "Загрузить видео и заполнить данные",
-          "done": false
+          "done": true
         },
         {
           "text": "Опубликовать (Public)",
@@ -2390,7 +2390,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-26T16:07:38.620Z",
-      "updated": "2026-11-26T16:08:14.005Z",
+      "updated": "2026-11-26T16:09:01.210Z",
       "started": "2026-11-26T16:07:38.620Z",
       "completed": null
     },
@@ -5702,6 +5702,14 @@
       "actor": "claude",
       "msg": "Открыть YouTube Studio — Studio открыт",
       "progress": 25
+    },
+    {
+      "ts": "2026-11-26T16:09:01.210Z",
+      "task": 67,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Загрузить видео и заполнить данные — Видео загружено, название/описание заполнены",
+      "progress": 50
     }
   ]
 }
