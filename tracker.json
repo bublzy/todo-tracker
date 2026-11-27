@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 70,
-  "updated": "2026-11-27T15:52:36.428Z",
+  "updated": "2026-11-27T15:52:40.290Z",
   "tasks": [
     {
       "id": 1,
@@ -2439,7 +2439,7 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 50,
+      "progress": 67,
       "steps": [
         {
           "text": "Сценарий и реплики",
@@ -2455,7 +2455,7 @@
         },
         {
           "text": "Озвучка, мяу, липсинк",
-          "done": false
+          "done": true
         },
         {
           "text": "Рендер и сборка рилса",
@@ -2468,7 +2468,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-27T15:44:52.121Z",
-      "updated": "2026-11-27T15:52:36.427Z",
+      "updated": "2026-11-27T15:52:40.288Z",
       "started": "2026-11-27T15:44:52.121Z",
       "completed": null
     }
@@ -5837,6 +5837,14 @@
       "actor": "claude",
       "msg": "Анимация клипа — Клип night 23 с",
       "progress": 50
+    },
+    {
+      "ts": "2026-11-27T15:52:40.288Z",
+      "task": 69,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Озвучка, мяу, липсинк — Голос кота Brian + голос хозяина Guy",
+      "progress": 67
     }
   ]
 }
