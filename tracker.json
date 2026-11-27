@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 75,
-  "updated": "2026-11-27T20:48:06.098Z",
+  "updated": "2026-11-27T20:56:31.270Z",
   "tasks": [
     {
       "id": 1,
@@ -2578,11 +2578,11 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 20,
       "steps": [
         {
           "text": "Сценарий и мяу",
-          "done": false
+          "done": true
         },
         {
           "text": "Стол, стакан и хозяин в шейдере",
@@ -2603,7 +2603,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-27T20:42:30.778Z",
-      "updated": "2026-11-27T20:42:30.780Z",
+      "updated": "2026-11-27T20:56:31.268Z",
       "started": "2026-11-27T20:42:30.778Z",
       "completed": null
     },
@@ -6182,6 +6182,14 @@
       "actor": "claude",
       "msg": "telegram_bot.py: /market, /coin ТИКЕР, доступ по ID, очередь и кеш; проверен на подставном Telegram с живыми данными. Нужен токен от @BotFather",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-27T20:56:31.268Z",
+      "task": 73,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Сценарий и мяу",
+      "progress": 20
     }
   ]
 }
