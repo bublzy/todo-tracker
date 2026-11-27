@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 75,
-  "updated": "2026-11-27T20:56:40.007Z",
+  "updated": "2026-11-27T21:04:03.527Z",
   "tasks": [
     {
       "id": 1,
@@ -2578,7 +2578,7 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 60,
+      "progress": 80,
       "steps": [
         {
           "text": "Сценарий и мяу",
@@ -2594,7 +2594,7 @@
         },
         {
           "text": "Рендер и сборка",
-          "done": false
+          "done": true
         },
         {
           "text": "Файл для загрузки",
@@ -2603,7 +2603,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-27T20:42:30.778Z",
-      "updated": "2026-11-27T20:56:40.004Z",
+      "updated": "2026-11-27T21:04:03.526Z",
       "started": "2026-11-27T20:42:30.778Z",
       "completed": null
     },
@@ -6206,6 +6206,14 @@
       "actor": "claude",
       "msg": "Анимация клипа — Клип glass 17,4 с",
       "progress": 60
+    },
+    {
+      "ts": "2026-11-27T21:04:03.526Z",
+      "task": 73,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Рендер и сборка",
+      "progress": 80
     }
   ]
 }
