@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 76,
-  "updated": "2026-11-27T21:52:12.168Z",
+  "nextId": 77,
+  "updated": "2026-11-27T21:55:17.232Z",
   "tasks": [
     {
       "id": 1,
@@ -2671,6 +2671,41 @@
       "updated": "2026-11-27T21:52:12.164Z",
       "started": "2026-11-27T21:41:29.496Z",
       "completed": "2026-11-27T21:52:12.162Z"
+    },
+    {
+      "id": 76,
+      "title": "Автозапуск телеграм-бота",
+      "description": "Бот стартует при входе в Windows в фоне, stop/start скрипты, защита от второй копии",
+      "project": "crypto-analyst",
+      "tags": [
+        "telegram"
+      ],
+      "priority": "normal",
+      "status": "todo",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Защита от второй копии",
+          "done": false
+        },
+        {
+          "text": "Скрытый запуск и остановка",
+          "done": false
+        },
+        {
+          "text": "Автозагрузка Windows",
+          "done": false
+        },
+        {
+          "text": "Проверка",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-27T21:55:17.218Z",
+      "updated": "2026-11-27T21:55:17.220Z",
+      "started": null,
+      "completed": null
     }
   ],
   "events": [
@@ -6295,6 +6330,13 @@
       "actor": "claude",
       "msg": "Одно протяжное мяу на реплику, клип перерендерен, reel_glass_upload.mp4 готов",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-27T21:55:17.220Z",
+      "task": 76,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
