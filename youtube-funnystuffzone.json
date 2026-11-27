@@ -1,26 +1,46 @@
 {
  "version": 1,
- "updated": "2026-11-27T19:07:39.137Z",
+ "updated": "2026-11-27T22:04:48.418Z",
  "channel": {
   "id": "UC-Q84K0dxrXnFin06qiCadw",
   "title": "Funny Stuff Zone",
   "handle": "@funnystuffzone",
   "thumb": "https://yt3.ggpht.com/2GNYUVKty_D9bnlkRawu8YaN5gs-_s5CSB1S9u8PNSoyGZkcuMbE_5N2OAc9IXSvtxht5bjqtw=s240-c-k-c0x00ffffff-no-rj",
-  "views": 4023,
+  "views": 4442,
   "channelViews": 3898,
-  "subs": 6,
+  "subs": 7,
   "hiddenSubs": false,
-  "videos": 6
+  "videos": 8
  },
  "videos": [
+  {
+   "id": "xty-Tzt_CMY",
+   "title": "\"I'm not doing anything.\" — my cat vs my glass of milk 🐱🥛 #shorts",
+   "published": "2026-11-27T21:59:11Z",
+   "duration": 18,
+   "thumb": "https://i.ytimg.com/vi/xty-Tzt_CMY/mqdefault.jpg",
+   "views": 5,
+   "likes": 0,
+   "comments": 0
+  },
+  {
+   "id": "kMQzECSr5rg",
+   "title": "\"Wake up. It's breakfast time.\" — my cat at 3 AM 🐱⏰ #shorts",
+   "published": "2026-11-27T20:39:30Z",
+   "duration": 25,
+   "thumb": "https://i.ytimg.com/vi/kMQzECSr5rg/mqdefault.jpg",
+   "views": 398,
+   "likes": 12,
+   "comments": 0
+  },
   {
    "id": "qMrqO7zsRZ8",
    "title": "\"What are you staring at? Give me the sausage!\" 🐱🌭 #shorts",
    "published": "2026-11-26T16:09:36Z",
    "duration": 27,
    "thumb": "https://i.ytimg.com/vi/qMrqO7zsRZ8/mqdefault.jpg",
-   "views": 1446,
-   "likes": 22,
+   "views": 1459,
+   "likes": 23,
    "comments": 1
   },
   {
@@ -49,7 +69,7 @@
    "published": "2026-11-21T20:49:46Z",
    "duration": 29,
    "thumb": "https://i.ytimg.com/vi/YMWyYhfkYh8/mqdefault.jpg",
-   "views": 1287,
+   "views": 1290,
    "likes": 24,
    "comments": 1
   },
@@ -633,6 +653,23 @@
     "8giNb4JcRNc": 80,
     "D46UP7ZZdqs": 451,
     "YMWyYhfkYh8": 1287,
+    "iO3abIgk54g": 578,
+    "iV30FQkMz6Y": 181
+   }
+  },
+  {
+   "ts": "2026-11-27T22:04:48.418Z",
+   "views": 4442,
+   "channelViews": 3898,
+   "subs": 7,
+   "videos": 8,
+   "v": {
+    "xty-Tzt_CMY": 5,
+    "kMQzECSr5rg": 398,
+    "qMrqO7zsRZ8": 1459,
+    "8giNb4JcRNc": 80,
+    "D46UP7ZZdqs": 451,
+    "YMWyYhfkYh8": 1290,
     "iO3abIgk54g": 578,
     "iV30FQkMz6Y": 181
    }
