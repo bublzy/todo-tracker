@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 71,
-  "updated": "2026-11-27T20:18:46.711Z",
+  "updated": "2026-11-27T20:20:26.533Z",
   "tasks": [
     {
       "id": 1,
@@ -2480,11 +2480,11 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 25,
       "steps": [
         {
           "text": "Мяу вместо речи кота",
-          "done": false
+          "done": true
         },
         {
           "text": "Перерендер клипа",
@@ -2501,7 +2501,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-27T20:18:46.710Z",
-      "updated": "2026-11-27T20:18:46.711Z",
+      "updated": "2026-11-27T20:20:26.532Z",
       "started": "2026-11-27T20:18:46.710Z",
       "completed": null
     }
@@ -5908,6 +5908,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-27T20:20:26.532Z",
+      "task": 70,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Мяу вместо речи кота — Реплики кота = мультяшные мяу, хозяин только подписью",
+      "progress": 25
     }
   ]
 }
