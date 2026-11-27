@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 71,
-  "updated": "2026-11-27T20:32:47.689Z",
+  "nextId": 72,
+  "updated": "2026-11-27T20:35:19.844Z",
   "tasks": [
     {
       "id": 1,
@@ -2504,6 +2504,38 @@
       "updated": "2026-11-27T20:32:47.689Z",
       "started": "2026-11-27T20:18:46.710Z",
       "completed": "2026-11-27T20:32:47.688Z"
+    },
+    {
+      "id": 71,
+      "title": "Гайд: ролики с ИИ-котами в мемах",
+      "description": "Сводка инструментов и шагов для роликов, где кот заменяет человека или появляется в сцене",
+      "project": "game",
+      "tags": [
+        "youtube",
+        "research"
+      ],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Исследовать инструменты",
+          "done": false
+        },
+        {
+          "text": "Оформить документ",
+          "done": false
+        },
+        {
+          "text": "Отдать ссылку",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-27T20:35:19.842Z",
+      "updated": "2026-11-27T20:35:19.844Z",
+      "started": "2026-11-27T20:35:19.842Z",
+      "completed": null
     }
   ],
   "events": [
@@ -5940,6 +5972,20 @@
       "actor": "claude",
       "msg": "Готово: reel_3am_upload.mp4, 24,6 с, только подписи и мяу, без плашки; ждёт решения о публикации",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-27T20:35:19.844Z",
+      "task": 71,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-27T20:35:19.844Z",
+      "task": 71,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
