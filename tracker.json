@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 71,
-  "updated": "2026-11-27T20:32:39.553Z",
+  "updated": "2026-11-27T20:32:43.871Z",
   "tasks": [
     {
       "id": 1,
@@ -2480,7 +2480,7 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 50,
+      "progress": 75,
       "steps": [
         {
           "text": "Мяу вместо речи кота",
@@ -2492,7 +2492,7 @@
         },
         {
           "text": "Сборка без плашки",
-          "done": false
+          "done": true
         },
         {
           "text": "Файл для загрузки",
@@ -2501,7 +2501,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-27T20:18:46.710Z",
-      "updated": "2026-11-27T20:32:39.552Z",
+      "updated": "2026-11-27T20:32:43.869Z",
       "started": "2026-11-27T20:18:46.710Z",
       "completed": null
     }
@@ -5924,6 +5924,14 @@
       "actor": "claude",
       "msg": "Перерендер клипа",
       "progress": 50
+    },
+    {
+      "ts": "2026-11-27T20:32:43.869Z",
+      "task": 70,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Сборка без плашки",
+      "progress": 75
     }
   ]
 }
