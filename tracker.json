@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 77,
-  "updated": "2026-11-27T21:55:22.275Z",
+  "nextId": 78,
+  "updated": "2026-11-27T21:57:32.567Z",
   "tasks": [
     {
       "id": 1,
@@ -2706,6 +2706,39 @@
       "updated": "2026-11-27T21:55:22.274Z",
       "started": "2026-11-27T21:55:17.218Z",
       "completed": "2026-11-27T21:55:22.273Z"
+    },
+    {
+      "id": 77,
+      "title": "Загрузка «My cat vs my glass» на Funny Stuff Zone",
+      "description": "3D-кот, хозяин со спины, протяжные мяу",
+      "project": "reels",
+      "tags": [],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Открыть YouTube Studio",
+          "done": false
+        },
+        {
+          "text": "Загрузить и заполнить",
+          "done": false
+        },
+        {
+          "text": "Опубликовать (Public)",
+          "done": false
+        },
+        {
+          "text": "Записать ссылку",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-27T21:57:32.552Z",
+      "updated": "2026-11-27T21:57:32.567Z",
+      "started": "2026-11-27T21:57:32.552Z",
+      "completed": null
     }
   ],
   "events": [
@@ -6345,6 +6378,20 @@
       "actor": "claude",
       "msg": "crypto-bot.vbs в автозагрузке, bot_autostart.bat с перезапуском, stop_bot.bat; проверено",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-27T21:57:32.567Z",
+      "task": 77,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-27T21:57:32.567Z",
+      "task": 77,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
