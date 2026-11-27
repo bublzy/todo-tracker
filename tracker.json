@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 73,
-  "updated": "2026-11-27T20:39:00.310Z",
+  "updated": "2026-11-27T20:39:39.551Z",
   "tasks": [
     {
       "id": 1,
@@ -2544,8 +2544,8 @@
       "project": "reels",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
-      "progress": 50,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Открыть YouTube Studio",
@@ -2557,18 +2557,18 @@
         },
         {
           "text": "Опубликовать (Public)",
-          "done": false
+          "done": true
         },
         {
           "text": "Записать ссылку",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-27T20:38:03.417Z",
-      "updated": "2026-11-27T20:39:00.308Z",
+      "updated": "2026-11-27T20:39:39.551Z",
       "started": "2026-11-27T20:38:03.417Z",
-      "completed": null
+      "completed": "2026-11-27T20:39:39.550Z"
     }
   ],
   "events": [
@@ -6065,6 +6065,14 @@
       "actor": "claude",
       "msg": "Загрузить и заполнить — Загружено, данные заполнены",
       "progress": 50
+    },
+    {
+      "ts": "2026-11-27T20:39:39.551Z",
+      "task": 72,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Опубликовано на Funny Stuff Zone (Public): youtube.com/shorts/kMQzECSr5rg",
+      "progress": 100
     }
   ]
 }
