@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 72,
-  "updated": "2026-11-27T20:37:53.663Z",
+  "nextId": 73,
+  "updated": "2026-11-27T20:38:03.419Z",
   "tasks": [
     {
       "id": 1,
@@ -2536,6 +2536,39 @@
       "updated": "2026-11-27T20:37:53.663Z",
       "started": "2026-11-27T20:35:19.842Z",
       "completed": "2026-11-27T20:37:53.662Z"
+    },
+    {
+      "id": 72,
+      "title": "Загрузка «My cat at 3 AM» на Funny Stuff Zone",
+      "description": "3D-кот, мягкие мяу, без голосов",
+      "project": "reels",
+      "tags": [],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Открыть YouTube Studio",
+          "done": false
+        },
+        {
+          "text": "Загрузить и заполнить",
+          "done": false
+        },
+        {
+          "text": "Опубликовать (Public)",
+          "done": false
+        },
+        {
+          "text": "Записать ссылку",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-27T20:38:03.417Z",
+      "updated": "2026-11-27T20:38:03.419Z",
+      "started": "2026-11-27T20:38:03.417Z",
+      "completed": null
     }
   ],
   "events": [
@@ -6002,6 +6035,20 @@
       "actor": "claude",
       "msg": "Гайд готов: документ claude.ai/artifact/NcEDwc7F1yBbLk56VcJtyk — инструменты, подготовка, цены, авторские права, чек-лист",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-27T20:38:03.419Z",
+      "task": 72,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-27T20:38:03.419Z",
+      "task": 72,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
