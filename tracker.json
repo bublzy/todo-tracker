@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 73,
-  "updated": "2026-11-27T20:39:39.551Z",
+  "nextId": 74,
+  "updated": "2026-11-27T20:42:30.780Z",
   "tasks": [
     {
       "id": 1,
@@ -2569,6 +2569,43 @@
       "updated": "2026-11-27T20:39:39.551Z",
       "started": "2026-11-27T20:38:03.417Z",
       "completed": "2026-11-27T20:39:39.550Z"
+    },
+    {
+      "id": 73,
+      "title": "Рилс с котом: «Не трогаю я твой стакан»",
+      "description": "Кот сталкивает стакан молока, хозяин в кадре со спины",
+      "project": "reels",
+      "tags": [],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Сценарий и мяу",
+          "done": false
+        },
+        {
+          "text": "Стол, стакан и хозяин в шейдере",
+          "done": false
+        },
+        {
+          "text": "Анимация клипа",
+          "done": false
+        },
+        {
+          "text": "Рендер и сборка",
+          "done": false
+        },
+        {
+          "text": "Файл для загрузки",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-27T20:42:30.778Z",
+      "updated": "2026-11-27T20:42:30.780Z",
+      "started": "2026-11-27T20:42:30.778Z",
+      "completed": null
     }
   ],
   "events": [
@@ -6073,6 +6110,20 @@
       "actor": "claude",
       "msg": "Опубликовано на Funny Stuff Zone (Public): youtube.com/shorts/kMQzECSr5rg",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-27T20:42:30.780Z",
+      "task": 73,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-27T20:42:30.780Z",
+      "task": 73,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
