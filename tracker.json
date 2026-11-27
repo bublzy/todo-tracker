@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 70,
-  "updated": "2026-11-27T16:07:09.802Z",
+  "nextId": 71,
+  "updated": "2026-11-27T20:18:46.711Z",
   "tasks": [
     {
       "id": 1,
@@ -2471,6 +2471,39 @@
       "updated": "2026-11-27T16:07:09.802Z",
       "started": "2026-11-27T15:44:52.121Z",
       "completed": "2026-11-27T16:07:09.801Z"
+    },
+    {
+      "id": 70,
+      "title": "Рилс «3 AM»: без голосов и финальной плашки",
+      "description": "Только подписи и мяуканье, убрать концовку",
+      "project": "reels",
+      "tags": [],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Мяу вместо речи кота",
+          "done": false
+        },
+        {
+          "text": "Перерендер клипа",
+          "done": false
+        },
+        {
+          "text": "Сборка без плашки",
+          "done": false
+        },
+        {
+          "text": "Файл для загрузки",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-27T20:18:46.710Z",
+      "updated": "2026-11-27T20:18:46.711Z",
+      "started": "2026-11-27T20:18:46.710Z",
+      "completed": null
     }
   ],
   "events": [
@@ -5861,6 +5894,20 @@
       "actor": "claude",
       "msg": "Рилс «My cat at 3 AM» готов: reels/cat-3d/reel_3am_upload.mp4, ждёт решения о публикации",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-27T20:18:46.711Z",
+      "task": 70,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-27T20:18:46.711Z",
+      "task": 70,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
