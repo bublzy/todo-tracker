@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 70,
-  "updated": "2026-11-27T16:07:05.655Z",
+  "updated": "2026-11-27T16:07:09.802Z",
   "tasks": [
     {
       "id": 1,
@@ -2438,8 +2438,8 @@
       "project": "reels",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
-      "progress": 83,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Сценарий и реплики",
@@ -2463,14 +2463,14 @@
         },
         {
           "text": "Файл для загрузки",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-27T15:44:52.121Z",
-      "updated": "2026-11-27T16:07:05.653Z",
+      "updated": "2026-11-27T16:07:09.802Z",
       "started": "2026-11-27T15:44:52.121Z",
-      "completed": null
+      "completed": "2026-11-27T16:07:09.801Z"
     }
   ],
   "events": [
@@ -5853,6 +5853,14 @@
       "actor": "claude",
       "msg": "Рендер и сборка рилса — reel_3am.mp4 28 с, -16 LUFS",
       "progress": 83
+    },
+    {
+      "ts": "2026-11-27T16:07:09.802Z",
+      "task": 69,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Рилс «My cat at 3 AM» готов: reels/cat-3d/reel_3am_upload.mp4, ждёт решения о публикации",
+      "progress": 100
     }
   ]
 }
