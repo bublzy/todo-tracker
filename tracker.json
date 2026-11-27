@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 72,
-  "updated": "2026-11-27T20:35:19.844Z",
+  "updated": "2026-11-27T20:35:31.393Z",
   "tasks": [
     {
       "id": 1,
@@ -2516,11 +2516,11 @@
       ],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 33,
       "steps": [
         {
           "text": "Исследовать инструменты",
-          "done": false
+          "done": true
         },
         {
           "text": "Оформить документ",
@@ -2533,7 +2533,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-27T20:35:19.842Z",
-      "updated": "2026-11-27T20:35:19.844Z",
+      "updated": "2026-11-27T20:35:31.389Z",
       "started": "2026-11-27T20:35:19.842Z",
       "completed": null
     }
@@ -5986,6 +5986,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-27T20:35:31.389Z",
+      "task": 71,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Исследовать инструменты — Сводка собрана, пример разобран",
+      "progress": 33
     }
   ]
 }
