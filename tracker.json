@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 74,
-  "updated": "2026-11-27T20:42:30.780Z",
+  "nextId": 75,
+  "updated": "2026-11-27T20:44:00.026Z",
   "tasks": [
     {
       "id": 1,
@@ -2605,6 +2605,42 @@
       "created": "2026-11-27T20:42:30.778Z",
       "updated": "2026-11-27T20:42:30.780Z",
       "started": "2026-11-27T20:42:30.778Z",
+      "completed": null
+    },
+    {
+      "id": 74,
+      "title": "Телеграм-бот для аналитики",
+      "description": "Бот: /market, /coin ТИКЕР — запускает скрипт и присылает разбор и файлы",
+      "project": "crypto-analyst",
+      "tags": [
+        "python",
+        "telegram"
+      ],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Бот: команды, очередь, доступ",
+          "done": false
+        },
+        {
+          "text": "Форматирование ответов",
+          "done": false
+        },
+        {
+          "text": "Проверка на живых данных",
+          "done": false
+        },
+        {
+          "text": "Инструкция по запуску",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-27T20:44:00.025Z",
+      "updated": "2026-11-27T20:44:00.026Z",
+      "started": "2026-11-27T20:44:00.025Z",
       "completed": null
     }
   ],
@@ -6121,6 +6157,20 @@
     {
       "ts": "2026-11-27T20:42:30.780Z",
       "task": 73,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-27T20:44:00.026Z",
+      "task": 74,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-27T20:44:00.026Z",
+      "task": 74,
       "type": "started",
       "actor": "claude",
       "progress": 0
