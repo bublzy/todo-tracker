@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 75,
-  "updated": "2026-11-27T21:04:03.527Z",
+  "updated": "2026-11-27T21:04:07.756Z",
   "tasks": [
     {
       "id": 1,
@@ -2577,8 +2577,8 @@
       "project": "reels",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
-      "progress": 80,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Сценарий и мяу",
@@ -2598,14 +2598,14 @@
         },
         {
           "text": "Файл для загрузки",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-27T20:42:30.778Z",
-      "updated": "2026-11-27T21:04:03.526Z",
+      "updated": "2026-11-27T21:04:07.756Z",
       "started": "2026-11-27T20:42:30.778Z",
-      "completed": null
+      "completed": "2026-11-27T21:04:07.755Z"
     },
     {
       "id": 74,
@@ -6214,6 +6214,14 @@
       "actor": "claude",
       "msg": "Рендер и сборка",
       "progress": 80
+    },
+    {
+      "ts": "2026-11-27T21:04:07.756Z",
+      "task": 73,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Рилс «My cat vs my glass» готов: reels/cat-3d/reel_glass_upload.mp4 (17,4 с), ждёт решения о публикации",
+      "progress": 100
     }
   ]
 }
