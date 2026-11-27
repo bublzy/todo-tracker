@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 71,
-  "updated": "2026-11-27T20:32:43.871Z",
+  "updated": "2026-11-27T20:32:47.689Z",
   "tasks": [
     {
       "id": 1,
@@ -2479,8 +2479,8 @@
       "project": "reels",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
-      "progress": 75,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Мяу вместо речи кота",
@@ -2496,14 +2496,14 @@
         },
         {
           "text": "Файл для загрузки",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-27T20:18:46.710Z",
-      "updated": "2026-11-27T20:32:43.869Z",
+      "updated": "2026-11-27T20:32:47.689Z",
       "started": "2026-11-27T20:18:46.710Z",
-      "completed": null
+      "completed": "2026-11-27T20:32:47.688Z"
     }
   ],
   "events": [
@@ -5932,6 +5932,14 @@
       "actor": "claude",
       "msg": "Сборка без плашки",
       "progress": 75
+    },
+    {
+      "ts": "2026-11-27T20:32:47.689Z",
+      "task": 70,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Готово: reel_3am_upload.mp4, 24,6 с, только подписи и мяу, без плашки; ждёт решения о публикации",
+      "progress": 100
     }
   ]
 }
