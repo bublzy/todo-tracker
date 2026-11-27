@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 70,
-  "updated": "2026-11-27T15:52:40.290Z",
+  "updated": "2026-11-27T16:07:05.655Z",
   "tasks": [
     {
       "id": 1,
@@ -2439,7 +2439,7 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 67,
+      "progress": 83,
       "steps": [
         {
           "text": "Сценарий и реплики",
@@ -2459,7 +2459,7 @@
         },
         {
           "text": "Рендер и сборка рилса",
-          "done": false
+          "done": true
         },
         {
           "text": "Файл для загрузки",
@@ -2468,7 +2468,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-27T15:44:52.121Z",
-      "updated": "2026-11-27T15:52:40.288Z",
+      "updated": "2026-11-27T16:07:05.653Z",
       "started": "2026-11-27T15:44:52.121Z",
       "completed": null
     }
@@ -5845,6 +5845,14 @@
       "actor": "claude",
       "msg": "Озвучка, мяу, липсинк — Голос кота Brian + голос хозяина Guy",
       "progress": 67
+    },
+    {
+      "ts": "2026-11-27T16:07:05.653Z",
+      "task": 69,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Рендер и сборка рилса — reel_3am.mp4 28 с, -16 LUFS",
+      "progress": 83
     }
   ]
 }
