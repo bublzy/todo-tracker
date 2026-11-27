@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 76,
-  "updated": "2026-11-27T21:49:44.456Z",
+  "updated": "2026-11-27T21:52:12.168Z",
   "tasks": [
     {
       "id": 1,
@@ -2650,27 +2650,27 @@
       "project": "reels",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
-      "progress": 0,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Длинные мяу",
-          "done": false
+          "done": true
         },
         {
           "text": "Перерендер клипа",
-          "done": false
+          "done": true
         },
         {
           "text": "Сборка и файл для загрузки",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-27T21:41:29.496Z",
-      "updated": "2026-11-27T21:41:29.502Z",
+      "updated": "2026-11-27T21:52:12.164Z",
       "started": "2026-11-27T21:41:29.496Z",
-      "completed": null
+      "completed": "2026-11-27T21:52:12.162Z"
     }
   ],
   "events": [
@@ -6286,6 +6286,14 @@
       "type": "done",
       "actor": "claude",
       "msg": "Бот @BublzyCryptoBot работает: /market (таблица + карточки 10 пар + файлы), /coin ТИКЕР; проверен в Telegram",
+      "progress": 100
+    },
+    {
+      "ts": "2026-11-27T21:52:12.164Z",
+      "task": 75,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Одно протяжное мяу на реплику, клип перерендерен, reel_glass_upload.mp4 готов",
       "progress": 100
     }
   ]
