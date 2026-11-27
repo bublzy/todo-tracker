@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 75,
-  "updated": "2026-11-27T21:18:27.108Z",
+  "nextId": 76,
+  "updated": "2026-11-27T21:41:29.502Z",
   "tasks": [
     {
       "id": 1,
@@ -2642,6 +2642,35 @@
       "updated": "2026-11-27T21:18:27.106Z",
       "started": "2026-11-27T20:44:00.025Z",
       "completed": "2026-11-27T20:48:06.097Z"
+    },
+    {
+      "id": 75,
+      "title": "Рилс «My cat vs my glass»: длинные протяжные мяу",
+      "description": "Одно протяжное мяу на каждую реплику кота",
+      "project": "reels",
+      "tags": [],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Длинные мяу",
+          "done": false
+        },
+        {
+          "text": "Перерендер клипа",
+          "done": false
+        },
+        {
+          "text": "Сборка и файл для загрузки",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-27T21:41:29.496Z",
+      "updated": "2026-11-27T21:41:29.502Z",
+      "started": "2026-11-27T21:41:29.496Z",
+      "completed": null
     }
   ],
   "events": [
@@ -6229,6 +6258,20 @@
       "type": "note",
       "actor": "claude",
       "msg": "Бот @BublzyCryptoBot запущен, доступ открыт владельцу"
+    },
+    {
+      "ts": "2026-11-27T21:41:29.497Z",
+      "task": 75,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-27T21:41:29.502Z",
+      "task": 75,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
