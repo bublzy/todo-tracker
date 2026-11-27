@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 77,
-  "updated": "2026-11-27T21:55:17.232Z",
+  "updated": "2026-11-27T21:55:22.275Z",
   "tasks": [
     {
       "id": 1,
@@ -2681,31 +2681,31 @@
         "telegram"
       ],
       "priority": "normal",
-      "status": "todo",
-      "progress": 0,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Защита от второй копии",
-          "done": false
+          "done": true
         },
         {
           "text": "Скрытый запуск и остановка",
-          "done": false
+          "done": true
         },
         {
           "text": "Автозагрузка Windows",
-          "done": false
+          "done": true
         },
         {
           "text": "Проверка",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-27T21:55:17.218Z",
-      "updated": "2026-11-27T21:55:17.220Z",
-      "started": null,
-      "completed": null
+      "updated": "2026-11-27T21:55:22.274Z",
+      "started": "2026-11-27T21:55:17.218Z",
+      "completed": "2026-11-27T21:55:22.273Z"
     }
   ],
   "events": [
@@ -6337,6 +6337,14 @@
       "type": "created",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-27T21:55:22.274Z",
+      "task": 76,
+      "type": "done",
+      "actor": "claude",
+      "msg": "crypto-bot.vbs в автозагрузке, bot_autostart.bat с перезапуском, stop_bot.bat; проверено",
+      "progress": 100
     }
   ]
 }
