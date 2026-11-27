@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 72,
-  "updated": "2026-11-27T20:35:31.393Z",
+  "updated": "2026-11-27T20:37:53.663Z",
   "tasks": [
     {
       "id": 1,
@@ -2515,8 +2515,8 @@
         "research"
       ],
       "priority": "normal",
-      "status": "doing",
-      "progress": 33,
+      "status": "done",
+      "progress": 100,
       "steps": [
         {
           "text": "Исследовать инструменты",
@@ -2524,18 +2524,18 @@
         },
         {
           "text": "Оформить документ",
-          "done": false
+          "done": true
         },
         {
           "text": "Отдать ссылку",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-27T20:35:19.842Z",
-      "updated": "2026-11-27T20:35:31.389Z",
+      "updated": "2026-11-27T20:37:53.663Z",
       "started": "2026-11-27T20:35:19.842Z",
-      "completed": null
+      "completed": "2026-11-27T20:37:53.662Z"
     }
   ],
   "events": [
@@ -5994,6 +5994,14 @@
       "actor": "claude",
       "msg": "Исследовать инструменты — Сводка собрана, пример разобран",
       "progress": 33
+    },
+    {
+      "ts": "2026-11-27T20:37:53.663Z",
+      "task": 71,
+      "type": "done",
+      "actor": "claude",
+      "msg": "Гайд готов: документ claude.ai/artifact/NcEDwc7F1yBbLk56VcJtyk — инструменты, подготовка, цены, авторские права, чек-лист",
+      "progress": 100
     }
   ]
 }
