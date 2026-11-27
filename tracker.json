@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 70,
-  "updated": "2026-11-27T15:44:52.122Z",
+  "updated": "2026-11-27T15:52:28.519Z",
   "tasks": [
     {
       "id": 1,
@@ -2439,11 +2439,11 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 17,
       "steps": [
         {
           "text": "Сценарий и реплики",
-          "done": false
+          "done": true
         },
         {
           "text": "Ночная сцена спальни",
@@ -2468,7 +2468,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-27T15:44:52.121Z",
-      "updated": "2026-11-27T15:44:52.122Z",
+      "updated": "2026-11-27T15:52:28.518Z",
       "started": "2026-11-27T15:44:52.121Z",
       "completed": null
     }
@@ -5813,6 +5813,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-27T15:52:28.518Z",
+      "task": 69,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Сценарий и реплики — Сценарий: будит в 3 AM, одеяло, МЯУ, свет",
+      "progress": 17
     }
   ]
 }
