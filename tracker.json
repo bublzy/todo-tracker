@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 69,
-  "updated": "2026-11-26T16:12:10.757Z",
+  "nextId": 70,
+  "updated": "2026-11-27T15:44:52.122Z",
   "tasks": [
     {
       "id": 1,
@@ -2430,6 +2430,47 @@
       "updated": "2026-11-26T16:12:10.757Z",
       "started": "2026-11-26T16:07:47.087Z",
       "completed": "2026-11-26T16:12:10.755Z"
+    },
+    {
+      "id": 69,
+      "title": "Рилс с котом: «3 часа ночи»",
+      "description": "3D-кот будит хозяина в 3 AM, Funny Stuff Zone",
+      "project": "reels",
+      "tags": [],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Сценарий и реплики",
+          "done": false
+        },
+        {
+          "text": "Ночная сцена спальни",
+          "done": false
+        },
+        {
+          "text": "Анимация клипа",
+          "done": false
+        },
+        {
+          "text": "Озвучка, мяу, липсинк",
+          "done": false
+        },
+        {
+          "text": "Рендер и сборка рилса",
+          "done": false
+        },
+        {
+          "text": "Файл для загрузки",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-27T15:44:52.121Z",
+      "updated": "2026-11-27T15:44:52.122Z",
+      "started": "2026-11-27T15:44:52.121Z",
+      "completed": null
     }
   ],
   "events": [
@@ -5758,6 +5799,20 @@
       "actor": "claude",
       "msg": "APK собран: zamer/android/Zamer.apk, сборка через build.sh. Работает без облака, данные на телефоне",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-27T15:44:52.122Z",
+      "task": 69,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-27T15:44:52.122Z",
+      "task": 69,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
