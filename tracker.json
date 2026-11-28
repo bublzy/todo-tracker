@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 79,
-  "updated": "2026-11-28T09:25:40.844Z",
+  "updated": "2026-11-28T09:31:35.432Z",
   "tasks": [
     {
       "id": 1,
@@ -2748,7 +2748,7 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 20,
+      "progress": 40,
       "steps": [
         {
           "text": "Разобрать референс",
@@ -2768,12 +2768,12 @@
         },
         {
           "text": "Установить FaceFusion",
-          "done": false
+          "done": true
         }
       ],
       "actor": "claude",
       "created": "2026-11-28T09:13:59.460Z",
-      "updated": "2026-11-28T09:25:40.842Z",
+      "updated": "2026-11-28T09:31:35.431Z",
       "started": "2026-11-28T09:13:59.460Z",
       "completed": null
     }
@@ -6499,6 +6499,14 @@
       "actor": "claude",
       "msg": "добавлен шаг: Установить FaceFusion",
       "progress": 20
+    },
+    {
+      "ts": "2026-11-28T09:31:35.431Z",
+      "task": 78,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Установить FaceFusion — FaceFusion 3.9.2 в E:\\tools\\facefusion, GPU через DirectML, тест на кадре прошёл",
+      "progress": 40
     }
   ]
 }
