@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "nextId": 78,
-  "updated": "2026-11-27T21:59:22.932Z",
+  "nextId": 79,
+  "updated": "2026-11-28T09:13:59.462Z",
   "tasks": [
     {
       "id": 1,
@@ -2739,6 +2739,39 @@
       "updated": "2026-11-27T21:59:22.931Z",
       "started": "2026-11-27T21:57:32.552Z",
       "completed": "2026-11-27T21:59:22.929Z"
+    },
+    {
+      "id": 78,
+      "title": "Видео из фото с движением камеры",
+      "description": "Ролик из фото пользователя по референсу из папки «Ирония судьбы»",
+      "project": "reels",
+      "tags": [],
+      "priority": "normal",
+      "status": "doing",
+      "progress": 0,
+      "steps": [
+        {
+          "text": "Разобрать референс",
+          "done": false
+        },
+        {
+          "text": "Скрипт анимации фото",
+          "done": false
+        },
+        {
+          "text": "Тестовый ролик",
+          "done": false
+        },
+        {
+          "text": "Ролик из фото пользователя",
+          "done": false
+        }
+      ],
+      "actor": "claude",
+      "created": "2026-11-28T09:13:59.460Z",
+      "updated": "2026-11-28T09:13:59.462Z",
+      "started": "2026-11-28T09:13:59.460Z",
+      "completed": null
     }
   ],
   "events": [
@@ -6416,6 +6449,20 @@
       "actor": "claude",
       "msg": "Опубликовано на Funny Stuff Zone (Public): youtube.com/shorts/xty-Tzt_CMY",
       "progress": 100
+    },
+    {
+      "ts": "2026-11-28T09:13:59.462Z",
+      "task": 78,
+      "type": "created",
+      "actor": "claude",
+      "progress": 0
+    },
+    {
+      "ts": "2026-11-28T09:13:59.462Z",
+      "task": 78,
+      "type": "started",
+      "actor": "claude",
+      "progress": 0
     }
   ]
 }
