@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 79,
-  "updated": "2026-11-28T09:14:31.374Z",
+  "updated": "2026-11-28T09:14:35.124Z",
   "tasks": [
     {
       "id": 1,
@@ -2747,7 +2747,7 @@
       "project": "reels",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
+      "status": "blocked",
       "progress": 25,
       "steps": [
         {
@@ -2769,7 +2769,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-28T09:13:59.460Z",
-      "updated": "2026-11-28T09:14:31.372Z",
+      "updated": "2026-11-28T09:14:35.122Z",
       "started": "2026-11-28T09:13:59.460Z",
       "completed": null
     }
@@ -6470,6 +6470,14 @@
       "type": "step",
       "actor": "claude",
       "msg": "Разобрать референс — Референс: 21 с, 4:3, 3 плана, тёплая плёнка, камера почти статична",
+      "progress": 25
+    },
+    {
+      "ts": "2026-11-28T09:14:35.122Z",
+      "task": 78,
+      "type": "blocked",
+      "actor": "claude",
+      "msg": "ждёт: папку с фото пользователя",
       "progress": 25
     }
   ]
