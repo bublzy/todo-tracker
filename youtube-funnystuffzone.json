@@ -1,12 +1,12 @@
 {
  "version": 1,
- "updated": "2026-11-27T22:04:48.418Z",
+ "updated": "2026-11-28T01:26:06.388Z",
  "channel": {
   "id": "UC-Q84K0dxrXnFin06qiCadw",
   "title": "Funny Stuff Zone",
   "handle": "@funnystuffzone",
   "thumb": "https://yt3.ggpht.com/2GNYUVKty_D9bnlkRawu8YaN5gs-_s5CSB1S9u8PNSoyGZkcuMbE_5N2OAc9IXSvtxht5bjqtw=s240-c-k-c0x00ffffff-no-rj",
-  "views": 4442,
+  "views": 5743,
   "channelViews": 3898,
   "subs": 7,
   "hiddenSubs": false,
@@ -19,8 +19,8 @@
    "published": "2026-11-27T21:59:11Z",
    "duration": 18,
    "thumb": "https://i.ytimg.com/vi/xty-Tzt_CMY/mqdefault.jpg",
-   "views": 5,
-   "likes": 0,
+   "views": 852,
+   "likes": 9,
    "comments": 0
   },
   {
@@ -29,8 +29,8 @@
    "published": "2026-11-27T20:39:30Z",
    "duration": 25,
    "thumb": "https://i.ytimg.com/vi/kMQzECSr5rg/mqdefault.jpg",
-   "views": 398,
-   "likes": 12,
+   "views": 814,
+   "likes": 16,
    "comments": 0
   },
   {
@@ -39,7 +39,7 @@
    "published": "2026-11-26T16:09:36Z",
    "duration": 27,
    "thumb": "https://i.ytimg.com/vi/qMrqO7zsRZ8/mqdefault.jpg",
-   "views": 1459,
+   "views": 1488,
    "likes": 23,
    "comments": 1
   },
@@ -49,7 +49,7 @@
    "published": "2026-11-23T18:55:13Z",
    "duration": 33,
    "thumb": "https://i.ytimg.com/vi/8giNb4JcRNc/mqdefault.jpg",
-   "views": 80,
+   "views": 82,
    "likes": 2,
    "comments": 0
   },
@@ -59,7 +59,7 @@
    "published": "2026-11-22T22:00:37Z",
    "duration": 31,
    "thumb": "https://i.ytimg.com/vi/D46UP7ZZdqs/mqdefault.jpg",
-   "views": 451,
+   "views": 453,
    "likes": 8,
    "comments": 0
   },
@@ -69,7 +69,7 @@
    "published": "2026-11-21T20:49:46Z",
    "duration": 29,
    "thumb": "https://i.ytimg.com/vi/YMWyYhfkYh8/mqdefault.jpg",
-   "views": 1290,
+   "views": 1292,
    "likes": 24,
    "comments": 1
   },
@@ -79,7 +79,7 @@
    "published": "2026-11-21T19:24:00Z",
    "duration": 34,
    "thumb": "https://i.ytimg.com/vi/iO3abIgk54g/mqdefault.jpg",
-   "views": 578,
+   "views": 580,
    "likes": 8,
    "comments": 0
   },
@@ -89,7 +89,7 @@
    "published": "2026-11-19T20:38:14Z",
    "duration": 31,
    "thumb": "https://i.ytimg.com/vi/iV30FQkMz6Y/mqdefault.jpg",
-   "views": 181,
+   "views": 182,
    "likes": 5,
    "comments": 0
   }
@@ -672,6 +672,23 @@
     "YMWyYhfkYh8": 1290,
     "iO3abIgk54g": 578,
     "iV30FQkMz6Y": 181
+   }
+  },
+  {
+   "ts": "2026-11-28T01:26:06.388Z",
+   "views": 5743,
+   "channelViews": 3898,
+   "subs": 7,
+   "videos": 8,
+   "v": {
+    "xty-Tzt_CMY": 852,
+    "kMQzECSr5rg": 814,
+    "qMrqO7zsRZ8": 1488,
+    "8giNb4JcRNc": 82,
+    "D46UP7ZZdqs": 453,
+    "YMWyYhfkYh8": 1292,
+    "iO3abIgk54g": 580,
+    "iV30FQkMz6Y": 182
    }
   }
  ]
