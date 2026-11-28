@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 79,
-  "updated": "2026-11-28T09:31:35.432Z",
+  "updated": "2026-11-28T09:31:39.380Z",
   "tasks": [
     {
       "id": 1,
@@ -2747,7 +2747,7 @@
       "project": "reels",
       "tags": [],
       "priority": "normal",
-      "status": "doing",
+      "status": "blocked",
       "progress": 40,
       "steps": [
         {
@@ -2773,7 +2773,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-28T09:13:59.460Z",
-      "updated": "2026-11-28T09:31:35.431Z",
+      "updated": "2026-11-28T09:31:39.379Z",
       "started": "2026-11-28T09:13:59.460Z",
       "completed": null
     }
@@ -6506,6 +6506,14 @@
       "type": "step",
       "actor": "claude",
       "msg": "Установить FaceFusion — FaceFusion 3.9.2 в E:\\tools\\facefusion, GPU через DirectML, тест на кадре прошёл",
+      "progress": 40
+    },
+    {
+      "ts": "2026-11-28T09:31:39.379Z",
+      "task": 78,
+      "type": "blocked",
+      "actor": "claude",
+      "msg": "ждёт: фото-референсы лиц от пользователя",
       "progress": 40
     }
   ]
