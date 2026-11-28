@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 79,
-  "updated": "2026-11-28T09:13:59.462Z",
+  "updated": "2026-11-28T09:14:31.374Z",
   "tasks": [
     {
       "id": 1,
@@ -2748,11 +2748,11 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 0,
+      "progress": 25,
       "steps": [
         {
           "text": "Разобрать референс",
-          "done": false
+          "done": true
         },
         {
           "text": "Скрипт анимации фото",
@@ -2769,7 +2769,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-28T09:13:59.460Z",
-      "updated": "2026-11-28T09:13:59.462Z",
+      "updated": "2026-11-28T09:14:31.372Z",
       "started": "2026-11-28T09:13:59.460Z",
       "completed": null
     }
@@ -6463,6 +6463,14 @@
       "type": "started",
       "actor": "claude",
       "progress": 0
+    },
+    {
+      "ts": "2026-11-28T09:14:31.372Z",
+      "task": 78,
+      "type": "step",
+      "actor": "claude",
+      "msg": "Разобрать референс — Референс: 21 с, 4:3, 3 плана, тёплая плёнка, камера почти статична",
+      "progress": 25
     }
   ]
 }
