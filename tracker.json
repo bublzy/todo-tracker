@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 79,
-  "updated": "2026-11-28T09:25:37.288Z",
+  "updated": "2026-11-28T09:25:40.844Z",
   "tasks": [
     {
       "id": 1,
@@ -2748,7 +2748,7 @@
       "tags": [],
       "priority": "normal",
       "status": "doing",
-      "progress": 25,
+      "progress": 20,
       "steps": [
         {
           "text": "Разобрать референс",
@@ -2765,11 +2765,15 @@
         {
           "text": "Ролик из фото пользователя",
           "done": false
+        },
+        {
+          "text": "Установить FaceFusion",
+          "done": false
         }
       ],
       "actor": "claude",
       "created": "2026-11-28T09:13:59.460Z",
-      "updated": "2026-11-28T09:25:37.287Z",
+      "updated": "2026-11-28T09:25:40.842Z",
       "started": "2026-11-28T09:13:59.460Z",
       "completed": null
     }
@@ -6487,6 +6491,14 @@
       "actor": "claude",
       "msg": "ставлю FaceFusion для замены лиц",
       "progress": 25
+    },
+    {
+      "ts": "2026-11-28T09:25:40.842Z",
+      "task": 78,
+      "type": "edited",
+      "actor": "claude",
+      "msg": "добавлен шаг: Установить FaceFusion",
+      "progress": 20
     }
   ]
 }
