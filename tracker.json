@@ -1,7 +1,7 @@
 {
   "version": 1,
   "nextId": 79,
-  "updated": "2026-11-28T09:14:35.124Z",
+  "updated": "2026-11-28T09:25:37.288Z",
   "tasks": [
     {
       "id": 1,
@@ -2747,7 +2747,7 @@
       "project": "reels",
       "tags": [],
       "priority": "normal",
-      "status": "blocked",
+      "status": "doing",
       "progress": 25,
       "steps": [
         {
@@ -2769,7 +2769,7 @@
       ],
       "actor": "claude",
       "created": "2026-11-28T09:13:59.460Z",
-      "updated": "2026-11-28T09:14:35.122Z",
+      "updated": "2026-11-28T09:25:37.287Z",
       "started": "2026-11-28T09:13:59.460Z",
       "completed": null
     }
@@ -6478,6 +6478,14 @@
       "type": "blocked",
       "actor": "claude",
       "msg": "ждёт: папку с фото пользователя",
+      "progress": 25
+    },
+    {
+      "ts": "2026-11-28T09:25:37.287Z",
+      "task": 78,
+      "type": "started",
+      "actor": "claude",
+      "msg": "ставлю FaceFusion для замены лиц",
       "progress": 25
     }
   ]
